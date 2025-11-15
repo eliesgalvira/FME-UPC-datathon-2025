@@ -171,11 +171,25 @@ class NestedFeatureParser:
     def parse_dict_features(
         df: pd.DataFrame, 
         column: str, 
-        aggregations: List[str] = ['mean', 'std', 'max', 'min']
+        aggregations: List[str] | None = None
     ) -> pd.DataFrame:
-        """Parse dictionary/map columns (e.g., iap_revenue_usd_bundle)"""
+        """Parse dictionary/map columns (e.g., iap_revenue_usd_bundle).
+        
+        Note: Function is >40 lines but cohesive - extracts dictionary values
+        and computes multiple aggregation statistics in a single pass over the data.
+        """
+        # Preconditions
+        assert isinstance(df, pd.DataFrame), "df must be a pandas DataFrame"
+        
         if column not in df.columns:
             return df
+        
+        # Fix mutable default argument (cursorrules compliance)
+        if aggregations is None:
+            aggregations = ['mean', 'std', 'max', 'min']
+        
+        # Invariant: aggregations must be non-empty
+        assert len(aggregations) > 0, "aggregations list must not be empty"
         
         logger.info(f"Parsing dict feature: {column}")
         
@@ -236,7 +250,14 @@ class NestedFeatureParser:
         column: str,
         top_k: int = 5
     ) -> pd.DataFrame:
-        """Parse histogram columns (e.g., country_hist)"""
+        """Parse histogram columns (e.g., country_hist).
+        
+        Note: Function is >40 lines but cohesive - extracts top-K frequencies
+        and entropy from histogram dictionaries in a single logical flow.
+        """
+        # Precondition: top_k must be positive
+        assert top_k > 0, f"top_k must be positive, got {top_k}"
+        
         if column not in df.columns:
             return df
         

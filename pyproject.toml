@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "dask[dataframe]>=2025.11.0",
+    "dask[dataframe,distributed]>=2025.11.0",
     "jupyter>=1.1.1",
     "pandas>=2.3.3",
     "pyarrow>=22.0.0",
