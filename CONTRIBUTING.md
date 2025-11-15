@@ -35,8 +35,12 @@ git rebase origin/main
 #   fix files, then:
 #   git add <resolved-files>
 #   git rebase --continue
+#
+#   If you messed up the conflict fix, return with:
+#   git rebase --abort
 git push --force-with-lease
 ```
+Note: For the first push, you need to set upstream tracking with `git push -u origin` while inside the branch (copies the local branch in the remote repository)
 
 ## Before opening or merging a PR
 ```bash
