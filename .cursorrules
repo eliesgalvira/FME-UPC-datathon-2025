@@ -1,0 +1,192 @@
+# .cursorrules – Python Code Quality & Invariants
+
+This repository is primarily **Python**. Favor clarity, correctness, and
+maintainability over cleverness.
+
+## General Python Style
+
+- Write **idiomatic, modern Python** (inspired by ArjanCodes examples):
+  - Prefer small, pure functions with clear responsibilities.
+  - Prefer composition over inheritance when possible.
+  - Avoid long functions; if a function is > ~30–40 lines, consider
+    extracting helpers.
+- Always use **type hints** and enable them on new/changed code:
+  - Add `from __future__ import annotations` for forward references when helpful.
+  - Keep types precise (e.g. `Sequence[str]`, `Mapping[str, Any]`,
+    `list[Path]` instead of bare `list`/`dict`).
+- Prefer **dataclasses** or simple classes with clear invariants over
+  unstructured dictionaries for domain entities.
+- Follow **PEP 8** and conventional Python style:
+  - `snake_case` for functions/variables, `PascalCase` for classes.
+  - One top‑level class or a small cohesive set per module.
+- Imports:
+  - Use **absolute imports** within the project.
+  - Group imports: stdlib, third‑party, then local; keep each group sorted.
+- Avoid unnecessary cleverness:
+  - No deep nesting if it can be flattened with early returns.
+  - Avoid magic constants; extract them as named constants or enums.
+
+## Defensive Programming & Invariants
+
+- Use **assertions to express invariants, preconditions, and postconditions**
+  during development, following the RealPython `assert` best practices:
+  - Preconditions at the start of functions:
+    - Example: `assert items, "items must not be empty"` when this should
+      always hold in correct code.
+  - Postconditions before returning from complex logic.
+  - Invariants inside loops, algorithms, and class methods to express
+    “this should never happen in a correct program”.
+- Treat `assert` as a **development‑time tool**, not user‑facing validation:
+  - Do **not** use `assert` for validating untrusted input (e.g. API payloads,
+    CLI args, HTTP requests). Use explicit checks and raise appropriate
+    exceptions instead.
+  - Do **not** rely on `assert` to enforce security or business rules, since
+    assertions can be disabled with Python’s optimization flags.
+- When adding or modifying non‑trivial logic:
+  - Add **at least one meaningful invariant** using `assert` that would catch
+    a bug if the logic regresses.
+  - Prefer an assertion message that clearly states **what went wrong**, not
+    just that it failed.
+- Avoid common `assert` pitfalls:
+  - Do **not** wrap the condition and message in parentheses to form a tuple.
+    Use `assert condition, "message"` (without extra grouping).
+  - Avoid expressions with side effects in `assert` conditions.
+- When you fix a bug:
+  - Add an **assertion or test** that would have caught that bug (“turn bugs
+    into tests or invariants”).
+
+## Error Handling & Validation
+
+- Use **exceptions** for expected error conditions and user input problems:
+  - Define small, focused custom exception types where it clarifies intent.
+  - Do not hide errors silently; prefer failing fast with helpful messages.
+- Keep domain logic separate from I/O:
+  - Pure functions (no I/O) should be easy to unit‑test.
+  - I/O boundaries (network, file system, DB) should be thin and explicit.
+- Never use bare `except:`. Catch specific exception classes.
+- Avoid returning `None` or sentinel values to indicate errors if exceptions
+  would be clearer.
+
+## Floating‑Point & Numeric Pitfalls
+
+- Do **not** compare floats directly using `==` if they come from computations.
+  Use `math.isclose` with appropriate tolerances:
+  - For typical numeric comparisons: `math.isclose(a, b, rel_tol=1e-9)` or a
+    domain‑specific tolerance.
+- When exact decimal behavior matters (e.g. money):
+  - Prefer `decimal.Decimal` with string initialization:
+    - `Decimal("0.1")` instead of `Decimal(0.1)`.
+
+## Lambdas, Closures & Scoping
+
+- Avoid late‑binding closure bugs in loops:
+  - If you create lambdas or functions inside loops that capture the loop
+    variable, bind it as a default argument:
+    - `lambda x, i=i: x * i`
+- Prefer **named functions** over complex lambdas for anything non‑trivial.
+- Be explicit about variable scope and mutation; avoid reusing outer variables
+  in surprising ways.
+
+## Mutability & Function Defaults
+
+- Never use **mutable default arguments**:
+  - Replace `def f(x, data=[])` with:
+
+    ```python
+    def f(x: int, data: list[int] | None = None) -> list[int]:
+        if data is None:
+            data = []
+        ...
+        return data
+    ```
+
+- Minimize shared mutable state:
+  - Prefer passing data explicitly and returning new values.
+  - If mutation is necessary, keep it localized and clearly documented.
+
+## Enums & Constants
+
+- When using fixed sets of related constants, prefer **enums** over plain
+  strings or integers:
+  - Use `Enum` for symbolic names.
+  - Use `IntEnum` when integration with integer APIs is required.
+  - Use `Flag`/`IntFlag` for bitwise‑combinable permissions/options.
+- Group related constants inside enums instead of scattering them globally.
+- When extending enums:
+  - It is acceptable to add methods (e.g. `is_weekend`, `to_label`).
+  - For custom values, set `_value_` inside `__init__` rather than `value`.
+- Prefer enums in public APIs where they improve clarity and IDE help.
+
+## Structural Pattern Matching
+
+- Use **structural pattern matching** (`match`/`case`) for complex branching
+  instead of long `if`/`elif` chains where it improves clarity.
+- Common practices:
+  - For type matching, use `int()`, `float()`, `list()`, `dict()` etc.
+    instead of matching against the bare type object.
+    - Example:
+
+      ```python
+      match value:
+          case int() as i:
+              ...
+          case str() as s:
+              ...
+      ```
+
+  - Order `case` patterns from most specific to most general; keep the
+    `_` catch‑all last.
+  - Use guards (`if ...`) for additional conditions on matched patterns.
+- For custom classes that are frequently matched:
+  - Define `__match_args__` to declare destructurable attributes, e.g.:
+
+    ```python
+    class Point:
+        __match_args__ = ("x", "y")
+        ...
+    ```
+
+## Testing & TDD Influence
+
+- For new or modified behavior:
+  - Add or update unit tests to cover the core paths and at least one edge case.
+  - When practical, follow a lightweight **TDD mindset**: write or update tests
+    and invariants around the behavior you are changing.
+- Prefer **simple, fast tests** with clear given/when/then structure.
+- Use assertions in tests (`assert` or testing framework asserts) to express
+  expectations clearly and concisely.
+
+## API & Public Interface Design
+
+- Design functions and classes with **clear contracts**:
+  - Document expectations (preconditions) in docstrings and enforce critical
+    ones with assertions or explicit checks.
+  - Make return types and error conditions explicit.
+- Prefer **plain data models** (dataclasses, pydantic models, etc.) for inputs
+  and outputs instead of loose dictionaries when feasible.
+- Keep public APIs small and focused; avoid leaking internal implementation
+  details.
+
+## Code Organization & Readability
+
+- Organize modules by **domain or responsibility**, not by type only
+  (e.g. `billing/payment_service.py` instead of `utils.py`).
+- Avoid “god objects” and over‑generic utilities.
+- When you introduce new utilities:
+  - Ensure they are cohesive and named specifically.
+  - Do not add “random helpers” to central modules; create a focused module
+    instead.
+
+## When Editing or Creating Code
+
+When generating or modifying Python code in this repo, the assistant should:
+
+1. **Add or preserve invariants** with `assert` for non‑trivial logic.
+2. Prefer **Pythonic style** as seen in ArjanCodes’ `2025/pythonic` examples:
+   - Clear naming, small functions, rich types, and clean control flow.
+3. Avoid known Python pitfalls:
+   - Direct float equality, mutable defaults, late‑bound loop variables,
+     incorrect enum usage, and incorrect pattern matching of types.
+4. Offer **small, focused refactorings** when touching existing code:
+   - Extract helper functions, introduce enums, or clarify contracts with
+     type hints and assertions where it significantly improves clarity.
