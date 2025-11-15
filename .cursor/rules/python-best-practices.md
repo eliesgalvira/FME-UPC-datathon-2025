@@ -3,6 +3,8 @@
 This repository is primarily **Python**. Favor clarity, correctness, and
 maintainability over cleverness.
 
+Use `uv` for running the code (with `uv run`) etc.
+
 ## General Python Style
 
 - Write **idiomatic, modern Python** (inspired by ArjanCodes examples):
