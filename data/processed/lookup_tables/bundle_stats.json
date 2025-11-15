@@ -1,0 +1,2960 @@
+{
+  "26fc75598f3a2e63782b4166883034072c49b4aa": {
+    "buyer_rate": 0.2719033232628399,
+    "avg_rev_d7": 8.137143075528702,
+    "whale_rate": 0.0,
+    "count": 1324
+  },
+  "7eaeef21e215654ea75a5ef78692d1f8ffd0ca54": {
+    "buyer_rate": 0.014205279897071467,
+    "avg_rev_d7": 0.000614611358166537,
+    "whale_rate": 0.0,
+    "count": 665316
+  },
+  "7c60a4ded8a554bf3cfba714098f6237364556ff": {
+    "buyer_rate": 0.03627671541057368,
+    "avg_rev_d7": 0.15818335208098988,
+    "whale_rate": 0.0,
+    "count": 7112
+  },
+  "466d0d44d8e69adb8e4425de93d23317bd5304f6": {
+    "buyer_rate": 0.0004609067292382469,
+    "avg_rev_d7": 0.009116353566742601,
+    "whale_rate": 0.0,
+    "count": 23866
+  },
+  "c811547cfd9a6efc65c450c11fdd7db8ad9f9871": {
+    "buyer_rate": 0.06282722513089005,
+    "avg_rev_d7": 0.9135439930461681,
+    "whale_rate": 0.0,
+    "count": 12415
+  },
+  "2a52829fb15d00f9d2a94e48c1aed5ecb97a8dd9": {
+    "buyer_rate": 0.05554368724631489,
+    "avg_rev_d7": 1.9713812768018244,
+    "whale_rate": 0.0,
+    "count": 4681
+  },
+  "366cc2284511794d657dad6ad60cf15eeabeca20": {
+    "buyer_rate": 0.03305516921650441,
+    "avg_rev_d7": 0.6566692732771282,
+    "whale_rate": 0.0,
+    "count": 21570
+  },
+  "3435438fda9d548afbc383169b683389cae733f1": {
+    "buyer_rate": 0.0012478147798101098,
+    "avg_rev_d7": 0.07499861010729972,
+    "whale_rate": 0.0,
+    "count": 161883
+  },
+  "4129ba57f4f8d4da156bd7a3ba6bac99612b2d6d": {
+    "buyer_rate": 0.02306430851157624,
+    "avg_rev_d7": 9.018173546578266,
+    "whale_rate": 0.0,
+    "count": 56711
+  },
+  "5155f14bfd59e486aba85a7c34b26af394e90c01": {
+    "buyer_rate": 0.03175165250236072,
+    "avg_rev_d7": 1.8927254485363552,
+    "whale_rate": 0.0,
+    "count": 16944
+  },
+  "7aa4fac19e88a475ea85241d69db48a892c9c6b4": {
+    "buyer_rate": 0.010126294231425645,
+    "avg_rev_d7": 0.7481033109568779,
+    "whale_rate": 0.0,
+    "count": 8789
+  },
+  "4dd4aa85cf8fae402f1dd15d2204226925b483e7": {
+    "buyer_rate": 0.027528748803537485,
+    "avg_rev_d7": 0.3915674670045971,
+    "whale_rate": 0.0,
+    "count": 74177
+  },
+  "75389504c593fbd7c9e05e5831ad3cdb0f689b0e": {
+    "buyer_rate": 0.023416391474031822,
+    "avg_rev_d7": 0.4824388659119248,
+    "whale_rate": 0.0,
+    "count": 3331
+  },
+  "f89aa0252355673875a0aaef10d58745756bdbca": {
+    "buyer_rate": 0.2660268714011516,
+    "avg_rev_d7": 9.653742802303263,
+    "whale_rate": 0.0,
+    "count": 2605
+  },
+  "db42749ef73fd488a95e37718f033eab132da07c": {
+    "buyer_rate": 0.05943816375471052,
+    "avg_rev_d7": 0.34701646718272133,
+    "whale_rate": 0.0,
+    "count": 64218
+  },
+  "35490402b0b91eea8f1ddf6810a617b89400b527": {
+    "buyer_rate": 0.028220022948938613,
+    "avg_rev_d7": 0.3756330250569986,
+    "whale_rate": 0.0,
+    "count": 27888
+  },
+  "001b729f996da29d01e9e3641ac7fb153e6bc98e": {
+    "buyer_rate": 0.007353952160027028,
+    "avg_rev_d7": 0.07393690875875086,
+    "whale_rate": 0.0,
+    "count": 509114
+  },
+  "2d2c9de9462ee3283a22c278ce6a5d39789f8bd2": {
+    "buyer_rate": 0.09708176827506501,
+    "avg_rev_d7": 1.7745602500049822,
+    "whale_rate": 0.0,
+    "count": 6922
+  },
+  "6ac24a604b9efcf4e96ae7d06574108b7604d7db": {
+    "buyer_rate": 0.12659823518818655,
+    "avg_rev_d7": 2.6012965964343597,
+    "whale_rate": 0.0,
+    "count": 5553
+  },
+  "3d42f06ec2d70fc6b15fc16552be5e5b6699d926": {
+    "buyer_rate": 0.0012847655755206919,
+    "avg_rev_d7": 0.008826701409623076,
+    "whale_rate": 0.0,
+    "count": 55263
+  },
+  "8013f5f04ff8d70bd2098fa1e1b9a9daa4266050": {
+    "buyer_rate": 0.17692497837102955,
+    "avg_rev_d7": 1.751099245036836,
+    "whale_rate": 0.0,
+    "count": 16182
+  },
+  "08eedf6556269aca4241b42800d1096640eac506": {
+    "buyer_rate": 0.004319089064851777,
+    "avg_rev_d7": 0.16597648495953582,
+    "whale_rate": 0.0,
+    "count": 45843
+  },
+  "ff9bdd5dc427114eef1c6372526548e01a5ef45d": {
+    "buyer_rate": 0.000274418131923976,
+    "avg_rev_d7": 0.04962028661449334,
+    "whale_rate": 0.0,
+    "count": 98390
+  },
+  "3bbb191b7dd04723e564c014d8d8595056e7fe1c": {
+    "buyer_rate": 0.11983314372392871,
+    "avg_rev_d7": 2.847053469852105,
+    "whale_rate": 0.0,
+    "count": 2637
+  },
+  "1c88d1e1f99e2e2c35b97272ecf52c9a9e0a905c": {
+    "buyer_rate": 0.0061260412191099225,
+    "avg_rev_d7": 0.024369743527760238,
+    "whale_rate": 0.0,
+    "count": 72151
+  },
+  "4cc0f366d62b6eba0bdb8c161903a498664e31f9": {
+    "buyer_rate": 0.1285583103764922,
+    "avg_rev_d7": 2.5912163215886133,
+    "whale_rate": 0.0,
+    "count": 1089
+  },
+  "a53727ee495b346f5fb76a0dce8e88f22d26721b": {
+    "buyer_rate": 0.011573749824905449,
+    "avg_rev_d7": 0.3009627006406815,
+    "whale_rate": 0.0,
+    "count": 57112
+  },
+  "412271f41949c74f7fc8f269eee640c998f3fd7c": {
+    "buyer_rate": 0.47058823529411764,
+    "avg_rev_d7": 4.59871705882353,
+    "whale_rate": 0.0,
+    "count": 17
+  },
+  "fcce26ae1abe348cb24c4f4e542957ef5d9773fd": {
+    "buyer_rate": 0.010010278024891822,
+    "avg_rev_d7": 0.15441665827726483,
+    "whale_rate": 0.0,
+    "count": 115781
+  },
+  "e73cc8ad7df8eacb6141f06f7ce9b53ea1856387": {
+    "buyer_rate": 0.036591478696741855,
+    "avg_rev_d7": 0.7500350877192982,
+    "whale_rate": 0.0,
+    "count": 1995
+  },
+  "be412b0ab8e49416bf29656338cc16c7f62d0f96": {
+    "buyer_rate": 0.08095952023988005,
+    "avg_rev_d7": 1.7313633589799993,
+    "whale_rate": 0.0,
+    "count": 667
+  },
+  "ba119295ac8ce40ebce40bc6a335fa0e936c5a4e": {
+    "buyer_rate": 0.010923672566371681,
+    "avg_rev_d7": 0.24087297197640117,
+    "whale_rate": 0.0,
+    "count": 21696
+  },
+  "04b8c3d575fbdc613873df229bc133ade2ea8dc0": {
+    "buyer_rate": 0.02089905362776025,
+    "avg_rev_d7": 0.4123808370577458,
+    "whale_rate": 0.0,
+    "count": 2536
+  },
+  "ca673c2de075f7d82723f0831e641032241b1b86": {
+    "buyer_rate": 0.4573824848839477,
+    "avg_rev_d7": 6.09743124634289,
+    "whale_rate": 0.0,
+    "count": 5127
+  },
+  "3714e810963165f514bbeec2cc0b54e91239314b": {
+    "buyer_rate": 0.10513245033112582,
+    "avg_rev_d7": 0.5865157005623538,
+    "whale_rate": 0.0,
+    "count": 36240
+  },
+  "0de540d0711175dd3a4ffa7e7f8450abc7870328": {
+    "buyer_rate": 0.47856418061897515,
+    "avg_rev_d7": 7.434436834094369,
+    "whale_rate": 0.0,
+    "count": 7884
+  },
+  "f2ee10bace6972a158badf4f7daa09ef5e51a497": {
+    "buyer_rate": 0.0994509478918471,
+    "avg_rev_d7": 8.24914350124995,
+    "whale_rate": 0.0,
+    "count": 9653
+  },
+  "21926f7b2450e4b80d13b07667d6c0582bff7419": {
+    "buyer_rate": 0.05898255099533055,
+    "avg_rev_d7": 2.2766330793806775,
+    "whale_rate": 0.0,
+    "count": 8138
+  },
+  "d53425a04ff1b752e301174c62178a1aac84eb6f": {
+    "buyer_rate": 0.0625207848353841,
+    "avg_rev_d7": 2.6687728633189227,
+    "whale_rate": 0.0,
+    "count": 3007
+  },
+  "e48a8f47e53f342d8443fb6d102c96933603283f": {
+    "buyer_rate": 0.07283390087022323,
+    "avg_rev_d7": 2.6401702610669693,
+    "whale_rate": 0.0,
+    "count": 5286
+  },
+  "42f1a369f250e88d05a11f09fb14e8f55f271157": {
+    "buyer_rate": 0.061779383927034935,
+    "avg_rev_d7": 1.293356449988025,
+    "whale_rate": 0.0,
+    "count": 5811
+  },
+  "8c916b798e7d570d6e78e5873c0e763e0bf6823c": {
+    "buyer_rate": 0.03901808785529716,
+    "avg_rev_d7": 0.7365619701662913,
+    "whale_rate": 0.0,
+    "count": 15480
+  },
+  "962f78fdfc047d8067224649fdccf23c65e10280": {
+    "buyer_rate": 0.09768044495006953,
+    "avg_rev_d7": 0.4348217671596511,
+    "whale_rate": 0.0,
+    "count": 31644
+  },
+  "371932ceab23d320aba11487c09185578d38d767": {
+    "buyer_rate": 0.009164270778881338,
+    "avg_rev_d7": 0.11184227495160992,
+    "whale_rate": 0.0,
+    "count": 61216
+  },
+  "e8ed8ea45d2d3776a9149eb4538418e2a8861896": {
+    "buyer_rate": 0.09798994974874371,
+    "avg_rev_d7": 0.679030466406067,
+    "whale_rate": 0.0,
+    "count": 1194
+  },
+  "6c25ca8ad63ef7e2f168723d71647223c80299b2": {
+    "buyer_rate": 0.04158790170132325,
+    "avg_rev_d7": 0.5545449180764787,
+    "whale_rate": 0.0,
+    "count": 7406
+  },
+  "991fef21d58d581d9ebacfa0017c7da67f2c38cb": {
+    "buyer_rate": 0.4073836961160905,
+    "avg_rev_d7": 7.847351685872813,
+    "whale_rate": 0.0,
+    "count": 4686
+  },
+  "aa5f786d3642e32a80c8d13d697218cdc2947149": {
+    "buyer_rate": 7.105805443046969e-05,
+    "avg_rev_d7": 0.00014864230398202287,
+    "whale_rate": 0.0,
+    "count": 14073
+  },
+  "0203d112520a7c41be07349062d31bcfd73743fb": {
+    "buyer_rate": 0.019834080289882712,
+    "avg_rev_d7": 0.6436398624732438,
+    "whale_rate": 0.0,
+    "count": 10487
+  },
+  "5f90f2f36a98f7f9f5e804950c471165d9e64017": {
+    "buyer_rate": 0.022301244602489206,
+    "avg_rev_d7": 0.8633436733429859,
+    "whale_rate": 0.0,
+    "count": 19685
+  },
+  "a21c6bbe46bc57c34bf7e1d6d3cf60a12520e73c": {
+    "buyer_rate": 0.04944293713560007,
+    "avg_rev_d7": 1.1979339606303758,
+    "whale_rate": 0.0,
+    "count": 34646
+  },
+  "bb58b46013c783785910cae5c4421d8f95319fe6": {
+    "buyer_rate": 0.050999592003263976,
+    "avg_rev_d7": 0.7923788027499019,
+    "whale_rate": 0.0,
+    "count": 2451
+  },
+  "75ff18049036c5dc13a96771b2a075d25f5a1959": {
+    "buyer_rate": 0.08074195308237861,
+    "avg_rev_d7": 1.122912787259673,
+    "whale_rate": 0.0,
+    "count": 10998
+  },
+  "068d358941d4ec104b3eabab0a2b01ece9266a6e": {
+    "buyer_rate": 0.04280821917808219,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1752
+  },
+  "d7e6856a434ff4ccd6242f24b37a226d267389ec": {
+    "buyer_rate": 0.21758436944937834,
+    "avg_rev_d7": 10.563848049481093,
+    "whale_rate": 0.0,
+    "count": 13512
+  },
+  "a735c7299bbc2dc3c0126c4655947587ea6492d2": {
+    "buyer_rate": 0.012881064834693002,
+    "avg_rev_d7": 0.1571394472136329,
+    "whale_rate": 0.0,
+    "count": 16303
+  },
+  "fd21dcf696d2693b3ce6ee4c50072e7d9d06ef53": {
+    "buyer_rate": 0.0037603409375783405,
+    "avg_rev_d7": 0.04628979694158937,
+    "whale_rate": 0.0,
+    "count": 3989
+  },
+  "7cf02571258cafc5210c214667eab51032ff9583": {
+    "buyer_rate": 0.004796557442201483,
+    "avg_rev_d7": 0.08204020513841513,
+    "whale_rate": 0.0,
+    "count": 72969
+  },
+  "d238ae3ee12dcef245f58f4813b79021c0a9155e": {
+    "buyer_rate": 0.049060758274272344,
+    "avg_rev_d7": 0.624828936291008,
+    "whale_rate": 0.0,
+    "count": 14533
+  },
+  "6c23d8dc6c77834383827412c49346e7a670ef5a": {
+    "buyer_rate": 0.19230769230769232,
+    "avg_rev_d7": 7.157368489990611,
+    "whale_rate": 0.0,
+    "count": 598
+  },
+  "93e55af8514d98a85b5274c07fbe14724de49cb8": {
+    "buyer_rate": 0.06000937646507267,
+    "avg_rev_d7": 1.4018049695264887,
+    "whale_rate": 0.0,
+    "count": 2133
+  },
+  "72e6c166e2a98b973fc396e756d88a900f36ece1": {
+    "buyer_rate": 0.14386923504352658,
+    "avg_rev_d7": 1.9556859530585498,
+    "whale_rate": 0.0,
+    "count": 21596
+  },
+  "5ce1ad9ce4727e06bfd4b7ad3fc560f0b070027d": {
+    "buyer_rate": 0.02105371264249769,
+    "avg_rev_d7": 0.36610887446314827,
+    "whale_rate": 0.0,
+    "count": 9737
+  },
+  "3c49dd8c46e6f02b98ef51748f6493900570ccb6": {
+    "buyer_rate": 0.049156901971992,
+    "avg_rev_d7": 2.3201662997802477,
+    "whale_rate": 0.0,
+    "count": 3499
+  },
+  "4b730d30a3c7488ac7a31d65cb2e9803276a9ef0": {
+    "buyer_rate": 0.008488964346349746,
+    "avg_rev_d7": 0.4008267513102532,
+    "whale_rate": 0.0,
+    "count": 13547
+  },
+  "ed8c5f20a27d254edf8304ffe17cd2bbfa68dfcb": {
+    "buyer_rate": 0.12841813776393216,
+    "avg_rev_d7": 0.8430905572419344,
+    "whale_rate": 0.0,
+    "count": 2889
+  },
+  "3b565d52f6463cc295dc9c1f82f9c2eb3aed0a38": {
+    "buyer_rate": 0.04447683580208005,
+    "avg_rev_d7": 1.1001475338796092,
+    "whale_rate": 0.0,
+    "count": 50768
+  },
+  "3817dd799bec28bc68dcba7c6e6690a737af20cc": {
+    "buyer_rate": 0.023067325022128847,
+    "avg_rev_d7": 0.33809247101595163,
+    "whale_rate": 0.0,
+    "count": 93769
+  },
+  "92c36ceb885e8eb5aaa97f93dc12af5ce96660d4": {
+    "buyer_rate": 0.05176470588235294,
+    "avg_rev_d7": 0.5934922265908977,
+    "whale_rate": 0.0,
+    "count": 1275
+  },
+  "73ea4d46b41ece6af5e4a5b8a8a76e0b7474342b": {
+    "buyer_rate": 0.010015814443858724,
+    "avg_rev_d7": 0.36882024934069896,
+    "whale_rate": 0.0,
+    "count": 1897
+  },
+  "0048bf8fb6f39defe309f2da08ccfffba1a780a4": {
+    "buyer_rate": 0.006105006105006105,
+    "avg_rev_d7": 0.10811355311355311,
+    "whale_rate": 0.0,
+    "count": 4914
+  },
+  "b41395a87308893a6daaceaae84ed04cef820537": {
+    "buyer_rate": 0.0003146880654551176,
+    "avg_rev_d7": 0.03221520292021085,
+    "whale_rate": 0.0,
+    "count": 12711
+  },
+  "f4b5fbba2979747cc832ba4564dce334c0d2c04c": {
+    "buyer_rate": 0.05775862068965517,
+    "avg_rev_d7": 0.6786596082553177,
+    "whale_rate": 0.0,
+    "count": 2320
+  },
+  "444d1c9a32bc86a73ff0326956e2427380841533": {
+    "buyer_rate": 0.047005674025869255,
+    "avg_rev_d7": 0.3443041323083472,
+    "whale_rate": 0.0,
+    "count": 37187
+  },
+  "18e491919a944daa7a8500bf00dfa5e8229a78d8": {
+    "buyer_rate": 0.01796846351301797,
+    "avg_rev_d7": 0.3960996233785361,
+    "whale_rate": 0.0,
+    "count": 2727
+  },
+  "e242daee0b6260d495b09d7ed3bcf77a01eb9aa6": {
+    "buyer_rate": 0.09026128266033254,
+    "avg_rev_d7": 0.9930523363264646,
+    "whale_rate": 0.0,
+    "count": 2526
+  },
+  "21a7aeda0847da1c08673f118881f0093ac61672": {
+    "buyer_rate": 0.03853358308803853,
+    "avg_rev_d7": 0.8133038206854025,
+    "whale_rate": 0.0,
+    "count": 7474
+  },
+  "ef2a94bf33dd922f4810659cee5ec44d2a994011": {
+    "buyer_rate": 0.061718098415346125,
+    "avg_rev_d7": 1.8102061132095235,
+    "whale_rate": 0.0,
+    "count": 1199
+  },
+  "d6d9d0b8cf6243eede4009351599ba58d0dbc9d7": {
+    "buyer_rate": 0.09612141652613827,
+    "avg_rev_d7": 1.7263069139966276,
+    "whale_rate": 0.0,
+    "count": 593
+  },
+  "30f321c861e197acfd7b98003b5371a916dd6502": {
+    "buyer_rate": 0.31242603550295855,
+    "avg_rev_d7": 1.0873522799348745,
+    "whale_rate": 0.0,
+    "count": 1690
+  },
+  "d211d8fb7dba236220381e63841aadfcf01984a6": {
+    "buyer_rate": 0.0007612053911252406,
+    "avg_rev_d7": 0.03245294046922015,
+    "whale_rate": 0.0,
+    "count": 22333
+  },
+  "4040690721f363b8ccba472485180410cddcf20a": {
+    "buyer_rate": 0.19100321313816493,
+    "avg_rev_d7": 6.750715369102916,
+    "whale_rate": 0.0,
+    "count": 2801
+  },
+  "d11b1c4a6b615661bab3c39f448d561cf2218918": {
+    "buyer_rate": 0.011619800139437602,
+    "avg_rev_d7": 0.3190871108657706,
+    "whale_rate": 0.0,
+    "count": 8606
+  },
+  "fa94ea531079f90712c8b7eed7701690101a7718": {
+    "buyer_rate": 0.03178983951753041,
+    "avg_rev_d7": 0.16414771620420995,
+    "whale_rate": 0.0,
+    "count": 9783
+  },
+  "ef43c81a5b57791375b4db3283e9d683e05dad10": {
+    "buyer_rate": 0.02565042139978014,
+    "avg_rev_d7": 0.5249761927445952,
+    "whale_rate": 0.0,
+    "count": 2729
+  },
+  "3f3ffc3718a75a3f8a8ad8238cd844aca95e7627": {
+    "buyer_rate": 0.3056456846203764,
+    "avg_rev_d7": 3.312350356911096,
+    "whale_rate": 0.0,
+    "count": 1541
+  },
+  "b2ae23c0132078edf1a2c0038720273b5ecf38b1": {
+    "buyer_rate": 0.01652892561983471,
+    "avg_rev_d7": 0.05752066115702479,
+    "whale_rate": 0.0,
+    "count": 121
+  },
+  "f302d60622779dd160b1a60433a5888fbf3d4c7a": {
+    "buyer_rate": 0.023474178403755867,
+    "avg_rev_d7": 0.12352112676056339,
+    "whale_rate": 0.0,
+    "count": 1065
+  },
+  "6ab52039adc762792932f4c8cbc98f379d2ddf24": {
+    "buyer_rate": 0.0022675736961451248,
+    "avg_rev_d7": 0.008064316635745207,
+    "whale_rate": 0.0,
+    "count": 4851
+  },
+  "58de9b7e6bc0c2a1be492f99ffbdf618a778f1ed": {
+    "buyer_rate": 0.05918864996674795,
+    "avg_rev_d7": 0.25522500554200844,
+    "whale_rate": 0.0,
+    "count": 9022
+  },
+  "cd0b4217565530265f6e0a3ce36ce193ccbf40f9": {
+    "buyer_rate": 0.1111111111111111,
+    "avg_rev_d7": 0.10527777044971853,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "8a880b4ae9cb674826ca2bdc6fba3dcb06286102": {
+    "buyer_rate": 0.04736842105263158,
+    "avg_rev_d7": 6.980566350173142,
+    "whale_rate": 0.0,
+    "count": 380
+  },
+  "f82a817295401d647cc35da75524da3b381f48da": {
+    "buyer_rate": 0.012464207512211554,
+    "avg_rev_d7": 1.0722604008758636,
+    "whale_rate": 0.0,
+    "count": 5937
+  },
+  "d2c8e0bff3ede54d264390128123e5559de51648": {
+    "buyer_rate": 0.10683760683760683,
+    "avg_rev_d7": 1.4285665762652748,
+    "whale_rate": 0.0,
+    "count": 3510
+  },
+  "eb74ab6c18c7dd540c14736238947d3854081421": {
+    "buyer_rate": 0.046827524575513854,
+    "avg_rev_d7": 1.2235734882222893,
+    "whale_rate": 0.0,
+    "count": 11190
+  },
+  "b38dc3dd5034718ff7f2b1cc0f91fee2d3c10732": {
+    "buyer_rate": 0.0440771349862259,
+    "avg_rev_d7": 1.342025558936867,
+    "whale_rate": 0.0,
+    "count": 363
+  },
+  "c1d30f5581e917fb1b1111d66dbbf3bb650b7392": {
+    "buyer_rate": 0.47572815533980584,
+    "avg_rev_d7": 8.52030771211106,
+    "whale_rate": 0.0,
+    "count": 103
+  },
+  "cbe3628f74c4d2dbde6f35d9852aae332d208ae1": {
+    "buyer_rate": 0.11226851851851852,
+    "avg_rev_d7": 58.45590894500697,
+    "whale_rate": 0.0011574074074074073,
+    "count": 864
+  },
+  "dfc72226e74eec0995422f862cbcf43125cbfdf0": {
+    "buyer_rate": 0.119533527696793,
+    "avg_rev_d7": 2.683617632522301,
+    "whale_rate": 0.0,
+    "count": 343
+  },
+  "b8830a2e1246c4a51d5da8ac3fe38ddf2e4c5382": {
+    "buyer_rate": 0.11428571428571428,
+    "avg_rev_d7": 2.055142857142857,
+    "whale_rate": 0.0,
+    "count": 70
+  },
+  "c39b147d59d698641d4198d04ee2e3e0f78b1122": {
+    "buyer_rate": 0.043853569403314224,
+    "avg_rev_d7": 0.7439009451200302,
+    "whale_rate": 0.0,
+    "count": 15871
+  },
+  "0a95a401b7a156f0da5865dfaf406afed4fb631a": {
+    "buyer_rate": 0.08769675554127851,
+    "avg_rev_d7": 2.0597076774815295,
+    "whale_rate": 0.0,
+    "count": 6226
+  },
+  "0d3ccad11c49e81f3f8cf09550cb3595fb854fa9": {
+    "buyer_rate": 0.18190598840952993,
+    "avg_rev_d7": 5.810699406740952,
+    "whale_rate": 0.0,
+    "count": 3106
+  },
+  "e7ac4665dbf26b17658f5464972eb4e5379f4cfe": {
+    "buyer_rate": 0.267719238029861,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 5827
+  },
+  "dd9caec2d5b7593cb3250e6733bc364d3967bc09": {
+    "buyer_rate": 0.03682595352915388,
+    "avg_rev_d7": 1.1471586760473647,
+    "whale_rate": 0.0,
+    "count": 2281
+  },
+  "2dc0e09b88b3c2588073dc2fb74fb542660ec956": {
+    "buyer_rate": 0.03734439834024896,
+    "avg_rev_d7": 0.8052151697512915,
+    "whale_rate": 0.0,
+    "count": 964
+  },
+  "72e7756b6e94619b84ace04509dfd105cbf39b0e": {
+    "buyer_rate": 0.22877059569074779,
+    "avg_rev_d7": 0.9121924390980418,
+    "whale_rate": 0.0,
+    "count": 1578
+  },
+  "1d5f89e31c62ffb6e292029e7ba3f1fb25cebae6": {
+    "buyer_rate": 0.050059594755661505,
+    "avg_rev_d7": 1.5633999791339956,
+    "whale_rate": 0.0,
+    "count": 839
+  },
+  "110a6ced3a0bded28d53cd146ba0bff9cf91d218": {
+    "buyer_rate": 0.01693570962022954,
+    "avg_rev_d7": 0.18426014742931793,
+    "whale_rate": 0.0,
+    "count": 21434
+  },
+  "19c70ca0b22341cca4204122dbe2a7f7d11c65ee": {
+    "buyer_rate": 0.15522875816993464,
+    "avg_rev_d7": 14.737366868709456,
+    "whale_rate": 0.0,
+    "count": 612
+  },
+  "79a6ee40b619cab73822f013818813898fe31e0a": {
+    "buyer_rate": 0.0841880341880342,
+    "avg_rev_d7": 0.7975726495726495,
+    "whale_rate": 0.0,
+    "count": 2340
+  },
+  "eb08b8900501164ba81968284f35c4c45c934588": {
+    "buyer_rate": 0.0037313432835820895,
+    "avg_rev_d7": 0.011343283582089553,
+    "whale_rate": 0.0,
+    "count": 804
+  },
+  "cebc8e29d26562722c27c9df1608517b539a00d8": {
+    "buyer_rate": 0.10416666666666667,
+    "avg_rev_d7": 2.8044041666805746,
+    "whale_rate": 0.0,
+    "count": 480
+  },
+  "d362aaae8501e9148b75a9ceb9febf2fad5dc90a": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 42
+  },
+  "c7abfd0d0e615f530c61a72539a354515f6b4d4a": {
+    "buyer_rate": 0.3302752293577982,
+    "avg_rev_d7": 36.04665231810398,
+    "whale_rate": 0.0,
+    "count": 654
+  },
+  "1dd6927f41b49c92841298a76cf2f8ed99880ca2": {
+    "buyer_rate": 0.19346049046321526,
+    "avg_rev_d7": 11.230245231607629,
+    "whale_rate": 0.0,
+    "count": 734
+  },
+  "9fca6cbb5857a39406a396df272cf9acb71d2e12": {
+    "buyer_rate": 0.00644077289274713,
+    "avg_rev_d7": 0.6901764211705405,
+    "whale_rate": 0.0,
+    "count": 7142
+  },
+  "c05bb88558ec5eee70e3c659f7a96923f3654405": {
+    "buyer_rate": 0.2349570200573066,
+    "avg_rev_d7": 6.249223730521863,
+    "whale_rate": 0.0,
+    "count": 698
+  },
+  "356e3661cc2d4badbadc6cfe6448c6a7572a4a93": {
+    "buyer_rate": 0.059291683247115,
+    "avg_rev_d7": 4.016452611139814,
+    "whale_rate": 0.0,
+    "count": 2513
+  },
+  "62a2dba08867c37a2bb8543ada867113779effc5": {
+    "buyer_rate": 0.056435241575314654,
+    "avg_rev_d7": 0.6215375017572871,
+    "whale_rate": 0.0,
+    "count": 2463
+  },
+  "76538f92b80a4519a392d3176e5cfe6148b51c4b": {
+    "buyer_rate": 0.007633587786259542,
+    "avg_rev_d7": 0.036616279407387806,
+    "whale_rate": 0.0,
+    "count": 2751
+  },
+  "0ce58f7adc96169d6ae6cf22da5b5eb85d816602": {
+    "buyer_rate": 0.055226824457593686,
+    "avg_rev_d7": 2.0519790536503555,
+    "whale_rate": 0.0,
+    "count": 1521
+  },
+  "8b9ec2dc1c41fe73a1e56d16f05f5e145d7f714f": {
+    "buyer_rate": 0.030274361400189215,
+    "avg_rev_d7": 0.3786929492588589,
+    "whale_rate": 0.0,
+    "count": 2114
+  },
+  "ef34e3d107be012b7c0b7e7f0a82ca8daaebe008": {
+    "buyer_rate": 0.03992199151084089,
+    "avg_rev_d7": 1.3012170457433356,
+    "whale_rate": 0.0,
+    "count": 8717
+  },
+  "5dcf9aae8085eae48f56c3e0198639a01b51fc62": {
+    "buyer_rate": 0.21902268760907503,
+    "avg_rev_d7": 3.8455345944329347,
+    "whale_rate": 0.0,
+    "count": 2292
+  },
+  "823d4293d3a8f5bf387054e83aff26ff29dd5384": {
+    "buyer_rate": 0.11591780552551371,
+    "avg_rev_d7": 1.2547186881736132,
+    "whale_rate": 0.0,
+    "count": 10171
+  },
+  "88098cc9e7784ecbd1fb04ff7b13094e8eb53f0c": {
+    "buyer_rate": 0.014984033407025301,
+    "avg_rev_d7": 1.2267993122083027,
+    "whale_rate": 0.0,
+    "count": 4071
+  },
+  "1911c56c0115960c36864f11d197a52bca22ab65": {
+    "buyer_rate": 0.0050426012867327424,
+    "avg_rev_d7": 2.1820900712919493,
+    "whale_rate": 0.0,
+    "count": 5751
+  },
+  "ed6228f18cb71b5d30bec27e014bc6a4dfd81056": {
+    "buyer_rate": 0.055590256089943786,
+    "avg_rev_d7": 0.919913967424844,
+    "whale_rate": 0.0,
+    "count": 1601
+  },
+  "46e41ea55d6df32bf31f276253b2891f23a5381b": {
+    "buyer_rate": 0.11764705882352941,
+    "avg_rev_d7": 3.2340392156862747,
+    "whale_rate": 0.0,
+    "count": 255
+  },
+  "11cd03192898afc68e6848f364c75a11bdc6379e": {
+    "buyer_rate": 0.1743827160493827,
+    "avg_rev_d7": 4.912546296296296,
+    "whale_rate": 0.0,
+    "count": 648
+  },
+  "cd8df99c18dafbd0a72a94760915e590fd7fbd63": {
+    "buyer_rate": 0.0453551912568306,
+    "avg_rev_d7": 1.2231617759562843,
+    "whale_rate": 0.0,
+    "count": 5490
+  },
+  "11d353b3a3bc2dc7db932d4ce7c4a8d18e3dc5f2": {
+    "buyer_rate": 0.09930394431554525,
+    "avg_rev_d7": 1.495128223067885,
+    "whale_rate": 0.0,
+    "count": 2155
+  },
+  "9fb29e863bcec281bf19bc40fc778a5dda57f258": {
+    "buyer_rate": 0.0008456659619450317,
+    "avg_rev_d7": 0.009441117101844686,
+    "whale_rate": 0.0,
+    "count": 9460
+  },
+  "921acb2e299f824a517720569c88e2a1240a965f": {
+    "buyer_rate": 0.014963659683625482,
+    "avg_rev_d7": 0.2163846965870071,
+    "whale_rate": 0.0,
+    "count": 4678
+  },
+  "8f6eb28abc56ca729eec5ec82459da6018a220f1": {
+    "buyer_rate": 0.005376344086021506,
+    "avg_rev_d7": 0.02624743548224897,
+    "whale_rate": 0.0,
+    "count": 1302
+  },
+  "1e3aaf68ce1de98f1159634b6ef4c4a28055f5ec": {
+    "buyer_rate": 0.15059445178335534,
+    "avg_rev_d7": 0.11247318718361873,
+    "whale_rate": 0.0,
+    "count": 757
+  },
+  "75f3a74f383fde5df1baf72d675326dfd0d58f30": {
+    "buyer_rate": 0.00783630822812364,
+    "avg_rev_d7": 0.23020709793047256,
+    "whale_rate": 0.0,
+    "count": 4594
+  },
+  "7aa10a57509765894796e3fccff8d73d75ceac35": {
+    "buyer_rate": 0.04551089073844519,
+    "avg_rev_d7": 1.443987958207898,
+    "whale_rate": 0.0,
+    "count": 5647
+  },
+  "4380ac21dbdeff553849e415a7f509815daa1f8b": {
+    "buyer_rate": 0.06711111111111111,
+    "avg_rev_d7": 1.397568888888889,
+    "whale_rate": 0.0,
+    "count": 4500
+  },
+  "4a41ad9f074af115fc7820899fea42bbb0510355": {
+    "buyer_rate": 0.019507663725034836,
+    "avg_rev_d7": 0.29216252715031604,
+    "whale_rate": 0.0,
+    "count": 2153
+  },
+  "87e7bb175568d507599844fe6ee32e073b1068f3": {
+    "buyer_rate": 0.2243823410287566,
+    "avg_rev_d7": 5.552264074524098,
+    "whale_rate": 0.0,
+    "count": 2469
+  },
+  "0bbd6ccf1a0ec1b90f05b5381c22d4434d5e5ac0": {
+    "buyer_rate": 0.29216398546964195,
+    "avg_rev_d7": 0.9832610724381663,
+    "whale_rate": 0.0,
+    "count": 1927
+  },
+  "449dd8968b25047892dfc544c8d013a3f14c2807": {
+    "buyer_rate": 0.25777984208081745,
+    "avg_rev_d7": 28.652973401382578,
+    "whale_rate": 0.0,
+    "count": 2153
+  },
+  "282cdae662c3a2835accf76595f58a82a9c772c9": {
+    "buyer_rate": 0.06455696202531645,
+    "avg_rev_d7": 1.6907279572302734,
+    "whale_rate": 0.0,
+    "count": 1580
+  },
+  "3c7136b0d73eae2108b5ecaf5c692b5bb8a6a279": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3644
+  },
+  "498141bc26df6ae048ccf0c784a221b518114f4e": {
+    "buyer_rate": 0.46946564885496184,
+    "avg_rev_d7": 44.332213529764516,
+    "whale_rate": 0.0,
+    "count": 786
+  },
+  "286300fb534ddb86b560515b96806692e8f29a25": {
+    "buyer_rate": 0.227899846704139,
+    "avg_rev_d7": 5.382455114460909,
+    "whale_rate": 0.0,
+    "count": 1957
+  },
+  "bd1665a0c10bc35e0edde2e182e34d104851a1e5": {
+    "buyer_rate": 0.10020449897750511,
+    "avg_rev_d7": 1.0395710871805703,
+    "whale_rate": 0.0,
+    "count": 489
+  },
+  "f2ab6198173332fd9c03139ea16df88e726117ca": {
+    "buyer_rate": 0.03268945022288262,
+    "avg_rev_d7": 0.6139623956405853,
+    "whale_rate": 0.0,
+    "count": 2019
+  },
+  "b1d10667237c6b1db1eb265297ffe74ea3652b9a": {
+    "buyer_rate": 0.11651154774215787,
+    "avg_rev_d7": 2.5203653912443986,
+    "whale_rate": 0.0,
+    "count": 2901
+  },
+  "417a97b5c575a3a2c6ba8464cad7a104d609970d": {
+    "buyer_rate": 0.09375,
+    "avg_rev_d7": 0.9359368712202977,
+    "whale_rate": 0.0,
+    "count": 992
+  },
+  "d5cdf45466c8edead05b468320028a02319c80cb": {
+    "buyer_rate": 0.004433987874400506,
+    "avg_rev_d7": 0.07073862723837739,
+    "whale_rate": 0.0,
+    "count": 11051
+  },
+  "ecb8841d14b02b8ac724932c1eecc322695b15f7": {
+    "buyer_rate": 0.17895953757225433,
+    "avg_rev_d7": 8.494278908331188,
+    "whale_rate": 0.0,
+    "count": 4325
+  },
+  "7c05a01ffcf889e095112f2cc627efdd0985228c": {
+    "buyer_rate": 0.017597551644988524,
+    "avg_rev_d7": 0.23598270197000235,
+    "whale_rate": 0.0,
+    "count": 2614
+  },
+  "f35a74f31580e55872d3c58e770f7a4957a5ac77": {
+    "buyer_rate": 0.04475043029259897,
+    "avg_rev_d7": 0.9125328449983787,
+    "whale_rate": 0.0,
+    "count": 1162
+  },
+  "fbfe8549a82f1371dfdefcbffc4a38274798ff68": {
+    "buyer_rate": 0.012110726643598616,
+    "avg_rev_d7": 0.17664359861591697,
+    "whale_rate": 0.0,
+    "count": 578
+  },
+  "a46748d596d5f761ea8cd7cc45d9a466e2b41f39": {
+    "buyer_rate": 0.1325678496868476,
+    "avg_rev_d7": 0.9852081858997447,
+    "whale_rate": 0.0,
+    "count": 4790
+  },
+  "72d93df02a61b9d884035498184ca99e9b05ce3b": {
+    "buyer_rate": 0.3529690087532529,
+    "avg_rev_d7": 6.173917672107877,
+    "whale_rate": 0.0,
+    "count": 4227
+  },
+  "21afeae49ba828fb27842e7eac98302e04bcd37b": {
+    "buyer_rate": 0.09944751381215469,
+    "avg_rev_d7": 1.793617373380026,
+    "whale_rate": 0.0,
+    "count": 724
+  },
+  "330224635c79ff6f5c7e551998244498e6ee66f4": {
+    "buyer_rate": 0.03182644842816316,
+    "avg_rev_d7": 0.8794154220332031,
+    "whale_rate": 0.0,
+    "count": 7698
+  },
+  "bf0a1539700223c237b70a0e8e4df017451028f5": {
+    "buyer_rate": 0.06389776357827476,
+    "avg_rev_d7": 0.9559462056681539,
+    "whale_rate": 0.0,
+    "count": 626
+  },
+  "c3541b7d47513e2cd1ed92192d57a8ac0581288a": {
+    "buyer_rate": 0.24310855007008253,
+    "avg_rev_d7": 0.9749021180501479,
+    "whale_rate": 0.0,
+    "count": 6421
+  },
+  "a38f1b72b6ca512909b4fa689a11032fbcc9ba24": {
+    "buyer_rate": 0.01762114537444934,
+    "avg_rev_d7": 0.3817180616740088,
+    "whale_rate": 0.0,
+    "count": 1589
+  },
+  "6a823638262ef8d824d03b8da6bff06451ca6000": {
+    "buyer_rate": 0.07797427652733119,
+    "avg_rev_d7": 0.7320287507376311,
+    "whale_rate": 0.0,
+    "count": 1244
+  },
+  "bd95c579c2a9d17845e7f599a68a3dee57da6d41": {
+    "buyer_rate": 0.029232251847092838,
+    "avg_rev_d7": 0.9998630297752543,
+    "whale_rate": 0.0,
+    "count": 3113
+  },
+  "999037107c3bdbb5ae4dc0e25ee14d3a7999a8f3": {
+    "buyer_rate": 0.17088607594936708,
+    "avg_rev_d7": 13.429430379746838,
+    "whale_rate": 0.0,
+    "count": 316
+  },
+  "24765d8fabc699722992b5e8f9b8ca6f0468b969": {
+    "buyer_rate": 0.2767175572519084,
+    "avg_rev_d7": 7.204332061068703,
+    "whale_rate": 0.0,
+    "count": 524
+  },
+  "e63f9fa42d6c8f7142fca0973bdbcd4473d64c44": {
+    "buyer_rate": 0.03290025146689019,
+    "avg_rev_d7": 0.08806948868398994,
+    "whale_rate": 0.0,
+    "count": 4772
+  },
+  "bd490f5e56ef8a56ada8f702fedd36300a22e7f3": {
+    "buyer_rate": 0.029104887424492038,
+    "avg_rev_d7": 0.603554199014491,
+    "whale_rate": 0.0,
+    "count": 3642
+  },
+  "34363382702a29dc5e99954b448fbe6bd5b55f0b": {
+    "buyer_rate": 0.00971198928332217,
+    "avg_rev_d7": 0.4618452779638312,
+    "whale_rate": 0.0,
+    "count": 2986
+  },
+  "8e7adefd0a5eb0f595f142ba42fc5be82e13ff6d": {
+    "buyer_rate": 0.07947019867549669,
+    "avg_rev_d7": 2.4652529801324508,
+    "whale_rate": 0.0,
+    "count": 755
+  },
+  "4a4bc21ffd5d6ed3c47a1039895305e5c1150b00": {
+    "buyer_rate": 0.3396801218583397,
+    "avg_rev_d7": 5.893533891850724,
+    "whale_rate": 0.0,
+    "count": 1313
+  },
+  "f4dec7757f804e9b8acfb0d60db53d3cba7dc636": {
+    "buyer_rate": 0.291331546023235,
+    "avg_rev_d7": 23.084620196604114,
+    "whale_rate": 0.0,
+    "count": 1119
+  },
+  "01ae994f8e066cb5696ff810d0054553866d0d31": {
+    "buyer_rate": 0.10642570281124498,
+    "avg_rev_d7": 6.399953457902771,
+    "whale_rate": 0.0,
+    "count": 498
+  },
+  "eb9e60cd678fc07824a335ed6a0c2b9daa2163ec": {
+    "buyer_rate": 0.29764705882352943,
+    "avg_rev_d7": 18.04013596303237,
+    "whale_rate": 0.0,
+    "count": 1700
+  },
+  "14d366af84efbda2926c085d9a1e09b20af9a2df": {
+    "buyer_rate": 0.20930232558139536,
+    "avg_rev_d7": 1.767888766777254,
+    "whale_rate": 0.0,
+    "count": 86
+  },
+  "150df2fa974ef80594d7f46934998f6c70617c1c": {
+    "buyer_rate": 0.10927152317880795,
+    "avg_rev_d7": 2.51079240839244,
+    "whale_rate": 0.0,
+    "count": 906
+  },
+  "1fba8d9bc7381d7a5eccf36362c248d713c187f8": {
+    "buyer_rate": 0.1386410432395333,
+    "avg_rev_d7": 16.89901166781057,
+    "whale_rate": 0.0,
+    "count": 1457
+  },
+  "d755ecf6dc7cfadad42110909cce19d52fde69a8": {
+    "buyer_rate": 0.036345776031434185,
+    "avg_rev_d7": 1.3935658153241648,
+    "whale_rate": 0.0,
+    "count": 1018
+  },
+  "eacb2c5f27e77dec6fe0eeee591949f2becdf206": {
+    "buyer_rate": 0.010101010101010102,
+    "avg_rev_d7": 0.42234848484848475,
+    "whale_rate": 0.0,
+    "count": 396
+  },
+  "1aec190b32bbd636930657f5bb5874aeec1d0382": {
+    "buyer_rate": 0.07233273056057866,
+    "avg_rev_d7": 1.7497454701627488,
+    "whale_rate": 0.0,
+    "count": 1106
+  },
+  "6876fa2d0726db240e4452ce188d56bcf1a4e0d1": {
+    "buyer_rate": 0.12552301255230125,
+    "avg_rev_d7": 2.150491835578644,
+    "whale_rate": 0.0,
+    "count": 239
+  },
+  "a0c967be5df05b67a80b700bb0a0742904b6f8cd": {
+    "buyer_rate": 0.06468461229409402,
+    "avg_rev_d7": 1.1052873607684215,
+    "whale_rate": 0.0,
+    "count": 2489
+  },
+  "42ccb062eb14d80ddf9820e42b7a0cca6a9c8d16": {
+    "buyer_rate": 0.16025641025641027,
+    "avg_rev_d7": 14.88423076923077,
+    "whale_rate": 0.0,
+    "count": 312
+  },
+  "aa9576965017c0292ad23793c0e3f87afe5e2a44": {
+    "buyer_rate": 0.2198952879581152,
+    "avg_rev_d7": 2.136125654450262,
+    "whale_rate": 0.0,
+    "count": 382
+  },
+  "bf4cc89856a64fd533ff65e390958ad7f40e16d7": {
+    "buyer_rate": 0.1306532663316583,
+    "avg_rev_d7": 2.2683838004787376,
+    "whale_rate": 0.0,
+    "count": 199
+  },
+  "3ebbcbfa92ad91dcea322f021a43b07fb330c743": {
+    "buyer_rate": 0.07615480649188515,
+    "avg_rev_d7": 1.3554596104312653,
+    "whale_rate": 0.0,
+    "count": 801
+  },
+  "eb59aae9b78ad179feeb3271e13921da27c53080": {
+    "buyer_rate": 0.046906187624750496,
+    "avg_rev_d7": 1.5429906852960746,
+    "whale_rate": 0.0,
+    "count": 3006
+  },
+  "9d117b97749304924537d20fddab5d6626ac4399": {
+    "buyer_rate": 0.0136986301369863,
+    "avg_rev_d7": 0.41160743318412557,
+    "whale_rate": 0.0,
+    "count": 1168
+  },
+  "3ac096f5a861e4d5c714987712ff496a02513e56": {
+    "buyer_rate": 0.07272727272727272,
+    "avg_rev_d7": 1.069647151246057,
+    "whale_rate": 0.0,
+    "count": 605
+  },
+  "3ee052ec95d16283bccc621cf6cd182bc82bc7c4": {
+    "buyer_rate": 0.002577319587628866,
+    "avg_rev_d7": 0.035551154490477174,
+    "whale_rate": 0.0,
+    "count": 2328
+  },
+  "81bc108803b2abde4f0f9609451692d7e6ee7322": {
+    "buyer_rate": 0.08620689655172414,
+    "avg_rev_d7": 6.729911992290922,
+    "whale_rate": 0.0,
+    "count": 58
+  },
+  "607279a508fc12319d25c038d5f9683e44806448": {
+    "buyer_rate": 0.040456107466416744,
+    "avg_rev_d7": 0.5110572100347208,
+    "whale_rate": 0.0,
+    "count": 6402
+  },
+  "2b0eee7d0b4d9d67297bb5776831f772cad65915": {
+    "buyer_rate": 0.04932301740812379,
+    "avg_rev_d7": 0.8190087040618955,
+    "whale_rate": 0.0,
+    "count": 2068
+  },
+  "96a136e3d904169509bb9715753fc5cf6fb49df7": {
+    "buyer_rate": 0.06495882891125343,
+    "avg_rev_d7": 2.4774918371168435,
+    "whale_rate": 0.0,
+    "count": 1093
+  },
+  "dcc2a3f6bd462cfb7208601de25dbc6adaa23ce1": {
+    "buyer_rate": 0.3296812749003984,
+    "avg_rev_d7": 38.16617418360558,
+    "whale_rate": 0.0,
+    "count": 1004
+  },
+  "2b08951e379dba02a87855b75d331bdbb3705c63": {
+    "buyer_rate": 0.40638297872340423,
+    "avg_rev_d7": 43.93824028740944,
+    "whale_rate": 0.0,
+    "count": 470
+  },
+  "3e6bd059c27bed7b4ff65a46d21b3a6af0d4e6b7": {
+    "buyer_rate": 0.3173374613003096,
+    "avg_rev_d7": 25.648606811145513,
+    "whale_rate": 0.0,
+    "count": 646
+  },
+  "d90c371450511851756cdd246a3e0d413826e744": {
+    "buyer_rate": 0.09148682642658547,
+    "avg_rev_d7": 399.0897281785346,
+    "whale_rate": 0.0011915795048325168,
+    "count": 7553
+  },
+  "a7e6218aff3df99b92206413d8b32277848db4f1": {
+    "buyer_rate": 0.014705882352941176,
+    "avg_rev_d7": 0.02623383818683956,
+    "whale_rate": 0.0,
+    "count": 136
+  },
+  "5820443596ce4694a2815811de7f27928fa479a8": {
+    "buyer_rate": 0.1609442060085837,
+    "avg_rev_d7": 7.493795234494993,
+    "whale_rate": 0.0,
+    "count": 466
+  },
+  "4ddb876fd8a8f606ae8e2eaebd3f4be2180f6c2c": {
+    "buyer_rate": 0.10714285714285714,
+    "avg_rev_d7": 5.984618358272281,
+    "whale_rate": 0.0,
+    "count": 84
+  },
+  "83a348c22d7faa396f7c464a23a3c285873cbc97": {
+    "buyer_rate": 0.09785932721712538,
+    "avg_rev_d7": 0.6831192660550458,
+    "whale_rate": 0.0,
+    "count": 327
+  },
+  "4f80e4bf821d13acbb66edfa375809704ccaa216": {
+    "buyer_rate": 0.25,
+    "avg_rev_d7": 16.916197265711805,
+    "whale_rate": 0.0,
+    "count": 576
+  },
+  "25904ae8f9d3b0559ced40f6c94a782a2066a7ad": {
+    "buyer_rate": 0.026484751203852328,
+    "avg_rev_d7": 0.4317415730337079,
+    "whale_rate": 0.0,
+    "count": 1246
+  },
+  "94f95fd3df251b6ec6d97f1cb65b1376cf740638": {
+    "buyer_rate": 0.051584077985377744,
+    "avg_rev_d7": 0.80557011162881,
+    "whale_rate": 0.0,
+    "count": 2462
+  },
+  "d54f414516df4ba311d4b2a67b2d895175ea285b": {
+    "buyer_rate": 0.07180254300673149,
+    "avg_rev_d7": 8.693328347045624,
+    "whale_rate": 0.0,
+    "count": 1337
+  },
+  "c11433177ea666897a82be6fc00cf735c1462a9c": {
+    "buyer_rate": 0.07149046793760831,
+    "avg_rev_d7": 0.7326123793124449,
+    "whale_rate": 0.0,
+    "count": 2308
+  },
+  "aa0d51b5f556725ba8abf4d5bd391b7a469cdefe": {
+    "buyer_rate": 0.12969094922737306,
+    "avg_rev_d7": 5.113134657836644,
+    "whale_rate": 0.0,
+    "count": 1812
+  },
+  "29278fc5b8bd969206f5071eb4b347756d927abd": {
+    "buyer_rate": 0.20501043841336117,
+    "avg_rev_d7": 2.631862141623926,
+    "whale_rate": 0.0,
+    "count": 2395
+  },
+  "79c4e97999026564f8f97cf9d9f3efb4edd9d6b7": {
+    "buyer_rate": 0.03909465020576132,
+    "avg_rev_d7": 0.3998862595688804,
+    "whale_rate": 0.0,
+    "count": 486
+  },
+  "fdec6a427bcee7567e2300b28e6166ea1441b05f": {
+    "buyer_rate": 0.10875106202209006,
+    "avg_rev_d7": 1.6331860662701785,
+    "whale_rate": 0.0,
+    "count": 1177
+  },
+  "72dd7ea6ca76e5aa70cc489e9a7b582693323489": {
+    "buyer_rate": 0.03987408184679958,
+    "avg_rev_d7": 0.3032633788037776,
+    "whale_rate": 0.0,
+    "count": 953
+  },
+  "cd9bb72715233d1899a088ddbb5ffc407c11a835": {
+    "buyer_rate": 0.06793321819228555,
+    "avg_rev_d7": 2.244075993091537,
+    "whale_rate": 0.0,
+    "count": 1737
+  },
+  "b1b4e79604ee36701fb89807b3884e7905273f7f": {
+    "buyer_rate": 0.17770034843205576,
+    "avg_rev_d7": 4.000973713373053,
+    "whale_rate": 0.0,
+    "count": 287
+  },
+  "eec4e8752e6c594e959f0c7b7f12493d8dfd7757": {
+    "buyer_rate": 0.019311797752808987,
+    "avg_rev_d7": 0.9839255617977529,
+    "whale_rate": 0.0,
+    "count": 2848
+  },
+  "aa525bc970b4fdc0c909e4cefb6d3a554cf8b7a7": {
+    "buyer_rate": 0.031144465290806753,
+    "avg_rev_d7": 0.8619282573961435,
+    "whale_rate": 0.0,
+    "count": 2665
+  },
+  "3dc8db5d6618be2b7dd0eccca6b3e19b83311377": {
+    "buyer_rate": 0.0397489539748954,
+    "avg_rev_d7": 0.7930649163179916,
+    "whale_rate": 0.0,
+    "count": 956
+  },
+  "657f3facb7f66090b1b3f5f673f6da1d6a6e93af": {
+    "buyer_rate": 0.08095952023988005,
+    "avg_rev_d7": 1.7612405247376313,
+    "whale_rate": 0.0,
+    "count": 667
+  },
+  "edd060b1c98a97c429a1b819d9938bbc6ceb2400": {
+    "buyer_rate": 0.12897152271122617,
+    "avg_rev_d7": 49.17784184514003,
+    "whale_rate": 0.0002353494939985879,
+    "count": 4249
+  },
+  "ab1a43dd0194a72a9d8ad964899c208f80a9dc35": {
+    "buyer_rate": 0.375,
+    "avg_rev_d7": 6.384615384615385,
+    "whale_rate": 0.0,
+    "count": 104
+  },
+  "a4f5f3379ee9b1002bfbe511db18732a1116106e": {
+    "buyer_rate": 0.14376590330788805,
+    "avg_rev_d7": 8.458651399491094,
+    "whale_rate": 0.0,
+    "count": 1572
+  },
+  "97b826d7fd93ce2d4feb78305c7c7ae9aebd989c": {
+    "buyer_rate": 0.005305039787798408,
+    "avg_rev_d7": 0.005251989389920424,
+    "whale_rate": 0.0,
+    "count": 377
+  },
+  "f9563bc81900bc2afd486f558ef054bdfb107868": {
+    "buyer_rate": 0.02702702702702703,
+    "avg_rev_d7": 0.5419876475595244,
+    "whale_rate": 0.0,
+    "count": 37
+  },
+  "fa85d196aa6d4b2ac931d5852b3587b903a2c9f9": {
+    "buyer_rate": 0.37150127226463103,
+    "avg_rev_d7": 21.20708389575076,
+    "whale_rate": 0.0,
+    "count": 393
+  },
+  "653fe6fe466412e52a952850024eb761c3c080be": {
+    "buyer_rate": 0.1216320246343341,
+    "avg_rev_d7": 13.108240145284189,
+    "whale_rate": 0.0,
+    "count": 1299
+  },
+  "64795c02ca62a3376d3f546eb2f8cca58ddebfed": {
+    "buyer_rate": 0.3498542274052478,
+    "avg_rev_d7": 58.60851978198251,
+    "whale_rate": 0.0,
+    "count": 1372
+  },
+  "ebf384d95b9482a24ece94b002accb6bbb962141": {
+    "buyer_rate": 0.025974025974025976,
+    "avg_rev_d7": 0.0709556284753808,
+    "whale_rate": 0.0,
+    "count": 154
+  },
+  "c3e411d47520ac4838331bbf67a841b08d909b6c": {
+    "buyer_rate": 0.04547032280458174,
+    "avg_rev_d7": 0.23055189170426937,
+    "whale_rate": 0.0,
+    "count": 2881
+  },
+  "1ff3f2af96c78d3188901e9a4d8b50d015cac1b7": {
+    "buyer_rate": 0.139336917562724,
+    "avg_rev_d7": 13.299931927922326,
+    "whale_rate": 0.0,
+    "count": 2232
+  },
+  "5bf189f5e52d518e358cd764dd1a0e45b0544030": {
+    "buyer_rate": 0.055098684210526314,
+    "avg_rev_d7": 0.4394839613279313,
+    "whale_rate": 0.0,
+    "count": 1216
+  },
+  "808837b5e2983335c4c3f2e6b837e832223840d5": {
+    "buyer_rate": 0.234375,
+    "avg_rev_d7": 6.174550724687499,
+    "whale_rate": 0.0,
+    "count": 64
+  },
+  "a8bac6eb112530e8538cc599d851a005323f7161": {
+    "buyer_rate": 0.12941176470588237,
+    "avg_rev_d7": 2.1559747899159665,
+    "whale_rate": 0.0,
+    "count": 1190
+  },
+  "e02019400d519da2e51652cef66bb156a28f0cfa": {
+    "buyer_rate": 0.24753867791842477,
+    "avg_rev_d7": 31.82021135745429,
+    "whale_rate": 0.0,
+    "count": 711
+  },
+  "8e2fe2d9b5f3e3530b0f103c23d505bd4cc5b9aa": {
+    "buyer_rate": 0.21106821106821108,
+    "avg_rev_d7": 21.80660358105534,
+    "whale_rate": 0.0,
+    "count": 777
+  },
+  "0a753946abbde8c0b3cf10d89eee41ff76f83662": {
+    "buyer_rate": 0.20710059171597633,
+    "avg_rev_d7": 4.2747960358696035,
+    "whale_rate": 0.0,
+    "count": 169
+  },
+  "57180b51a12ebb4112cdeae7cb9f2ce43ac4be45": {
+    "buyer_rate": 0.04466019417475728,
+    "avg_rev_d7": 1.2472202943292803,
+    "whale_rate": 0.0,
+    "count": 515
+  },
+  "e10611b00d1c0f7f1e084a45ec9a1354da0ee623": {
+    "buyer_rate": 0.037296037296037296,
+    "avg_rev_d7": 0.5825424048902306,
+    "whale_rate": 0.0,
+    "count": 429
+  },
+  "9fc1f79f11844e70d2ccc5a1c4a44257204af2a6": {
+    "buyer_rate": 0.17122040072859745,
+    "avg_rev_d7": 1.2159107468123862,
+    "whale_rate": 0.0,
+    "count": 1098
+  },
+  "729c577b36144e48a6ec8129654dd4b77a09c660": {
+    "buyer_rate": 0.3304904051172708,
+    "avg_rev_d7": 0.9198011316692439,
+    "whale_rate": 0.0,
+    "count": 469
+  },
+  "b7e29d2610cbdc238369fb9193b035b2bd844141": {
+    "buyer_rate": 0.07134767836919592,
+    "avg_rev_d7": 0.14853752562709488,
+    "whale_rate": 0.0,
+    "count": 883
+  },
+  "d3035e956b715cbd42c1cb1aa930c2f6c8a5c27d": {
+    "buyer_rate": 0.28,
+    "avg_rev_d7": 11.0,
+    "whale_rate": 0.0,
+    "count": 250
+  },
+  "19bfcd2292be6923e908740c60b5e65c2f3f2445": {
+    "buyer_rate": 0.05712109672505712,
+    "avg_rev_d7": 1.0457044918507234,
+    "whale_rate": 0.0,
+    "count": 1313
+  },
+  "f4929809700cded902a74d2cbb4f07c751b52764": {
+    "buyer_rate": 0.1074800290486565,
+    "avg_rev_d7": 1.6448859444728845,
+    "whale_rate": 0.0,
+    "count": 1377
+  },
+  "f11db838e8b98cbebcc919c59bdf51fbdde243a7": {
+    "buyer_rate": 0.15267175572519084,
+    "avg_rev_d7": 11.114341791693635,
+    "whale_rate": 0.0,
+    "count": 131
+  },
+  "868fff815e358d6fd6c473d7089d5a14e91e995e": {
+    "buyer_rate": 0.07563025210084033,
+    "avg_rev_d7": 1.1419694423223834,
+    "whale_rate": 0.0,
+    "count": 1309
+  },
+  "c6dee7ac5b6be7ea14ca20dc0fab10963916e5a6": {
+    "buyer_rate": 0.2786885245901639,
+    "avg_rev_d7": 3.1100046590790655,
+    "whale_rate": 0.0,
+    "count": 61
+  },
+  "42a4c375e32db9d92959e2249b5e76229fa558a2": {
+    "buyer_rate": 0.16666666666666666,
+    "avg_rev_d7": 17.89723062029917,
+    "whale_rate": 0.0,
+    "count": 1200
+  },
+  "66850652bab59daf5b33a0345e892b2d0f4d2f4b": {
+    "buyer_rate": 0.041647385469689956,
+    "avg_rev_d7": 1.2691068999313537,
+    "whale_rate": 0.0,
+    "count": 2161
+  },
+  "88bfec7edcb983be324da4d8d35f98155142b15a": {
+    "buyer_rate": 0.004608294930875576,
+    "avg_rev_d7": 0.023642755280535065,
+    "whale_rate": 0.0,
+    "count": 217
+  },
+  "a501b639a6e5ebfa59be8903fda36ec45e5bc58a": {
+    "buyer_rate": 0.04013377926421405,
+    "avg_rev_d7": 0.9011301034921849,
+    "whale_rate": 0.0,
+    "count": 598
+  },
+  "4d1b09fcd974fa99598e9e2c8ca6cbff22ba19d4": {
+    "buyer_rate": 0.08791208791208792,
+    "avg_rev_d7": 1.5014029705762892,
+    "whale_rate": 0.0,
+    "count": 455
+  },
+  "0256725dc96e2031ed79f8c7f00e6f66905335c8": {
+    "buyer_rate": 0.1242603550295858,
+    "avg_rev_d7": 7.023727810650886,
+    "whale_rate": 0.0,
+    "count": 169
+  },
+  "ec005b6af42f3dbf43a5cdbd45f09b7af2177ab8": {
+    "buyer_rate": 0.07949308755760369,
+    "avg_rev_d7": 0.9724508341983086,
+    "whale_rate": 0.0,
+    "count": 868
+  },
+  "047cbbacf70587d38ab1cf3ff816e71749a978c8": {
+    "buyer_rate": 0.07723577235772358,
+    "avg_rev_d7": 2.6260162601626016,
+    "whale_rate": 0.0,
+    "count": 246
+  },
+  "dbab7e791e4a571529e23c3339aad8d70674266d": {
+    "buyer_rate": 0.05813953488372093,
+    "avg_rev_d7": 0.837093023255814,
+    "whale_rate": 0.0,
+    "count": 86
+  },
+  "58b6d7013c8f432d9a321f05846d869caae786c6": {
+    "buyer_rate": 0.060470324748040316,
+    "avg_rev_d7": 1.2477926109451507,
+    "whale_rate": 0.0,
+    "count": 893
+  },
+  "68a5bd93dad11230af0257d3e5fdadab9b6c25eb": {
+    "buyer_rate": 0.036686390532544376,
+    "avg_rev_d7": 0.41877040666030063,
+    "whale_rate": 0.0,
+    "count": 1690
+  },
+  "f7ce2354cf01bf17c00b6bcbe493f78258bc0a3c": {
+    "buyer_rate": 0.036585365853658534,
+    "avg_rev_d7": 9.129299422741417,
+    "whale_rate": 0.0,
+    "count": 1066
+  },
+  "b69250c737c8bfcd2f36abcf2c0aaabbd2dc8657": {
+    "buyer_rate": 0.19117647058823528,
+    "avg_rev_d7": 8.244215686274512,
+    "whale_rate": 0.0,
+    "count": 408
+  },
+  "67ca4629c3742cf170f4b517a59be41faf46b97d": {
+    "buyer_rate": 0.15030674846625766,
+    "avg_rev_d7": 1.4849034087205042,
+    "whale_rate": 0.0,
+    "count": 652
+  },
+  "7421dfb33ed786dcbb39579469d3e76041f6dd01": {
+    "buyer_rate": 0.022298456260720412,
+    "avg_rev_d7": 0.33612753889368835,
+    "whale_rate": 0.0,
+    "count": 1166
+  },
+  "73858a0f674ace6d4883f0df26e728b5235e810b": {
+    "buyer_rate": 0.022413793103448276,
+    "avg_rev_d7": 0.15046018979515338,
+    "whale_rate": 0.0,
+    "count": 580
+  },
+  "0acc693f3df777c8bbc757ead56f872b26532f82": {
+    "buyer_rate": 0.023516237402015677,
+    "avg_rev_d7": 0.2087681970884659,
+    "whale_rate": 0.0,
+    "count": 893
+  },
+  "a17c7b7aa69f94086f5dfb21cf136ae67b7b95d6": {
+    "buyer_rate": 0.21428571428571427,
+    "avg_rev_d7": 3.9211576354679805,
+    "whale_rate": 0.0,
+    "count": 406
+  },
+  "d5fb180cd500cb00bec91e49df041eeca80825e3": {
+    "buyer_rate": 0.2543859649122807,
+    "avg_rev_d7": 0.7765703056561782,
+    "whale_rate": 0.0,
+    "count": 342
+  },
+  "912ec01c2a7afdf6d58bd17ab4b9e491129512aa": {
+    "buyer_rate": 0.014618547281863865,
+    "avg_rev_d7": 0.20476267966480088,
+    "whale_rate": 0.0,
+    "count": 2189
+  },
+  "92f6c28a99960d53e4be4b7182bb5f07dca262db": {
+    "buyer_rate": 0.016574585635359115,
+    "avg_rev_d7": 0.1797921990256512,
+    "whale_rate": 0.0,
+    "count": 181
+  },
+  "f5f31a2e9a537150cad9b77424efc0d5a93777ea": {
+    "buyer_rate": 0.07913669064748201,
+    "avg_rev_d7": 3.6337050359712233,
+    "whale_rate": 0.0,
+    "count": 278
+  },
+  "bf692821ebdb4b083ef54365ee18943932bbd263": {
+    "buyer_rate": 0.012552301255230125,
+    "avg_rev_d7": 0.20528619246861926,
+    "whale_rate": 0.0,
+    "count": 1195
+  },
+  "c459163051863d40c09a3d6e88564bc82ee55c88": {
+    "buyer_rate": 0.10294117647058823,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 136
+  },
+  "52b7b80cce22aa4426ccedcca327ea452f73d3bc": {
+    "buyer_rate": 0.004672897196261682,
+    "avg_rev_d7": 0.5246528191492192,
+    "whale_rate": 0.0,
+    "count": 428
+  },
+  "ce0339a1e6a7fc049f115747e0cd502d21d93424": {
+    "buyer_rate": 0.1421875,
+    "avg_rev_d7": 122.66703557038878,
+    "whale_rate": 0.0,
+    "count": 640
+  },
+  "8a8118f7d72aa3df9ce7d96e54d0e81f0e517ad6": {
+    "buyer_rate": 0.15625,
+    "avg_rev_d7": 1.0903125000000002,
+    "whale_rate": 0.0,
+    "count": 32
+  },
+  "4a9de13063a2c73b4d85562da2948068f25ed16d": {
+    "buyer_rate": 0.05056179775280899,
+    "avg_rev_d7": 3.0657480270584045,
+    "whale_rate": 0.0,
+    "count": 178
+  },
+  "7a1f9cd3efce954801d6ab4e9e0cde1a84a637fb": {
+    "buyer_rate": 0.020202020202020204,
+    "avg_rev_d7": 0.1665136210590756,
+    "whale_rate": 0.0,
+    "count": 297
+  },
+  "3e33c362453918afd0426a9824fc635419d2ae28": {
+    "buyer_rate": 0.14606741573033707,
+    "avg_rev_d7": 0.616179775280899,
+    "whale_rate": 0.0,
+    "count": 89
+  },
+  "e7a85281a2e13925cf7f8c7edc46574f82600c2b": {
+    "buyer_rate": 0.3280757097791798,
+    "avg_rev_d7": 1.352186330178759,
+    "whale_rate": 0.0,
+    "count": 317
+  },
+  "999b91f96548d496e4e69ddf2678ed8510c5894d": {
+    "buyer_rate": 0.1686746987951807,
+    "avg_rev_d7": 2.861026732555018,
+    "whale_rate": 0.0,
+    "count": 166
+  },
+  "eca14c024df69e16bd7805d63d049a45029f183d": {
+    "buyer_rate": 0.184375,
+    "avg_rev_d7": 3.825940864418711,
+    "whale_rate": 0.0,
+    "count": 320
+  },
+  "610dfe6c2bbc200ef283614339312595688ca896": {
+    "buyer_rate": 0.08888888888888889,
+    "avg_rev_d7": 5.464363186235775,
+    "whale_rate": 0.0,
+    "count": 2430
+  },
+  "78f87893993867d2ac0b094596408d3199fe0f69": {
+    "buyer_rate": 0.8361998361998362,
+    "avg_rev_d7": 52.3153433132458,
+    "whale_rate": 0.0,
+    "count": 1221
+  },
+  "e3fc6d241dae07af4f25ee8e39e0d5f9fc85e3ca": {
+    "buyer_rate": 0.017857142857142856,
+    "avg_rev_d7": 0.33244047619047623,
+    "whale_rate": 0.0,
+    "count": 168
+  },
+  "7c2178b3765b72dfb04edf6dfdf0b714e7a6448e": {
+    "buyer_rate": 0.33663366336633666,
+    "avg_rev_d7": 17.392970297029702,
+    "whale_rate": 0.0,
+    "count": 101
+  },
+  "57f9abfaf03a95aa29730f61a61d2b208722d6cc": {
+    "buyer_rate": 0.1607717041800643,
+    "avg_rev_d7": 2.4369729443140895,
+    "whale_rate": 0.0,
+    "count": 622
+  },
+  "3ffe21a08d307361a3c3cb1aea018bf92c32ac89": {
+    "buyer_rate": 0.16279069767441862,
+    "avg_rev_d7": 11.86046511627907,
+    "whale_rate": 0.0,
+    "count": 172
+  },
+  "b61faadcd37903a35f01a98acfca53af72444333": {
+    "buyer_rate": 0.052845528455284556,
+    "avg_rev_d7": 1.1210162601626015,
+    "whale_rate": 0.0,
+    "count": 246
+  },
+  "05d7928207037a3a99f248243850728baf8f93c5": {
+    "buyer_rate": 0.09333333333333334,
+    "avg_rev_d7": 0.9723261210909061,
+    "whale_rate": 0.0,
+    "count": 150
+  },
+  "ac686694a32e47f9dac3b9afbf534b9f2b067728": {
+    "buyer_rate": 0.07228915662650602,
+    "avg_rev_d7": 1.2971887550200802,
+    "whale_rate": 0.0,
+    "count": 249
+  },
+  "0fa24faf41de844abf63b739b3a48e58f32688c8": {
+    "buyer_rate": 0.047619047619047616,
+    "avg_rev_d7": 0.34401851118570426,
+    "whale_rate": 0.0,
+    "count": 126
+  },
+  "fc95914d1886dae189ffba8cb359c42ee5858979": {
+    "buyer_rate": 0.09276018099547512,
+    "avg_rev_d7": 1.6066742081447962,
+    "whale_rate": 0.0,
+    "count": 442
+  },
+  "1b712f7cd2f59c04cb5db43a1e4328bc6f8d14a9": {
+    "buyer_rate": 0.20397111913357402,
+    "avg_rev_d7": 1.9911800633742747,
+    "whale_rate": 0.0,
+    "count": 1108
+  },
+  "2cb40154221b77dd2ed071647c596e08e2e3610c": {
+    "buyer_rate": 0.0066815144766146995,
+    "avg_rev_d7": 0.06693302909450191,
+    "whale_rate": 0.0,
+    "count": 449
+  },
+  "0465331242425d40528207bedbc757f28643ebfb": {
+    "buyer_rate": 0.05559105431309904,
+    "avg_rev_d7": 2.1682125642949917,
+    "whale_rate": 0.0,
+    "count": 1565
+  },
+  "1e2b941113f1d36c0502598d3f5dfb31a4768dee": {
+    "buyer_rate": 0.1297709923664122,
+    "avg_rev_d7": 2.658161676439174,
+    "whale_rate": 0.0,
+    "count": 262
+  },
+  "163ffe25c9eb6e1d5702e6ae5e539f9b570bbdf1": {
+    "buyer_rate": 0.2587117212249208,
+    "avg_rev_d7": 16.052658974139824,
+    "whale_rate": 0.0,
+    "count": 947
+  },
+  "8746e9927104e67c276ef2f90d8b4dc4be8b1651": {
+    "buyer_rate": 0.039473684210526314,
+    "avg_rev_d7": 0.2751665739163251,
+    "whale_rate": 0.0,
+    "count": 76
+  },
+  "1b4f2f8a2c519e217a8af98a1ed2d6ebbbad85ca": {
+    "buyer_rate": 0.14173228346456693,
+    "avg_rev_d7": 2.4179485304275046,
+    "whale_rate": 0.0,
+    "count": 381
+  },
+  "612ca753349f31b0adccc950ed444794e01487e2": {
+    "buyer_rate": 0.03933253873659118,
+    "avg_rev_d7": 0.38594902776742157,
+    "whale_rate": 0.0,
+    "count": 839
+  },
+  "5b5586c7f95b909bd31e1c789055d59e3de609f5": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 43
+  },
+  "0942a2c703174ba546e5a016976e46e38a1bed8b": {
+    "buyer_rate": 0.017191601049868766,
+    "avg_rev_d7": 0.13601419947506563,
+    "whale_rate": 0.0,
+    "count": 7620
+  },
+  "8f0b3a9cd0dbe35eac6bdbb0257475cc458df5da": {
+    "buyer_rate": 0.07207207207207207,
+    "avg_rev_d7": 2.4327070837837836,
+    "whale_rate": 0.0,
+    "count": 333
+  },
+  "3454f68acf9b375172f8ab8dc66b5d2f3605a123": {
+    "buyer_rate": 0.138996138996139,
+    "avg_rev_d7": 3.4818382369941894,
+    "whale_rate": 0.0,
+    "count": 259
+  },
+  "47fbc3badeb58e4934fe35ca5439fbf5bb07f3ab": {
+    "buyer_rate": 0.14285714285714285,
+    "avg_rev_d7": 0.4634586458646616,
+    "whale_rate": 0.0,
+    "count": 133
+  },
+  "907999dc70d99f888aa9a3250c72952c1510d7d3": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 30
+  },
+  "827372b778883ecf0290418f4b7d16567f770ea7": {
+    "buyer_rate": 0.10236220472440945,
+    "avg_rev_d7": 1.5486614173228344,
+    "whale_rate": 0.0,
+    "count": 127
+  },
+  "ad6885501d6d7ed85f435f208f9ac3aae6cac1cf": {
+    "buyer_rate": 0.049429657794676805,
+    "avg_rev_d7": 7.642930131672657,
+    "whale_rate": 0.0,
+    "count": 526
+  },
+  "0889f0bf99880b3c3ee888754b9adb0f29031328": {
+    "buyer_rate": 0.45390070921985815,
+    "avg_rev_d7": 7.960260047281324,
+    "whale_rate": 0.0,
+    "count": 423
+  },
+  "c693d40d9985597e2c9fd18e47ab257cd0c0fe79": {
+    "buyer_rate": 0.07853403141361257,
+    "avg_rev_d7": 1.6497905759162304,
+    "whale_rate": 0.0,
+    "count": 191
+  },
+  "6e32c7204dee181947cc3282d8c72956bab43304": {
+    "buyer_rate": 0.19298245614035087,
+    "avg_rev_d7": 1.1533333333333333,
+    "whale_rate": 0.0,
+    "count": 57
+  },
+  "4cacdb67fa696f5393dbac16623225f62563ab14": {
+    "buyer_rate": 0.16165413533834586,
+    "avg_rev_d7": 4.3751296034406195,
+    "whale_rate": 0.0,
+    "count": 266
+  },
+  "51fb515090a7f086e731d6d5214c0893696fb13b": {
+    "buyer_rate": 0.06222222222222222,
+    "avg_rev_d7": 0.5894972328319543,
+    "whale_rate": 0.0,
+    "count": 225
+  },
+  "36accb5f9a42a0a69af11dfe61b20bf1d8b831af": {
+    "buyer_rate": 0.26865671641791045,
+    "avg_rev_d7": 4.431132134328358,
+    "whale_rate": 0.0,
+    "count": 67
+  },
+  "b2011e3fff8b81b49e4be797af66bc363f160403": {
+    "buyer_rate": 0.23943661971830985,
+    "avg_rev_d7": 9.250986777514397,
+    "whale_rate": 0.0,
+    "count": 355
+  },
+  "6b9dc8a0c4590bb569a602bb10a5446c82548e39": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 24
+  },
+  "b2e1d914db15a433472967290b89b6f153db07bb": {
+    "buyer_rate": 0.0384,
+    "avg_rev_d7": 1.0776480000000002,
+    "whale_rate": 0.0,
+    "count": 625
+  },
+  "313d4bfa70bfa1cbaf04e626b8be1ab188a1dfe8": {
+    "buyer_rate": 0.06569343065693431,
+    "avg_rev_d7": 0.7550551813053028,
+    "whale_rate": 0.0,
+    "count": 137
+  },
+  "e47b069c432a6c1165232bac0b573ffbdc3809f5": {
+    "buyer_rate": 0.07142857142857142,
+    "avg_rev_d7": 28.93899378825239,
+    "whale_rate": 0.0,
+    "count": 70
+  },
+  "fdbad3102132dede7e61ae6b5ab05dfa79132efb": {
+    "buyer_rate": 0.026119402985074626,
+    "avg_rev_d7": 0.4475050463102911,
+    "whale_rate": 0.0,
+    "count": 268
+  },
+  "f29f0c1147771f677176d10d130a0618e18b3ee0": {
+    "buyer_rate": 0.07682119205298013,
+    "avg_rev_d7": 1.2439911388556015,
+    "whale_rate": 0.0,
+    "count": 755
+  },
+  "bedb08ebe59f96aaebee814067ffcbca34bd4962": {
+    "buyer_rate": 0.0625,
+    "avg_rev_d7": 0.71990625,
+    "whale_rate": 0.0,
+    "count": 32
+  },
+  "3c66ac910ee4ecbdb8ab4aa777507269feb808ab": {
+    "buyer_rate": 0.0379746835443038,
+    "avg_rev_d7": 5.1522581784635,
+    "whale_rate": 0.0,
+    "count": 79
+  },
+  "ce1bf36a856ec438c43783e48684f1c4e53c2beb": {
+    "buyer_rate": 0.02452316076294278,
+    "avg_rev_d7": 0.1433879078153556,
+    "whale_rate": 0.0,
+    "count": 367
+  },
+  "21a5addd9c6a5c6e3065c88c1849b04e17ed4c23": {
+    "buyer_rate": 0.00322061191626409,
+    "avg_rev_d7": 0.0267413320003848,
+    "whale_rate": 0.0,
+    "count": 621
+  },
+  "e6157d47e505487dfcb6cac8b5a050a070c46612": {
+    "buyer_rate": 0.033268101761252444,
+    "avg_rev_d7": 1.1439921722113504,
+    "whale_rate": 0.0,
+    "count": 511
+  },
+  "11cf63f754df4fec7c030672cbdd5f76dd4f04f0": {
+    "buyer_rate": 0.2755905511811024,
+    "avg_rev_d7": 26.894803149606297,
+    "whale_rate": 0.0,
+    "count": 127
+  },
+  "701171f6a7986f9d7dbd291a8e2611d90ba1e3e9": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 24
+  },
+  "724eea211fde591919f13d4977c7f309f9ba639e": {
+    "buyer_rate": 0.17173913043478262,
+    "avg_rev_d7": 4.993717391304348,
+    "whale_rate": 0.0,
+    "count": 920
+  },
+  "c4099f8be11e938ee71ce9812b35fd7ec35b8749": {
+    "buyer_rate": 0.02,
+    "avg_rev_d7": 17.292263932985062,
+    "whale_rate": 0.0,
+    "count": 150
+  },
+  "51bd77881c1dc75efba6551dd6c9a461c82dd0d3": {
+    "buyer_rate": 0.04807692307692308,
+    "avg_rev_d7": 1.6957885253814136,
+    "whale_rate": 0.0,
+    "count": 208
+  },
+  "ff43edc047a9175a08e1d5cfa8573ac0a4a8b95e": {
+    "buyer_rate": 0.2372093023255814,
+    "avg_rev_d7": 39.23181395348837,
+    "whale_rate": 0.0,
+    "count": 215
+  },
+  "8c7f491a1e3cab4f4b84277ec7c5b88e0c2df060": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 81
+  },
+  "093f53877ebd7ffe844631dcd8702f6dd4d66a1b": {
+    "buyer_rate": 0.002127659574468085,
+    "avg_rev_d7": 0.2496438271337378,
+    "whale_rate": 0.0,
+    "count": 470
+  },
+  "0fa859e87b4d807aafde588751d56481a1fc35ff": {
+    "buyer_rate": 0.08329987956643918,
+    "avg_rev_d7": 11.080470507507076,
+    "whale_rate": 0.0,
+    "count": 4982
+  },
+  "ce4699e37cf97c723eff055651a3d62ffb8e39c4": {
+    "buyer_rate": 0.1415525114155251,
+    "avg_rev_d7": 8.978430511638138,
+    "whale_rate": 0.0,
+    "count": 219
+  },
+  "96a558c1dff981efe410f340e0243638c737cee7": {
+    "buyer_rate": 0.046153846153846156,
+    "avg_rev_d7": 0.4307692307692308,
+    "whale_rate": 0.0,
+    "count": 65
+  },
+  "cadf96a12c2e02b4d4bc73ac501374d45813335a": {
+    "buyer_rate": 0.07482993197278912,
+    "avg_rev_d7": 0.8231073216535301,
+    "whale_rate": 0.0,
+    "count": 588
+  },
+  "0ff27f94893497306c62b647e8f15ef1a6cf8a5a": {
+    "buyer_rate": 0.18575851393188855,
+    "avg_rev_d7": 25.214678165394346,
+    "whale_rate": 0.0,
+    "count": 969
+  },
+  "2a197867717346094d1f6bb8abbcfffc02562f53": {
+    "buyer_rate": 0.043478260869565216,
+    "avg_rev_d7": 0.39760869565217394,
+    "whale_rate": 0.0,
+    "count": 138
+  },
+  "cf31fb823ed0c078dd6460e86c0dff0b71863ebd": {
+    "buyer_rate": 0.034482758620689655,
+    "avg_rev_d7": 3.1413477849526243,
+    "whale_rate": 0.0,
+    "count": 58
+  },
+  "dea47ac34658c241dcae3887ec049d2f68972746": {
+    "buyer_rate": 0.0392156862745098,
+    "avg_rev_d7": 0.7056662841675845,
+    "whale_rate": 0.0,
+    "count": 153
+  },
+  "0ab42c97d204fc15a721a8e1b6a56a4b8fc8b256": {
+    "buyer_rate": 0.1792452830188679,
+    "avg_rev_d7": 1.5715094339622642,
+    "whale_rate": 0.0,
+    "count": 106
+  },
+  "da0c3151f2cd89726f770a89f88c14da2b6f40b2": {
+    "buyer_rate": 0.05172413793103448,
+    "avg_rev_d7": 0.10293103448275862,
+    "whale_rate": 0.0,
+    "count": 58
+  },
+  "5be468854a6fc7b222fc76d512df06a76b45fd70": {
+    "buyer_rate": 0.18637048192771086,
+    "avg_rev_d7": 28.382316908001222,
+    "whale_rate": 0.0,
+    "count": 2656
+  },
+  "c52ddf29c375099fef1e707cb3e425417205e6d9": {
+    "buyer_rate": 0.30612244897959184,
+    "avg_rev_d7": 29.692244897959185,
+    "whale_rate": 0.0,
+    "count": 147
+  },
+  "9261098c3a86290f000e995a4cb88239f7da2d4b": {
+    "buyer_rate": 0.21428571428571427,
+    "avg_rev_d7": 501.27773612571406,
+    "whale_rate": 0.0,
+    "count": 28
+  },
+  "f23ccf0b823d91402e18e43640f12f09c3ceb24d": {
+    "buyer_rate": 0.22018348623853212,
+    "avg_rev_d7": 10.135688073394496,
+    "whale_rate": 0.0,
+    "count": 109
+  },
+  "8480fd182f85305aaa74810976f1dcd5f0aaa982": {
+    "buyer_rate": 0.6440677966101694,
+    "avg_rev_d7": 12.420333997345764,
+    "whale_rate": 0.0,
+    "count": 59
+  },
+  "0680ae55ac7c8170d958b10eff265cba43fb025f": {
+    "buyer_rate": 0.4444444444444444,
+    "avg_rev_d7": 11.42339832371911,
+    "whale_rate": 0.0,
+    "count": 18
+  },
+  "d70c9fe587ae20e32b5b90add7c4640cee44cecc": {
+    "buyer_rate": 0.4444444444444444,
+    "avg_rev_d7": 7.492222222222222,
+    "whale_rate": 0.0,
+    "count": 162
+  },
+  "dc4d0eeed1e737360e62271ccad9654d63c5935e": {
+    "buyer_rate": 0.07017543859649122,
+    "avg_rev_d7": 1.131241818234758,
+    "whale_rate": 0.0,
+    "count": 57
+  },
+  "d0d1f1c4011a6306581b8070e57b519ebe503cef": {
+    "buyer_rate": 0.03571428571428571,
+    "avg_rev_d7": 0.07475,
+    "whale_rate": 0.0,
+    "count": 28
+  },
+  "f3e189fa237e43434858f5dada36d74140c4a236": {
+    "buyer_rate": 0.32142857142857145,
+    "avg_rev_d7": 10.089846004148862,
+    "whale_rate": 0.0,
+    "count": 196
+  },
+  "7faa1fa25b0f60f73436235d677a2c6b90bac169": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 17
+  },
+  "c05e42197ad278072f599ae2c5dbd199787d735f": {
+    "buyer_rate": 0.07407407407407407,
+    "avg_rev_d7": 1.557777777777778,
+    "whale_rate": 0.0,
+    "count": 27
+  },
+  "a4b637db2d0e16f6dccc8fbd41975ee665711ee1": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "82635dd833a3cb99d869931978df3a199addb9bc": {
+    "buyer_rate": 0.010638297872340425,
+    "avg_rev_d7": 0.21960449443258398,
+    "whale_rate": 0.0,
+    "count": 94
+  },
+  "4c3bbda894ef365d45ed06f55cad05e06db9bb0c": {
+    "buyer_rate": 0.20736434108527133,
+    "avg_rev_d7": 2.452301064587624,
+    "whale_rate": 0.0,
+    "count": 516
+  },
+  "3563416a22b3d1b50a56b484c229183dc468f010": {
+    "buyer_rate": 0.09659090909090909,
+    "avg_rev_d7": 1.1590909090909092,
+    "whale_rate": 0.0,
+    "count": 176
+  },
+  "cc89875146b1ed14bfa9b45953ddcf05ccd3d96f": {
+    "buyer_rate": 0.13366336633663367,
+    "avg_rev_d7": 1.8327141438957868,
+    "whale_rate": 0.0,
+    "count": 202
+  },
+  "2ca7d58a0ab66f1cd309171575fc579b4bd57541": {
+    "buyer_rate": 0.13445378151260504,
+    "avg_rev_d7": 3.0598697478991594,
+    "whale_rate": 0.0,
+    "count": 119
+  },
+  "e6d3e74a738044c07d573da5cecc020baa8725e7": {
+    "buyer_rate": 0.16091954022988506,
+    "avg_rev_d7": 2.8397878657731077,
+    "whale_rate": 0.0,
+    "count": 87
+  },
+  "149f2fbbcbc6198f093b2b6ca977bfebfc7482dc": {
+    "buyer_rate": 0.0375,
+    "avg_rev_d7": 0.028192487151824996,
+    "whale_rate": 0.0,
+    "count": 80
+  },
+  "a975dc1e250b0e27ca48fe56070486678b20565b": {
+    "buyer_rate": 0.17889908256880735,
+    "avg_rev_d7": 17.243119266055047,
+    "whale_rate": 0.0,
+    "count": 218
+  },
+  "bcd8e8a383c7b28a4ef90510d93a8eabef6e61f7": {
+    "buyer_rate": 0.10084033613445378,
+    "avg_rev_d7": 1.757323361344538,
+    "whale_rate": 0.0,
+    "count": 119
+  },
+  "45f307f24f48881f6aef5ad54fc9795046c2a0f3": {
+    "buyer_rate": 0.05555555555555555,
+    "avg_rev_d7": 0.055,
+    "whale_rate": 0.0,
+    "count": 18
+  },
+  "466838420044925fa1340ba19ebc84b6c2ba0eaf": {
+    "buyer_rate": 0.543859649122807,
+    "avg_rev_d7": 1.9235991861052966,
+    "whale_rate": 0.0,
+    "count": 57
+  },
+  "4d1f344e7dfe452b8a0c14378bb9e2ef28bbcb52": {
+    "buyer_rate": 0.09090909090909091,
+    "avg_rev_d7": 1.7571587422580368,
+    "whale_rate": 0.0,
+    "count": 121
+  },
+  "63749bb8ee31245f034c10f73fa826f279b14315": {
+    "buyer_rate": 0.10309278350515463,
+    "avg_rev_d7": 1.34523677296385,
+    "whale_rate": 0.0,
+    "count": 97
+  },
+  "d0c3396b772fe861e16dd851ec47fb2fed6d3d8c": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "a67ec69aa66556a08b68acac560b43237f3257bf": {
+    "buyer_rate": 0.05357142857142857,
+    "avg_rev_d7": 1.0521428571428573,
+    "whale_rate": 0.0,
+    "count": 56
+  },
+  "2ad36e014c42e5d0de4cde53006019ae50cca404": {
+    "buyer_rate": 0.07936507936507936,
+    "avg_rev_d7": 2.9802298445767295,
+    "whale_rate": 0.0,
+    "count": 441
+  },
+  "1bb185abf22f02aafcebb9727eab3e6bf4120523": {
+    "buyer_rate": 0.05142857142857143,
+    "avg_rev_d7": 0.8654626482328658,
+    "whale_rate": 0.0,
+    "count": 175
+  },
+  "160a2202735c7896886ac7f91cc45090c48355fb": {
+    "buyer_rate": 0.07142857142857142,
+    "avg_rev_d7": 1.9244654530051122,
+    "whale_rate": 0.0,
+    "count": 14
+  },
+  "ff6fc4af417dcd274b17d7cce2a8dbd61c68722c": {
+    "buyer_rate": 0.14255014326647564,
+    "avg_rev_d7": 1.0838632018593295,
+    "whale_rate": 0.0,
+    "count": 1396
+  },
+  "895e1e691ebeb650ce743c20d7ef461b7d5d3ac2": {
+    "buyer_rate": 0.06741573033707865,
+    "avg_rev_d7": 1.1636770356022403,
+    "whale_rate": 0.0,
+    "count": 178
+  },
+  "bbb0c9795318a0e88d650b805ce83de98ecb6f9f": {
+    "buyer_rate": 0.0016806722689075631,
+    "avg_rev_d7": 0.01130255809846125,
+    "whale_rate": 0.0,
+    "count": 595
+  },
+  "35d30f1da6207642e86404f1d75a9ba418759ba8": {
+    "buyer_rate": 0.02127659574468085,
+    "avg_rev_d7": 0.5964646742793271,
+    "whale_rate": 0.0,
+    "count": 141
+  },
+  "ec6b8cc9950c400dbd2fe79daa95c03fb1b198e4": {
+    "buyer_rate": 0.46511627906976744,
+    "avg_rev_d7": 93.01860465116279,
+    "whale_rate": 0.0,
+    "count": 43
+  },
+  "a08876ee328ec647a6fb7abfbebdf353bc301dc2": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 14
+  },
+  "1512e814111d12937d7039a02782753ec2c147b6": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 13
+  },
+  "1bff474d02e8ef86c953b78862eb75e7159ab475": {
+    "buyer_rate": 0.08163265306122448,
+    "avg_rev_d7": 26.877551020408177,
+    "whale_rate": 0.0,
+    "count": 49
+  },
+  "c210d8c3b18bba3b500a34e45019d1f4b000bd06": {
+    "buyer_rate": 0.09051724137931035,
+    "avg_rev_d7": 0.9538451970590623,
+    "whale_rate": 0.0,
+    "count": 232
+  },
+  "9f26a5720b46cd187ed4e388d23fc2125e62fbf4": {
+    "buyer_rate": 0.11023622047244094,
+    "avg_rev_d7": 2.2755905511811023,
+    "whale_rate": 0.0,
+    "count": 127
+  },
+  "5f38d0052a3ad2c7cf465f4ee909b98cb4432bdc": {
+    "buyer_rate": 0.02127659574468085,
+    "avg_rev_d7": 0.6808510638297872,
+    "whale_rate": 0.0,
+    "count": 47
+  },
+  "bb16ed8e90fb7d67e0d4ff4f8f74a926be64405b": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 32
+  },
+  "bb688fa8c8751baf9a21132935ff17c416b2cddc": {
+    "buyer_rate": 0.20212765957446807,
+    "avg_rev_d7": 7.476701699822119,
+    "whale_rate": 0.0,
+    "count": 94
+  },
+  "f90c9a8cca6f5f577e382ec4dbb03c7dcbc8682d": {
+    "buyer_rate": 0.13636363636363635,
+    "avg_rev_d7": 0.25327272727272726,
+    "whale_rate": 0.0,
+    "count": 22
+  },
+  "da422780c3212a970b2f26e48f1685dc937248b8": {
+    "buyer_rate": 0.10344827586206896,
+    "avg_rev_d7": 5.3303527813257885,
+    "whale_rate": 0.0,
+    "count": 232
+  },
+  "ae9c0441f817fefa46c6a1bbc5bbffb6d51536f6": {
+    "buyer_rate": 0.1346153846153846,
+    "avg_rev_d7": 1.658122,
+    "whale_rate": 0.0,
+    "count": 104
+  },
+  "67ed45d8ffebe72506bc65fbb328e7b017c7ba17": {
+    "buyer_rate": 0.45454545454545453,
+    "avg_rev_d7": 111.01073511299938,
+    "whale_rate": 0.0,
+    "count": 11
+  },
+  "c0ffef134ff6b0b194ce6afaae66b6353e83cd91": {
+    "buyer_rate": 0.022408963585434174,
+    "avg_rev_d7": 0.29361344537815126,
+    "whale_rate": 0.0,
+    "count": 357
+  },
+  "d3e466627444736804a6a26ddd230f085b67d70f": {
+    "buyer_rate": 0.041379310344827586,
+    "avg_rev_d7": 1.4242758620689653,
+    "whale_rate": 0.0,
+    "count": 290
+  },
+  "0dd8385b2926947fdc69dc7f3e7238fe13cfcde9": {
+    "buyer_rate": 0.06956521739130435,
+    "avg_rev_d7": 0.4690955960499963,
+    "whale_rate": 0.0,
+    "count": 115
+  },
+  "d8bd8d23ab1ae38436dc4cfc3d1a0e836c17f0f3": {
+    "buyer_rate": 0.225531914893617,
+    "avg_rev_d7": 8.382338658268008,
+    "whale_rate": 0.0,
+    "count": 235
+  },
+  "269d3dfc9b01152fa8688026118eb1144ff6328a": {
+    "buyer_rate": 0.17159763313609466,
+    "avg_rev_d7": 5.621716320442622,
+    "whale_rate": 0.0,
+    "count": 169
+  },
+  "bec24434abe96ba47f928b60feeed38e3e065f37": {
+    "buyer_rate": 0.04794520547945205,
+    "avg_rev_d7": 0.4748630136986301,
+    "whale_rate": 0.0,
+    "count": 146
+  },
+  "494e40d1358f35e87c007ddb52aabf2e700c3fd5": {
+    "buyer_rate": 0.038834951456310676,
+    "avg_rev_d7": 0.8349514563106796,
+    "whale_rate": 0.0,
+    "count": 103
+  },
+  "48239fc9a6cb329aecfbe9d6146f0140ac0fb686": {
+    "buyer_rate": 0.011235955056179775,
+    "avg_rev_d7": 0.02247191011235955,
+    "whale_rate": 0.0,
+    "count": 89
+  },
+  "22e6bfe3e801c711bcbecc048ae70335088a7d71": {
+    "buyer_rate": 0.1652892561983471,
+    "avg_rev_d7": 4.814394269546421,
+    "whale_rate": 0.0,
+    "count": 121
+  },
+  "826b9c167b82806a689e6e66dc1bebbf519b1579": {
+    "buyer_rate": 0.030303030303030304,
+    "avg_rev_d7": 0.27232323232323236,
+    "whale_rate": 0.0,
+    "count": 99
+  },
+  "9d0fe01acd19e6dda955f06f86fb6357ef1f7fe5": {
+    "buyer_rate": 0.04201680672268908,
+    "avg_rev_d7": 0.1761060210526729,
+    "whale_rate": 0.0,
+    "count": 119
+  },
+  "e08a3c886387e12d6e9e1033b65349c4f972f9c6": {
+    "buyer_rate": 0.01098901098901099,
+    "avg_rev_d7": 0.004835164835164835,
+    "whale_rate": 0.0,
+    "count": 91
+  },
+  "96574690a33882a41e6187691a3272e26ccb173b": {
+    "buyer_rate": 0.34959349593495936,
+    "avg_rev_d7": 5.5750718272451865,
+    "whale_rate": 0.0,
+    "count": 123
+  },
+  "f98ffe972f52d846630730f411c01bf332978138": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 18
+  },
+  "f99abf843f43835499210af4e79590349b45cddf": {
+    "buyer_rate": 0.27586206896551724,
+    "avg_rev_d7": 5.955862068965517,
+    "whale_rate": 0.0,
+    "count": 29
+  },
+  "5ae95257bee2492852843a4f82824acb47cb00ec": {
+    "buyer_rate": 0.4025974025974026,
+    "avg_rev_d7": 15.868558269934203,
+    "whale_rate": 0.0,
+    "count": 77
+  },
+  "de5171ef3b7ce8f01c1d822cf2a04e015928c031": {
+    "buyer_rate": 0.48333333333333334,
+    "avg_rev_d7": 11.710248471858376,
+    "whale_rate": 0.0,
+    "count": 120
+  },
+  "864ad1d4c690ce937d29f0f5b0693158e7e22a50": {
+    "buyer_rate": 0.08433734939759036,
+    "avg_rev_d7": 1.2015232704540535,
+    "whale_rate": 0.0,
+    "count": 83
+  },
+  "0dda2ffa8457b209299219bc5e9e972c83b845cd": {
+    "buyer_rate": 0.1,
+    "avg_rev_d7": 0.6,
+    "whale_rate": 0.0,
+    "count": 10
+  },
+  "ef6884ddbca1c6afd657d9a3703d38ed3a9b875c": {
+    "buyer_rate": 0.05714285714285714,
+    "avg_rev_d7": 0.6007683495253879,
+    "whale_rate": 0.0,
+    "count": 35
+  },
+  "990f41f847a0a67043cfed5a7410feb705ad39f4": {
+    "buyer_rate": 0.25,
+    "avg_rev_d7": 7.125,
+    "whale_rate": 0.0,
+    "count": 8
+  },
+  "a149ecf8f6c0914c6ebaf6f63d65777a273a33ae": {
+    "buyer_rate": 0.10843373493975904,
+    "avg_rev_d7": 4.334096385542169,
+    "whale_rate": 0.0,
+    "count": 83
+  },
+  "68b661888cd30face3561676ce4b13f13fec40a9": {
+    "buyer_rate": 0.21428571428571427,
+    "avg_rev_d7": 1.8485714285714285,
+    "whale_rate": 0.0,
+    "count": 14
+  },
+  "1dd53fbdb91878dd84ddacc45799e52c81f7274c": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 38
+  },
+  "6dac6039c95d225c170adc05723156d6b676ac44": {
+    "buyer_rate": 0.3783783783783784,
+    "avg_rev_d7": 21.156238542346035,
+    "whale_rate": 0.0,
+    "count": 37
+  },
+  "1a866e7dffc4be3a3adbe58dbf46a1ccc7d84e9d": {
+    "buyer_rate": 0.4298245614035088,
+    "avg_rev_d7": 23.26243090460133,
+    "whale_rate": 0.0,
+    "count": 114
+  },
+  "8bbd2caa44c107f04724739b77216ff7868f940e": {
+    "buyer_rate": 0.17355371900826447,
+    "avg_rev_d7": 6.515508993993965,
+    "whale_rate": 0.0,
+    "count": 363
+  },
+  "e8d7b87eaf9a4622d2fd7457e24d76e5014cde56": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "e91db1343703e53d9f62cd510ba6dbea92274d0f": {
+    "buyer_rate": 0.11320754716981132,
+    "avg_rev_d7": 75.036,
+    "whale_rate": 0.0,
+    "count": 53
+  },
+  "6c5a1c0f877423f16b48d1f31cecf92e56e4de29": {
+    "buyer_rate": 0.05555555555555555,
+    "avg_rev_d7": 15.83111111111111,
+    "whale_rate": 0.0,
+    "count": 18
+  },
+  "83c135851c6bd27a127479d4577b5e637cacb604": {
+    "buyer_rate": 0.22580645161290322,
+    "avg_rev_d7": 24.99022909806452,
+    "whale_rate": 0.0,
+    "count": 31
+  },
+  "bca7f804db9a11cbf2bbd4f2fa48bd17b198a567": {
+    "buyer_rate": 0.07142857142857142,
+    "avg_rev_d7": 0.7135714285714286,
+    "whale_rate": 0.0,
+    "count": 14
+  },
+  "3ded77f26545802d8fe2c7ffcfc5c1c967c0de1f": {
+    "buyer_rate": 0.11538461538461539,
+    "avg_rev_d7": 7.504028021538461,
+    "whale_rate": 0.0,
+    "count": 26
+  },
+  "f8eb3eb883bfe086f8033d39118104fa6f7af0da": {
+    "buyer_rate": 0.38461538461538464,
+    "avg_rev_d7": 54.61692369901217,
+    "whale_rate": 0.0,
+    "count": 13
+  },
+  "a929e6575899adf1dfd92e34866ade0f01450d45": {
+    "buyer_rate": 0.1388888888888889,
+    "avg_rev_d7": 11.575277777777778,
+    "whale_rate": 0.0,
+    "count": 36
+  },
+  "a1a85a2da37c1295ee42b9ca2bfa2a23f909a022": {
+    "buyer_rate": 0.05442176870748299,
+    "avg_rev_d7": 4.8358185006923575,
+    "whale_rate": 0.0,
+    "count": 147
+  },
+  "c9faff6e79fe3391994ae3608b6a374bccacf258": {
+    "buyer_rate": 0.09090909090909091,
+    "avg_rev_d7": 5.909090909090909,
+    "whale_rate": 0.0,
+    "count": 11
+  },
+  "e743041f21e0c054e23f5e1ee5ae00457c4648db": {
+    "buyer_rate": 0.34,
+    "avg_rev_d7": 99.6729248164001,
+    "whale_rate": 0.0,
+    "count": 50
+  },
+  "c2c83cafcdef857296fcfa17495d9d22f667ff42": {
+    "buyer_rate": 0.13043478260869565,
+    "avg_rev_d7": 0.5781058983569937,
+    "whale_rate": 0.0,
+    "count": 23
+  },
+  "7471e93012019981df6d9e5e776585512bd7cb79": {
+    "buyer_rate": 0.06666666666666667,
+    "avg_rev_d7": 0.2,
+    "whale_rate": 0.0,
+    "count": 15
+  },
+  "8c161269866e492e7ebb2c99a7ab9c6983b2fffa": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "8ebf2f1a99e2be04923dfce577535fe683fdf613": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "ab09b3ca7083fc5d9bf5f9a7b19a2581057a52f5": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "7e473b9b74866db7c3b870a652908271f485f6c2": {
+    "buyer_rate": 0.8888888888888888,
+    "avg_rev_d7": 3.1224365589690666,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "69a2ac6975d9085fecbeb65bf12b75e166966023": {
+    "buyer_rate": 0.391304347826087,
+    "avg_rev_d7": 4.017685370222724,
+    "whale_rate": 0.0,
+    "count": 23
+  },
+  "b49bf06b3ad675ca20f73b263c8a511c63e7679b": {
+    "buyer_rate": 0.11764705882352941,
+    "avg_rev_d7": 0.16388235294117648,
+    "whale_rate": 0.0,
+    "count": 17
+  },
+  "893ec9b27a7ee91f447dd17452833a38bf2c5514": {
+    "buyer_rate": 0.05128205128205128,
+    "avg_rev_d7": 0.15559412988761037,
+    "whale_rate": 0.0,
+    "count": 39
+  },
+  "83d9a1e8b103cba4dcfb514b7bbcf04748b8f327": {
+    "buyer_rate": 0.16666666666666666,
+    "avg_rev_d7": 9.4787487,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "bae01076042df7036d18293fad11b28937b508ce": {
+    "buyer_rate": 0.6666666666666666,
+    "avg_rev_d7": 1005.6853368126667,
+    "whale_rate": 0.0,
+    "count": 15
+  },
+  "23177482ef3642f065e9cd7a9245d9e1330032ef": {
+    "buyer_rate": 0.21428571428571427,
+    "avg_rev_d7": 9.01269889512263,
+    "whale_rate": 0.0,
+    "count": 14
+  },
+  "60b99fd665c53c247968c1c5676f1b1fad8b2253": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "a4602a2b3edff0f51abc58bf183a8e950a3d0205": {
+    "buyer_rate": 0.08333333333333333,
+    "avg_rev_d7": 0.4166666666666667,
+    "whale_rate": 0.0,
+    "count": 12
+  },
+  "79d14a489ce52380b4edf72cdb1bd55ad9e891b7": {
+    "buyer_rate": 0.2,
+    "avg_rev_d7": 1.0,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "051ab84aca3b25431b0c5a0e3ccc5787389a571c": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "424f4c72a9d043ccd9dde51c4db7e3527e4aa3ca": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "f2b67cb54aa11c77c046a1316858e173a5eaaa2d": {
+    "buyer_rate": 0.5964912280701754,
+    "avg_rev_d7": 1.8759687979176327,
+    "whale_rate": 0.0,
+    "count": 57
+  },
+  "161389e05066f7ea7cbf666d65bc238dca44a4fd": {
+    "buyer_rate": 0.4,
+    "avg_rev_d7": 46.5,
+    "whale_rate": 0.0,
+    "count": 10
+  },
+  "d8787d48eb424e449d0704d17f49de5c4e0ad320": {
+    "buyer_rate": 0.35,
+    "avg_rev_d7": 2.3338890211955228,
+    "whale_rate": 0.0,
+    "count": 20
+  },
+  "d432d3b7f1dceb61dad95b78d0769a24b60ecaf3": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 33
+  },
+  "962243d4635792e03ba5391e4ed5d8c1b32221e9": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "fa390c3eb23991a47d273f92d2075a88e17ffe6c": {
+    "buyer_rate": 0.2857142857142857,
+    "avg_rev_d7": 0.6804341169666247,
+    "whale_rate": 0.0,
+    "count": 7
+  },
+  "c2bf8a7f6efd18724c6c5c0950929dcd9020da44": {
+    "buyer_rate": 0.6351351351351351,
+    "avg_rev_d7": 2.516686727213043,
+    "whale_rate": 0.0,
+    "count": 74
+  },
+  "f51b88a89729d369915eb1870de0804820da3db9": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "c698f7c56d1ca73b4992dc0170bb948a49921e47": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "ca45c2096b9b5f5022b8c14a2cfcf7a4fb27b2ea": {
+    "buyer_rate": 0.16666666666666666,
+    "avg_rev_d7": 0.8333333333333334,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "487e11c0796b8d67e2a10a61692b8b2fe9037aa6": {
+    "buyer_rate": 0.125,
+    "avg_rev_d7": 0.422102170111677,
+    "whale_rate": 0.0,
+    "count": 8
+  },
+  "57c0d41225be8c5d9eba066ade80629fdf86818e": {
+    "buyer_rate": 0.3333333333333333,
+    "avg_rev_d7": 3.1753592125109154,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "a1e1bf1809da7442d76a5c3ce4b11d9c3427ed7f": {
+    "buyer_rate": 0.18181818181818182,
+    "avg_rev_d7": 3.661363636363636,
+    "whale_rate": 0.0,
+    "count": 11
+  },
+  "70e16499ea5e013bd875b76d4ea17503fa664b02": {
+    "buyer_rate": 0.16666666666666666,
+    "avg_rev_d7": 3.598333333333333,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "65e44516720c5be8dda2f990426cc724a5e44bb3": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "7d4b9488caf46223945d1057a90564a5efec1a17": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "4ceeb1adbbc4eb30f3272607defadde9d23a0bd0": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "4e093b714b654cef1452cb1d46d0729fb8bb92e9": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "edf0ec1e1e5c43b582d2771e78c7e334a6dcc26d": {
+    "buyer_rate": 0.5,
+    "avg_rev_d7": 4.25,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "3dfbcf5644c88977ec6a42870d1000a54cafb6e2": {
+    "buyer_rate": 0.25,
+    "avg_rev_d7": 25.445,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "fdc1974823e690e3cf6411e9c514313bafe32fa8": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "fb4d27198b2805646272645aa2e0d2d637502930": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "2e53e8c9223d7ecdb075e581f1009d1f71d06409": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "15a0ffa4f6eee1f2555e20431e8bd92a2cac871d": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "3300dbcf1de4789305e5694b8810ed9de1a77b5a": {
+    "buyer_rate": 0.1111111111111111,
+    "avg_rev_d7": 5.126233499935922,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "e84f35083e0b5fee3c26b57fd50332d5c89eead3": {
+    "buyer_rate": 0.3333333333333333,
+    "avg_rev_d7": 3.9933333333333336,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "ccf07d97d5afa882d8d2fb06f21bf90a010e7d05": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "3741ce009015ea63a1a43670c9c3b96fcac8275e": {
+    "buyer_rate": 0.2,
+    "avg_rev_d7": 1.798,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "365ed6c710bbee7e53e02dd112ce1fd831f7f17f": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "7ebee8ff057bd411656141cc17a3335e4c603632": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 11
+  },
+  "c3bd10047f508c252999052551b20cc944a23ff9": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "9289573552927c2b8a58f4339adc49d05d215caf": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "2a9f33c2579599f0776682ea1cdf419b4be62924": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "ca2e27260466b82f2f82cab281f0ef1d1d5a7291": {
+    "buyer_rate": 0.125,
+    "avg_rev_d7": 37.383750200271606,
+    "whale_rate": 0.0,
+    "count": 8
+  },
+  "d7ac46b10adb764fee78401512a1900fa6c0569f": {
+    "buyer_rate": 0.5714285714285714,
+    "avg_rev_d7": 28.407079302171415,
+    "whale_rate": 0.0,
+    "count": 7
+  },
+  "a5daeec0b72f24b6c5f9f603d0babed459e96780": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "adf9d64e0532d3acaf773b835e9ae615778f2368": {
+    "buyer_rate": 1.0,
+    "avg_rev_d7": 23.475831398817235,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "a5120b763ef41ea67a5d366d20afd4da1d5e4b9b": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "0dd1db810dc78e2193171fb1b3d506d54e4644df": {
+    "buyer_rate": 1.0,
+    "avg_rev_d7": 14.99,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "2864cbc5802e7f06a5e5bf599f606c9956fcc257": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "4f42125ff2ad23bb2e616e49fa592d063ce33980": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "087df1e3f9e057f6ba4e499739cb84c9b14def56": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "ef9bb2d0f017513c29bae828be281a1ddba51abd": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "15cf9fd66952c67bb18174ac3d56febef313124e": {
+    "buyer_rate": 0.5,
+    "avg_rev_d7": 14.755843785408945,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "043e7afcff7b4d32c26182a10fc1f518c845839a": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "f39a475de8219922b4292f1bfab9209eed12ee3c": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  }
+}

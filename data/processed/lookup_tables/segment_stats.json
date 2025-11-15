@@ -1,0 +1,2822 @@
+{
+  "us_android": {
+    "buyer_rate": 0.08649076108445669,
+    "avg_rev_d7": 1.741901873290756,
+    "whale_rate": 0.0,
+    "count": 245321
+  },
+  "ar_android": {
+    "buyer_rate": 0.01948070334399864,
+    "avg_rev_d7": 0.20991295997480527,
+    "whale_rate": 0.0,
+    "count": 35317
+  },
+  "us_ios": {
+    "buyer_rate": 0.0540288917989851,
+    "avg_rev_d7": 2.100580666890172,
+    "whale_rate": 0.0,
+    "count": 293232
+  },
+  "ye_android": {
+    "buyer_rate": 0.003678273663560569,
+    "avg_rev_d7": 0.11437984437722627,
+    "whale_rate": 0.0,
+    "count": 4078
+  },
+  "de_android": {
+    "buyer_rate": 0.0805281578110086,
+    "avg_rev_d7": 2.7815798889033934,
+    "whale_rate": 0.0,
+    "count": 31430
+  },
+  "my_android": {
+    "buyer_rate": 0.010265272977137384,
+    "avg_rev_d7": 0.09900358224464982,
+    "whale_rate": 0.0,
+    "count": 48026
+  },
+  "in_android": {
+    "buyer_rate": 0.007938797833033322,
+    "avg_rev_d7": 0.3451365237129163,
+    "whale_rate": 0.0,
+    "count": 464428
+  },
+  "bd_android": {
+    "buyer_rate": 0.007360566301456333,
+    "avg_rev_d7": 0.22939464235254986,
+    "whale_rate": 0.0,
+    "count": 88716
+  },
+  "cr_android": {
+    "buyer_rate": 0.026527871054398924,
+    "avg_rev_d7": 0.35636150509801273,
+    "whale_rate": 0.0,
+    "count": 2978
+  },
+  "za_android": {
+    "buyer_rate": 0.023458282950423216,
+    "avg_rev_d7": 0.2372309685176635,
+    "whale_rate": 0.0,
+    "count": 24810
+  },
+  "ru_ios": {
+    "buyer_rate": 0.11525663002924272,
+    "avg_rev_d7": 11.012255886052184,
+    "whale_rate": 0.0,
+    "count": 9917
+  },
+  "mx_android": {
+    "buyer_rate": 0.030158203341077553,
+    "avg_rev_d7": 0.3526831545724589,
+    "whale_rate": 0.0,
+    "count": 90390
+  },
+  "ec_android": {
+    "buyer_rate": 0.026251200512218548,
+    "avg_rev_d7": 0.5985455816386681,
+    "whale_rate": 0.0,
+    "count": 9371
+  },
+  "kr_android": {
+    "buyer_rate": 0.049722961790314456,
+    "avg_rev_d7": 13.73065285984479,
+    "whale_rate": 7.195797654169965e-05,
+    "count": 13897
+  },
+  "id_android": {
+    "buyer_rate": 0.030620311987813578,
+    "avg_rev_d7": 1.6320463864576311,
+    "whale_rate": 9.6411561674476e-06,
+    "count": 103722
+  },
+  "uz_android": {
+    "buyer_rate": 0.020542664577582134,
+    "avg_rev_d7": 0.5940610774390248,
+    "whale_rate": 0.0,
+    "count": 40209
+  },
+  "br_android": {
+    "buyer_rate": 0.034157543867472294,
+    "avg_rev_d7": 0.343039966316752,
+    "whale_rate": 0.0,
+    "count": 134553
+  },
+  "do_android": {
+    "buyer_rate": 0.01118133203694701,
+    "avg_rev_d7": 0.39135297365825605,
+    "whale_rate": 0.0,
+    "count": 4114
+  },
+  "gm_android": {
+    "buyer_rate": 0.010328997704667177,
+    "avg_rev_d7": 0.0025488999769792448,
+    "whale_rate": 0.0,
+    "count": 5228
+  },
+  "eg_android": {
+    "buyer_rate": 0.01729150524175657,
+    "avg_rev_d7": 0.09292616706537157,
+    "whale_rate": 0.0,
+    "count": 150999
+  },
+  "pk_ios": {
+    "buyer_rate": 0.0252779046748896,
+    "avg_rev_d7": 0.03421249591920136,
+    "whale_rate": 0.0,
+    "count": 6567
+  },
+  "ci_android": {
+    "buyer_rate": 0.03669019498217905,
+    "avg_rev_d7": 0.015158230081601672,
+    "whale_rate": 0.0,
+    "count": 42927
+  },
+  "ma_android": {
+    "buyer_rate": 0.007109561018142795,
+    "avg_rev_d7": 0.09443583022036198,
+    "whale_rate": 0.0,
+    "count": 29819
+  },
+  "cn_android": {
+    "buyer_rate": 0.008403361344537815,
+    "avg_rev_d7": 5.7538950291564355,
+    "whale_rate": 0.0,
+    "count": 4522
+  },
+  "fr_ios": {
+    "buyer_rate": 0.1150997150997151,
+    "avg_rev_d7": 5.7280473099420925,
+    "whale_rate": 0.0,
+    "count": 10530
+  },
+  "py_android": {
+    "buyer_rate": 0.016151202749140895,
+    "avg_rev_d7": 0.11457480315798739,
+    "whale_rate": 0.0,
+    "count": 2910
+  },
+  "cl_android": {
+    "buyer_rate": 0.03857597209397763,
+    "avg_rev_d7": 11.839550830946816,
+    "whale_rate": 5.129783523135324e-05,
+    "count": 19494
+  },
+  "pl_android": {
+    "buyer_rate": 0.07331696041606472,
+    "avg_rev_d7": 2.0173663448213586,
+    "whale_rate": 0.0,
+    "count": 13844
+  },
+  "ca_ios": {
+    "buyer_rate": 0.09940944881889764,
+    "avg_rev_d7": 3.0323765178360675,
+    "whale_rate": 0.0,
+    "count": 3048
+  },
+  "ru_android": {
+    "buyer_rate": 0.01775486083150416,
+    "avg_rev_d7": 0.542268732837488,
+    "whale_rate": 0.0,
+    "count": 76993
+  },
+  "vn_android": {
+    "buyer_rate": 0.009468362187835146,
+    "avg_rev_d7": 0.8619615994499815,
+    "whale_rate": 0.0,
+    "count": 32635
+  },
+  "sg_android": {
+    "buyer_rate": 0.0028180247241791838,
+    "avg_rev_d7": 0.11667577839295984,
+    "whale_rate": 0.0,
+    "count": 37615
+  },
+  "sa_android": {
+    "buyer_rate": 0.02163879851706136,
+    "avg_rev_d7": 2.4708453030215716,
+    "whale_rate": 0.0,
+    "count": 13217
+  },
+  "th_android": {
+    "buyer_rate": 0.018296085996457257,
+    "avg_rev_d7": 1.903472522346917,
+    "whale_rate": 0.0,
+    "count": 41211
+  },
+  "dz_android": {
+    "buyer_rate": 0.013199914839259102,
+    "avg_rev_d7": 0.08315252756017003,
+    "whale_rate": 0.0,
+    "count": 23485
+  },
+  "gt_android": {
+    "buyer_rate": 0.011305822498586773,
+    "avg_rev_d7": 1.465000506518747,
+    "whale_rate": 0.0,
+    "count": 7076
+  },
+  "vn_ios": {
+    "buyer_rate": 0.006739959118280758,
+    "avg_rev_d7": 0.09855938136297199,
+    "whale_rate": 0.0,
+    "count": 18101
+  },
+  "ph_android": {
+    "buyer_rate": 0.00646056336112509,
+    "avg_rev_d7": 0.11232262951696602,
+    "whale_rate": 0.0,
+    "count": 73523
+  },
+  "ar_ios": {
+    "buyer_rate": 0.01053639846743295,
+    "avg_rev_d7": 0.4689473402926197,
+    "whale_rate": 0.0,
+    "count": 4176
+  },
+  "th_ios": {
+    "buyer_rate": 0.017026243761069072,
+    "avg_rev_d7": 0.46991508462049825,
+    "whale_rate": 0.0,
+    "count": 24844
+  },
+  "pk_android": {
+    "buyer_rate": 0.013586282378693908,
+    "avg_rev_d7": 0.19401976881961436,
+    "whale_rate": 0.0,
+    "count": 68525
+  },
+  "br_ios": {
+    "buyer_rate": 0.058617511520737325,
+    "avg_rev_d7": 1.399104552127801,
+    "whale_rate": 0.0,
+    "count": 10850
+  },
+  "jp_android": {
+    "buyer_rate": 0.09713574097135741,
+    "avg_rev_d7": 3.4981871436287393,
+    "whale_rate": 0.0,
+    "count": 16060
+  },
+  "ug_android": {
+    "buyer_rate": 0.00686452654956592,
+    "avg_rev_d7": 1.3855389662830608,
+    "whale_rate": 0.0,
+    "count": 4953
+  },
+  "eg_ios": {
+    "buyer_rate": 0.08262108262108261,
+    "avg_rev_d7": 0.8777386952935209,
+    "whale_rate": 0.0,
+    "count": 1755
+  },
+  "co_android": {
+    "buyer_rate": 0.039547416682306887,
+    "avg_rev_d7": 46.12919729178464,
+    "whale_rate": 0.00010724723168083223,
+    "count": 37297
+  },
+  "ca_android": {
+    "buyer_rate": 0.02259590120861797,
+    "avg_rev_d7": 0.4298195047549459,
+    "whale_rate": 0.0,
+    "count": 49478
+  },
+  "au_ios": {
+    "buyer_rate": 0.10797491039426524,
+    "avg_rev_d7": 4.273873723147232,
+    "whale_rate": 0.0,
+    "count": 2232
+  },
+  "gb_android": {
+    "buyer_rate": 0.09205826879088246,
+    "avg_rev_d7": 2.557280810508665,
+    "whale_rate": 0.0,
+    "count": 24919
+  },
+  "ci_ios": {
+    "buyer_rate": 0.006775067750677507,
+    "avg_rev_d7": 0.03040468200855966,
+    "whale_rate": 0.0,
+    "count": 738
+  },
+  "in_ios": {
+    "buyer_rate": 0.018488863007715826,
+    "avg_rev_d7": 0.1929253701310715,
+    "whale_rate": 0.0,
+    "count": 6869
+  },
+  "it_android": {
+    "buyer_rate": 0.03393382228681516,
+    "avg_rev_d7": 8.2751116810959,
+    "whale_rate": 3.3798627775712305e-05,
+    "count": 29587
+  },
+  "qa_android": {
+    "buyer_rate": 0.09280936454849498,
+    "avg_rev_d7": 7.56763515595422,
+    "whale_rate": 0.0,
+    "count": 2392
+  },
+  "ml_android": {
+    "buyer_rate": 0.07539801742264944,
+    "avg_rev_d7": 0.04140052577136545,
+    "whale_rate": 0.0,
+    "count": 3329
+  },
+  "zw_android": {
+    "buyer_rate": 0.0053085600530856005,
+    "avg_rev_d7": 0.25264863968148643,
+    "whale_rate": 0.0,
+    "count": 1507
+  },
+  "ae_ios": {
+    "buyer_rate": 0.00911214953271028,
+    "avg_rev_d7": 0.24073754893531538,
+    "whale_rate": 0.0,
+    "count": 17120
+  },
+  "mx_ios": {
+    "buyer_rate": 0.04246373764977927,
+    "avg_rev_d7": 0.7299102049423918,
+    "whale_rate": 0.0,
+    "count": 4757
+  },
+  "np_android": {
+    "buyer_rate": 0.004596310855760508,
+    "avg_rev_d7": 0.025986090111883884,
+    "whale_rate": 0.0,
+    "count": 16535
+  },
+  "uz_ios": {
+    "buyer_rate": 0.0028186027783370245,
+    "avg_rev_d7": 0.022110445587889434,
+    "whale_rate": 0.0,
+    "count": 4967
+  },
+  "mn_android": {
+    "buyer_rate": 0.002540834845735027,
+    "avg_rev_d7": 0.43790350725829974,
+    "whale_rate": 0.0,
+    "count": 2755
+  },
+  "pe_android": {
+    "buyer_rate": 0.03759517766497462,
+    "avg_rev_d7": 0.35308425870102117,
+    "whale_rate": 0.0,
+    "count": 18912
+  },
+  "sv_android": {
+    "buyer_rate": 0.020485345099275135,
+    "avg_rev_d7": 0.14578153167349514,
+    "whale_rate": 0.0,
+    "count": 3173
+  },
+  "cm_android": {
+    "buyer_rate": 0.04156735627800553,
+    "avg_rev_d7": 0.1780837067403947,
+    "whale_rate": 0.0,
+    "count": 10489
+  },
+  "cg_android": {
+    "buyer_rate": 0.009962049335863378,
+    "avg_rev_d7": 0.04743833017077799,
+    "whale_rate": 0.0,
+    "count": 2108
+  },
+  "bj_android": {
+    "buyer_rate": 0.03025680142384948,
+    "avg_rev_d7": 0.0284821476226288,
+    "whale_rate": 0.0,
+    "count": 11799
+  },
+  "ng_android": {
+    "buyer_rate": 0.014289459884635553,
+    "avg_rev_d7": 0.7391541069792827,
+    "whale_rate": 0.0,
+    "count": 38140
+  },
+  "bo_android": {
+    "buyer_rate": 0.01482544237207078,
+    "avg_rev_d7": 0.1146604602652128,
+    "whale_rate": 0.0,
+    "count": 4182
+  },
+  "ng_ios": {
+    "buyer_rate": 0.003653113087674714,
+    "avg_rev_d7": 0.08272849101497368,
+    "whale_rate": 0.0,
+    "count": 12592
+  },
+  "es_android": {
+    "buyer_rate": 0.03256190441149417,
+    "avg_rev_d7": 25.902565662940955,
+    "whale_rate": 7.358622465874389e-05,
+    "count": 27179
+  },
+  "ae_android": {
+    "buyer_rate": 0.049106059380309035,
+    "avg_rev_d7": 1.199365989826209,
+    "whale_rate": 0.0,
+    "count": 12361
+  },
+  "bh_android": {
+    "buyer_rate": 0.017491926803013993,
+    "avg_rev_d7": 0.2751681287092936,
+    "whale_rate": 0.0,
+    "count": 3716
+  },
+  "fr_android": {
+    "buyer_rate": 0.03671596906836872,
+    "avg_rev_d7": 2.84519393165433,
+    "whale_rate": 0.0,
+    "count": 65176
+  },
+  "hn_android": {
+    "buyer_rate": 0.010859929078014184,
+    "avg_rev_d7": 0.072505429964539,
+    "whale_rate": 0.0,
+    "count": 4512
+  },
+  "gh_android": {
+    "buyer_rate": 0.013860676305412833,
+    "avg_rev_d7": 0.3432061415526488,
+    "whale_rate": 0.0,
+    "count": 8369
+  },
+  "ni_android": {
+    "buyer_rate": 0.0101427498121713,
+    "avg_rev_d7": 0.10221938392186326,
+    "whale_rate": 0.0,
+    "count": 2662
+  },
+  "tw_android": {
+    "buyer_rate": 0.02113799521403882,
+    "avg_rev_d7": 4.5816250251569155,
+    "whale_rate": 0.0,
+    "count": 7522
+  },
+  "au_android": {
+    "buyer_rate": 0.07641667742351878,
+    "avg_rev_d7": 2.69377612344657,
+    "whale_rate": 0.0,
+    "count": 7747
+  },
+  "tr_android": {
+    "buyer_rate": 0.02828683629223595,
+    "avg_rev_d7": 0.4977056740253456,
+    "whale_rate": 0.0,
+    "count": 48892
+  },
+  "kw_android": {
+    "buyer_rate": 0.015425065731814198,
+    "avg_rev_d7": 0.3971270128533693,
+    "whale_rate": 0.0,
+    "count": 5705
+  },
+  "jm_android": {
+    "buyer_rate": 0.02244582043343653,
+    "avg_rev_d7": 4.055872937636527,
+    "whale_rate": 0.0,
+    "count": 1292
+  },
+  "gn_android": {
+    "buyer_rate": 0.0427937598397023,
+    "avg_rev_d7": 0.004775510952158041,
+    "whale_rate": 0.0,
+    "count": 6987
+  },
+  "sy_android": {
+    "buyer_rate": 0.009942438513867086,
+    "avg_rev_d7": 0.01811311442700157,
+    "whale_rate": 0.0,
+    "count": 1911
+  },
+  "kh_android": {
+    "buyer_rate": 0.01294435857805255,
+    "avg_rev_d7": 3.3008707699255293,
+    "whale_rate": 0.0,
+    "count": 5176
+  },
+  "jp_ios": {
+    "buyer_rate": 0.14527308012198503,
+    "avg_rev_d7": 7.504011684843157,
+    "whale_rate": 0.0,
+    "count": 7214
+  },
+  "co_ios": {
+    "buyer_rate": 0.04379038047379756,
+    "avg_rev_d7": 0.86744568154415,
+    "whale_rate": 0.0,
+    "count": 1393
+  },
+  "az_android": {
+    "buyer_rate": 0.008651073373918615,
+    "avg_rev_d7": 0.14128870948475689,
+    "whale_rate": 0.0,
+    "count": 6242
+  },
+  "bf_android": {
+    "buyer_rate": 0.04696474828246424,
+    "avg_rev_d7": 0.061876190256135076,
+    "whale_rate": 0.0,
+    "count": 8879
+  },
+  "ph_ios": {
+    "buyer_rate": 0.10520673813169985,
+    "avg_rev_d7": 0.405361074772961,
+    "whale_rate": 0.0,
+    "count": 6530
+  },
+  "do_ios": {
+    "buyer_rate": 0.023863636363636365,
+    "avg_rev_d7": 0.6298733384891512,
+    "whale_rate": 0.0,
+    "count": 880
+  },
+  "id_ios": {
+    "buyer_rate": 0.012587959343236903,
+    "avg_rev_d7": 0.12126738051387491,
+    "whale_rate": 0.0,
+    "count": 12790
+  },
+  "ve_android": {
+    "buyer_rate": 0.008282915586286372,
+    "avg_rev_d7": 0.11103916988541543,
+    "whale_rate": 0.0,
+    "count": 13884
+  },
+  "jo_android": {
+    "buyer_rate": 0.020145495243424735,
+    "avg_rev_d7": 0.37609672407883626,
+    "whale_rate": 0.0,
+    "count": 12509
+  },
+  "tz_android": {
+    "buyer_rate": 0.010264900662251655,
+    "avg_rev_d7": 0.2606960795126443,
+    "whale_rate": 0.0,
+    "count": 6040
+  },
+  "pr_android": {
+    "buyer_rate": 0.02645113886847906,
+    "avg_rev_d7": 0.30970775339464907,
+    "whale_rate": 0.0,
+    "count": 1361
+  },
+  "my_ios": {
+    "buyer_rate": 0.14320852691992347,
+    "avg_rev_d7": 1.061849657216502,
+    "whale_rate": 0.0,
+    "count": 3659
+  },
+  "dz_ios": {
+    "buyer_rate": 0.006993006993006993,
+    "avg_rev_d7": 0.3274248276492496,
+    "whale_rate": 0.0,
+    "count": 715
+  },
+  "ua_android": {
+    "buyer_rate": 0.03236812984138694,
+    "avg_rev_d7": 0.9445848348404614,
+    "whale_rate": 0.0,
+    "count": 10844
+  },
+  "tw_ios": {
+    "buyer_rate": 0.10766580534022395,
+    "avg_rev_d7": 2.4591356126274264,
+    "whale_rate": 0.0,
+    "count": 2322
+  },
+  "gh_ios": {
+    "buyer_rate": 0.0035587188612099642,
+    "avg_rev_d7": 0.09829395017793593,
+    "whale_rate": 0.0,
+    "count": 1405
+  },
+  "nl_android": {
+    "buyer_rate": 0.06817883833748525,
+    "avg_rev_d7": 2.217056036125234,
+    "whale_rate": 0.0,
+    "count": 7627
+  },
+  "bg_android": {
+    "buyer_rate": 0.020182291666666668,
+    "avg_rev_d7": 0.6956507943614946,
+    "whale_rate": 0.0,
+    "count": 3072
+  },
+  "pt_android": {
+    "buyer_rate": 0.06578402978899463,
+    "avg_rev_d7": 3.014290954332921,
+    "whale_rate": 0.0,
+    "count": 4834
+  },
+  "ke_android": {
+    "buyer_rate": 0.0192071468453378,
+    "avg_rev_d7": 0.44100265022431073,
+    "whale_rate": 0.0,
+    "count": 8955
+  },
+  "so_android": {
+    "buyer_rate": 0.04748982360922659,
+    "avg_rev_d7": 0.05383168333890563,
+    "whale_rate": 0.0,
+    "count": 6633
+  },
+  "sn_android": {
+    "buyer_rate": 0.03643661384487073,
+    "avg_rev_d7": 0.0530076620096497,
+    "whale_rate": 0.0,
+    "count": 19184
+  },
+  "tr_ios": {
+    "buyer_rate": 0.0753947135000887,
+    "avg_rev_d7": 2.2797080496029185,
+    "whale_rate": 0.0,
+    "count": 5637
+  },
+  "ir_android": {
+    "buyer_rate": 0.011150356672899785,
+    "avg_rev_d7": 0.04434309855253134,
+    "whale_rate": 0.0,
+    "count": 14439
+  },
+  "tn_android": {
+    "buyer_rate": 0.006265664160401002,
+    "avg_rev_d7": 0.10125897296974849,
+    "whale_rate": 0.0,
+    "count": 3990
+  },
+  "om_android": {
+    "buyer_rate": 0.0608044901777362,
+    "avg_rev_d7": 12.198091804417313,
+    "whale_rate": 0.0,
+    "count": 2138
+  },
+  "mr_android": {
+    "buyer_rate": 0.09548167092924126,
+    "avg_rev_d7": 0.015294117647058824,
+    "whale_rate": 0.0,
+    "count": 1173
+  },
+  "sg_ios": {
+    "buyer_rate": 0.13314447592067988,
+    "avg_rev_d7": 4.412942528102815,
+    "whale_rate": 0.0,
+    "count": 706
+  },
+  "zm_android": {
+    "buyer_rate": 0.0057921102066374455,
+    "avg_rev_d7": 0.08361470726361929,
+    "whale_rate": 0.0,
+    "count": 12776
+  },
+  "nz_android": {
+    "buyer_rate": 0.07669263031755542,
+    "avg_rev_d7": 1.4669251189844807,
+    "whale_rate": 0.0,
+    "count": 1669
+  },
+  "pa_android": {
+    "buyer_rate": 0.021421107628004178,
+    "avg_rev_d7": 0.6148090285032081,
+    "whale_rate": 0.0,
+    "count": 1914
+  },
+  "mm_android": {
+    "buyer_rate": 0.03977731884708629,
+    "avg_rev_d7": 0.5222262909254928,
+    "whale_rate": 0.0,
+    "count": 11137
+  },
+  "tj_android": {
+    "buyer_rate": 0.013364779874213837,
+    "avg_rev_d7": 0.4365723270440252,
+    "whale_rate": 0.0,
+    "count": 1272
+  },
+  "no_android": {
+    "buyer_rate": 0.02259492196599115,
+    "avg_rev_d7": 1.1994696889111238,
+    "whale_rate": 0.0,
+    "count": 4293
+  },
+  "gf_android": {
+    "buyer_rate": 0.047619047619047616,
+    "avg_rev_d7": 1.1255799560919089,
+    "whale_rate": 0.0,
+    "count": 105
+  },
+  "gb_ios": {
+    "buyer_rate": 0.15531015037593984,
+    "avg_rev_d7": 5.135407047613792,
+    "whale_rate": 0.0,
+    "count": 8512
+  },
+  "iq_android": {
+    "buyer_rate": 0.015067740162317716,
+    "avg_rev_d7": 0.4841061653956862,
+    "whale_rate": 0.0,
+    "count": 30927
+  },
+  "ch_ios": {
+    "buyer_rate": 0.1467065868263473,
+    "avg_rev_d7": 48.29348161635377,
+    "whale_rate": 0.0014970059880239522,
+    "count": 668
+  },
+  "ge_android": {
+    "buyer_rate": 0.021075581395348836,
+    "avg_rev_d7": 0.2099503277784283,
+    "whale_rate": 0.0,
+    "count": 1376
+  },
+  "bd_ios": {
+    "buyer_rate": 0.030328919265271252,
+    "avg_rev_d7": 0.136228107646305,
+    "whale_rate": 0.0,
+    "count": 2341
+  },
+  "de_ios": {
+    "buyer_rate": 0.12726194007712846,
+    "avg_rev_d7": 5.8527017075105245,
+    "whale_rate": 0.0,
+    "count": 6742
+  },
+  "rs_android": {
+    "buyer_rate": 0.041951664386684906,
+    "avg_rev_d7": 1.4052129757946352,
+    "whale_rate": 0.0,
+    "count": 2193
+  },
+  "tm_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 587
+  },
+  "ua_ios": {
+    "buyer_rate": 0.07766059443911794,
+    "avg_rev_d7": 2.828033563165441,
+    "whale_rate": 0.0,
+    "count": 1043
+  },
+  "tg_android": {
+    "buyer_rate": 0.05925537493445202,
+    "avg_rev_d7": 0.039534840770874914,
+    "whale_rate": 0.0,
+    "count": 1907
+  },
+  "tt_android": {
+    "buyer_rate": 0.012066365007541479,
+    "avg_rev_d7": 0.3233936651583711,
+    "whale_rate": 0.0,
+    "count": 663
+  },
+  "ug_ios": {
+    "buyer_rate": 0.003436426116838488,
+    "avg_rev_d7": 0.014347079037800687,
+    "whale_rate": 0.0,
+    "count": 582
+  },
+  "za_ios": {
+    "buyer_rate": 0.012650602409638554,
+    "avg_rev_d7": 0.1668988135080897,
+    "whale_rate": 0.0,
+    "count": 3320
+  },
+  "pg_android": {
+    "buyer_rate": 0.0025996533795493936,
+    "avg_rev_d7": 0.02501733102253033,
+    "whale_rate": 0.0,
+    "count": 1154
+  },
+  "ly_android": {
+    "buyer_rate": 0.001513317191283293,
+    "avg_rev_d7": 0.04366067750838299,
+    "whale_rate": 0.0,
+    "count": 3304
+  },
+  "kw_ios": {
+    "buyer_rate": 0.041463414634146344,
+    "avg_rev_d7": 1.9433865408361233,
+    "whale_rate": 0.0,
+    "count": 820
+  },
+  "kh_ios": {
+    "buyer_rate": 0.05050100200400802,
+    "avg_rev_d7": 0.5523950067481832,
+    "whale_rate": 0.0,
+    "count": 2495
+  },
+  "ao_android": {
+    "buyer_rate": 0.0008517887563884157,
+    "avg_rev_d7": 0.012350936967632026,
+    "whale_rate": 0.0,
+    "count": 2348
+  },
+  "cd_android": {
+    "buyer_rate": 0.03026650595955538,
+    "avg_rev_d7": 0.0021866964757215313,
+    "whale_rate": 0.0,
+    "count": 7467
+  },
+  "ga_android": {
+    "buyer_rate": 0.054528650646950096,
+    "avg_rev_d7": 0.050208952415520564,
+    "whale_rate": 0.0,
+    "count": 1082
+  },
+  "ma_ios": {
+    "buyer_rate": 0.014705882352941176,
+    "avg_rev_d7": 0.23113134996324367,
+    "whale_rate": 0.0,
+    "count": 1292
+  },
+  "uy_android": {
+    "buyer_rate": 0.021245774987928536,
+    "avg_rev_d7": 0.19256889753624515,
+    "whale_rate": 0.0,
+    "count": 2071
+  },
+  "ht_android": {
+    "buyer_rate": 0.0014807502467917078,
+    "avg_rev_d7": 0.01087857847976308,
+    "whale_rate": 0.0,
+    "count": 2026
+  },
+  "bz_android": {
+    "buyer_rate": 0.004739336492890996,
+    "avg_rev_d7": 0.005497630331753554,
+    "whale_rate": 0.0,
+    "count": 211
+  },
+  "es_ios": {
+    "buyer_rate": 0.11942051683633516,
+    "avg_rev_d7": 10.631020744618532,
+    "whale_rate": 0.0,
+    "count": 2554
+  },
+  "ag_android": {
+    "buyer_rate": 0.0379746835443038,
+    "avg_rev_d7": 0.05025316455696202,
+    "whale_rate": 0.0,
+    "count": 79
+  },
+  "ve_ios": {
+    "buyer_rate": 0.022653721682847898,
+    "avg_rev_d7": 0.929060687360959,
+    "whale_rate": 0.0,
+    "count": 309
+  },
+  "pt_ios": {
+    "buyer_rate": 0.17551020408163265,
+    "avg_rev_d7": 7.763369214491567,
+    "whale_rate": 0.0,
+    "count": 735
+  },
+  "lb_android": {
+    "buyer_rate": 0.00853825136612022,
+    "avg_rev_d7": 0.31338763270154507,
+    "whale_rate": 0.0,
+    "count": 2928
+  },
+  "hk_android": {
+    "buyer_rate": 0.030838323353293413,
+    "avg_rev_d7": 2.105402068808811,
+    "whale_rate": 0.0,
+    "count": 3340
+  },
+  "qa_ios": {
+    "buyer_rate": 0.028606965174129355,
+    "avg_rev_d7": 0.6754437030643847,
+    "whale_rate": 0.0,
+    "count": 1608
+  },
+  "sl_android": {
+    "buyer_rate": 0.03036113774368808,
+    "avg_rev_d7": 0.0074464685202940235,
+    "whale_rate": 0.0,
+    "count": 3129
+  },
+  "il_android": {
+    "buyer_rate": 0.025304136253041364,
+    "avg_rev_d7": 2.3188262533928072,
+    "whale_rate": 0.0,
+    "count": 4110
+  },
+  "md_android": {
+    "buyer_rate": 0.022325581395348838,
+    "avg_rev_d7": 1.1725934453550801,
+    "whale_rate": 0.0,
+    "count": 1075
+  },
+  "it_ios": {
+    "buyer_rate": 0.11389236545682102,
+    "avg_rev_d7": 10.778229687057975,
+    "whale_rate": 0.0,
+    "count": 3196
+  },
+  "tg_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 78
+  },
+  "se_ios": {
+    "buyer_rate": 0.1359466221851543,
+    "avg_rev_d7": 4.865137500238041,
+    "whale_rate": 0.0,
+    "count": 1199
+  },
+  "sr_android": {
+    "buyer_rate": 0.006097560975609756,
+    "avg_rev_d7": 0.36579268292682926,
+    "whale_rate": 0.0,
+    "count": 164
+  },
+  "ne_android": {
+    "buyer_rate": 0.0630068621334997,
+    "avg_rev_d7": 0.0018714909544603868,
+    "whale_rate": 0.0,
+    "count": 1603
+  },
+  "nz_ios": {
+    "buyer_rate": 0.08223684210526316,
+    "avg_rev_d7": 1.4816288750775062,
+    "whale_rate": 0.0,
+    "count": 304
+  },
+  "cu_android": {
+    "buyer_rate": 0.001098901098901099,
+    "avg_rev_d7": 2.1978021978021977e-05,
+    "whale_rate": 0.0,
+    "count": 910
+  },
+  "ir_ios": {
+    "buyer_rate": 0.002564102564102564,
+    "avg_rev_d7": 0.005102564102564103,
+    "whale_rate": 0.0,
+    "count": 780
+  },
+  "cz_android": {
+    "buyer_rate": 0.07885514018691589,
+    "avg_rev_d7": 2.26287532445267,
+    "whale_rate": 0.0,
+    "count": 3424
+  },
+  "lk_android": {
+    "buyer_rate": 0.01878522229179712,
+    "avg_rev_d7": 1.2541573590803201,
+    "whale_rate": 0.0,
+    "count": 3194
+  },
+  "be_android": {
+    "buyer_rate": 0.06628689798032107,
+    "avg_rev_d7": 2.3835768808536772,
+    "whale_rate": 0.0,
+    "count": 3862
+  },
+  "ro_android": {
+    "buyer_rate": 0.04650278763304612,
+    "avg_rev_d7": 1.5022865126893896,
+    "whale_rate": 0.0,
+    "count": 7892
+  },
+  "at_android": {
+    "buyer_rate": 0.10418310970797158,
+    "avg_rev_d7": 4.105704455476767,
+    "whale_rate": 0.0,
+    "count": 2534
+  },
+  "gy_android": {
+    "buyer_rate": 0.006472491909385114,
+    "avg_rev_d7": 0.4949838187702265,
+    "whale_rate": 0.0,
+    "count": 309
+  },
+  "kr_ios": {
+    "buyer_rate": 0.08500861573808156,
+    "avg_rev_d7": 3.4356284010661815,
+    "whale_rate": 0.0,
+    "count": 1741
+  },
+  "at_ios": {
+    "buyer_rate": 0.13537117903930132,
+    "avg_rev_d7": 5.352450344193635,
+    "whale_rate": 0.0,
+    "count": 687
+  },
+  "cl_ios": {
+    "buyer_rate": 0.05871725383920506,
+    "avg_rev_d7": 0.8627540636885973,
+    "whale_rate": 0.0,
+    "count": 1107
+  },
+  "nf_android": {
+    "buyer_rate": 0.013029315960912053,
+    "avg_rev_d7": 0.09106235423495901,
+    "whale_rate": 0.0,
+    "count": 614
+  },
+  "ke_ios": {
+    "buyer_rate": 0.0041841004184100415,
+    "avg_rev_d7": 0.04175732217573221,
+    "whale_rate": 0.0,
+    "count": 239
+  },
+  "la_ios": {
+    "buyer_rate": 0.07770961145194274,
+    "avg_rev_d7": 0.10000833230186383,
+    "whale_rate": 0.0,
+    "count": 489
+  },
+  "sn_ios": {
+    "buyer_rate": 0.013812154696132596,
+    "avg_rev_d7": 0.658167316833993,
+    "whale_rate": 0.0,
+    "count": 724
+  },
+  "gu_ios": {
+    "buyer_rate": 0.03571428571428571,
+    "avg_rev_d7": 0.52425,
+    "whale_rate": 0.0,
+    "count": 28
+  },
+  "ch_android": {
+    "buyer_rate": 0.10274291027429103,
+    "avg_rev_d7": 4.60338687854619,
+    "whale_rate": 0.0,
+    "count": 2151
+  },
+  "al_android": {
+    "buyer_rate": 0.014802631578947368,
+    "avg_rev_d7": 0.242516321771494,
+    "whale_rate": 0.0,
+    "count": 608
+  },
+  "lk_ios": {
+    "buyer_rate": 0.01652892561983471,
+    "avg_rev_d7": 0.21497107438016527,
+    "whale_rate": 0.0,
+    "count": 242
+  },
+  "lt_ios": {
+    "buyer_rate": 0.11290322580645161,
+    "avg_rev_d7": 3.125188689353977,
+    "whale_rate": 0.0,
+    "count": 186
+  },
+  "mu_android": {
+    "buyer_rate": 0.01858736059479554,
+    "avg_rev_d7": 1.080479783837202,
+    "whale_rate": 0.0,
+    "count": 538
+  },
+  "dj_android": {
+    "buyer_rate": 0.13970588235294118,
+    "avg_rev_d7": 0.03676470588235294,
+    "whale_rate": 0.0,
+    "count": 272
+  },
+  "kz_android": {
+    "buyer_rate": 0.01971631205673759,
+    "avg_rev_d7": 0.4322199191283214,
+    "whale_rate": 0.0,
+    "count": 7050
+  },
+  "mq_android": {
+    "buyer_rate": 0.04411764705882353,
+    "avg_rev_d7": 0.9106178275355802,
+    "whale_rate": 0.0,
+    "count": 136
+  },
+  "cr_ios": {
+    "buyer_rate": 0.05384615384615385,
+    "avg_rev_d7": 1.5402384326140743,
+    "whale_rate": 0.0,
+    "count": 260
+  },
+  "il_ios": {
+    "buyer_rate": 0.052127659574468084,
+    "avg_rev_d7": 2.190682718486607,
+    "whale_rate": 0.0,
+    "count": 940
+  },
+  "ie_android": {
+    "buyer_rate": 0.06302250803858521,
+    "avg_rev_d7": 1.5837691088581611,
+    "whale_rate": 0.0,
+    "count": 1555
+  },
+  "py_ios": {
+    "buyer_rate": 0.028409090909090908,
+    "avg_rev_d7": 0.21261363636363637,
+    "whale_rate": 0.0,
+    "count": 176
+  },
+  "ec_ios": {
+    "buyer_rate": 0.03263403263403263,
+    "avg_rev_d7": 0.3795641025641026,
+    "whale_rate": 0.0,
+    "count": 429
+  },
+  "sa_ios": {
+    "buyer_rate": 0.03871268656716418,
+    "avg_rev_d7": 1.4955640744225185,
+    "whale_rate": 0.0,
+    "count": 2144
+  },
+  "None_ios": {
+    "buyer_rate": 0.01740506329113924,
+    "avg_rev_d7": 0.3119445216855759,
+    "whale_rate": 0.0,
+    "count": 632
+  },
+  "no_ios": {
+    "buyer_rate": 0.125,
+    "avg_rev_d7": 4.087567121190326,
+    "whale_rate": 0.0,
+    "count": 344
+  },
+  "la_android": {
+    "buyer_rate": 0.0048025613660619,
+    "avg_rev_d7": 0.29728042104934577,
+    "whale_rate": 0.0,
+    "count": 1874
+  },
+  "kg_android": {
+    "buyer_rate": 0.013468013468013467,
+    "avg_rev_d7": 0.13665430003023968,
+    "whale_rate": 0.0,
+    "count": 2673
+  },
+  "sk_android": {
+    "buyer_rate": 0.05172413793103448,
+    "avg_rev_d7": 1.6746024796289067,
+    "whale_rate": 0.0,
+    "count": 1566
+  },
+  "by_android": {
+    "buyer_rate": 0.018026137899954935,
+    "avg_rev_d7": 0.19036073657255875,
+    "whale_rate": 0.0,
+    "count": 2219
+  },
+  "pr_ios": {
+    "buyer_rate": 0.06116207951070336,
+    "avg_rev_d7": 1.9134113581300842,
+    "whale_rate": 0.0,
+    "count": 327
+  },
+  "sv_ios": {
+    "buyer_rate": 0.022900763358778626,
+    "avg_rev_d7": 0.0536319106870229,
+    "whale_rate": 0.0,
+    "count": 131
+  },
+  "dk_android": {
+    "buyer_rate": 0.0674432863274065,
+    "avg_rev_d7": 2.1602258744155716,
+    "whale_rate": 0.0,
+    "count": 1631
+  },
+  "et_android": {
+    "buyer_rate": 0.004411265693926026,
+    "avg_rev_d7": 0.039687818120122155,
+    "whale_rate": 0.0,
+    "count": 2947
+  },
+  "mt_android": {
+    "buyer_rate": 0.04784688995215311,
+    "avg_rev_d7": 0.5371651064179562,
+    "whale_rate": 0.0,
+    "count": 209
+  },
+  "cy_android": {
+    "buyer_rate": 0.04798464491362764,
+    "avg_rev_d7": 3.6636208018525713,
+    "whale_rate": 0.0,
+    "count": 521
+  },
+  "uy_ios": {
+    "buyer_rate": 0.04878048780487805,
+    "avg_rev_d7": 1.2866634865699522,
+    "whale_rate": 0.0,
+    "count": 164
+  },
+  "gr_android": {
+    "buyer_rate": 0.03797897592404205,
+    "avg_rev_d7": 0.9988053318555399,
+    "whale_rate": 0.0,
+    "count": 2949
+  },
+  "ps_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 215
+  },
+  "bt_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 205
+  },
+  "iq_ios": {
+    "buyer_rate": 0.042828282828282827,
+    "avg_rev_d7": 0.4612307035883956,
+    "whale_rate": 0.0,
+    "count": 2475
+  },
+  "None_android": {
+    "buyer_rate": 0.007183908045977011,
+    "avg_rev_d7": 0.12162950303414308,
+    "whale_rate": 0.0,
+    "count": 696
+  },
+  "na_android": {
+    "buyer_rate": 0.025167785234899327,
+    "avg_rev_d7": 5.110259835906214,
+    "whale_rate": 0.0,
+    "count": 596
+  },
+  "bb_android": {
+    "buyer_rate": 0.03333333333333333,
+    "avg_rev_d7": 0.4912499999999999,
+    "whale_rate": 0.0,
+    "count": 120
+  },
+  "ga_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 93
+  },
+  "ro_ios": {
+    "buyer_rate": 0.08945969884853854,
+    "avg_rev_d7": 4.474992987030595,
+    "whale_rate": 0.0,
+    "count": 1129
+  },
+  "md_ios": {
+    "buyer_rate": 0.05434782608695652,
+    "avg_rev_d7": 0.7151460754920987,
+    "whale_rate": 0.0,
+    "count": 184
+  },
+  "ie_ios": {
+    "buyer_rate": 0.11641791044776119,
+    "avg_rev_d7": 5.8613319286830565,
+    "whale_rate": 0.0,
+    "count": 335
+  },
+  "lt_android": {
+    "buyer_rate": 0.0864321608040201,
+    "avg_rev_d7": 2.0906476920005637,
+    "whale_rate": 0.0,
+    "count": 995
+  },
+  "hk_ios": {
+    "buyer_rate": 0.1009009009009009,
+    "avg_rev_d7": 2.5643766183562424,
+    "whale_rate": 0.0,
+    "count": 1110
+  },
+  "ag_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 46
+  },
+  "pl_ios": {
+    "buyer_rate": 0.1173974540311174,
+    "avg_rev_d7": 4.763754995699043,
+    "whale_rate": 0.0,
+    "count": 1414
+  },
+  "am_ios": {
+    "buyer_rate": 0.014234875444839857,
+    "avg_rev_d7": 0.8327696363963644,
+    "whale_rate": 0.0,
+    "count": 281
+  },
+  "hu_android": {
+    "buyer_rate": 0.0550303848750844,
+    "avg_rev_d7": 3.9596846563735864,
+    "whale_rate": 0.0,
+    "count": 2962
+  },
+  "si_android": {
+    "buyer_rate": 0.050522648083623695,
+    "avg_rev_d7": 2.2182867407253686,
+    "whale_rate": 0.0,
+    "count": 574
+  },
+  "al_ios": {
+    "buyer_rate": 0.013404825737265416,
+    "avg_rev_d7": 0.3818549618304433,
+    "whale_rate": 0.0,
+    "count": 373
+  },
+  "ba_ios": {
+    "buyer_rate": 0.03684210526315789,
+    "avg_rev_d7": 1.4099932045313195,
+    "whale_rate": 0.0,
+    "count": 190
+  },
+  "rs_ios": {
+    "buyer_rate": 0.0340632603406326,
+    "avg_rev_d7": 1.1446404378463695,
+    "whale_rate": 0.0,
+    "count": 411
+  },
+  "nl_ios": {
+    "buyer_rate": 0.10771620921802175,
+    "avg_rev_d7": 4.930353293892663,
+    "whale_rate": 0.0,
+    "count": 1931
+  },
+  "bw_android": {
+    "buyer_rate": 0.022590361445783132,
+    "avg_rev_d7": 0.3818674698795181,
+    "whale_rate": 0.0,
+    "count": 664
+  },
+  "lv_android": {
+    "buyer_rate": 0.07617504051863858,
+    "avg_rev_d7": 1.9888745667629582,
+    "whale_rate": 0.0,
+    "count": 617
+  },
+  "pa_ios": {
+    "buyer_rate": 0.030864197530864196,
+    "avg_rev_d7": 0.44569753086419756,
+    "whale_rate": 0.0,
+    "count": 162
+  },
+  "ly_ios": {
+    "buyer_rate": 0.009836065573770493,
+    "avg_rev_d7": 0.45776817094088235,
+    "whale_rate": 0.0,
+    "count": 305
+  },
+  "ee_android": {
+    "buyer_rate": 0.10759493670886076,
+    "avg_rev_d7": 3.7455208006238743,
+    "whale_rate": 0.0,
+    "count": 316
+  },
+  "sb_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 75
+  },
+  "me_android": {
+    "buyer_rate": 0.05319148936170213,
+    "avg_rev_d7": 2.6093863321818156,
+    "whale_rate": 0.0,
+    "count": 188
+  },
+  "fj_android": {
+    "buyer_rate": 0.0102880658436214,
+    "avg_rev_d7": 0.11915839575175394,
+    "whale_rate": 0.0,
+    "count": 486
+  },
+  "kz_ios": {
+    "buyer_rate": 0.013836477987421384,
+    "avg_rev_d7": 0.9597045173653019,
+    "whale_rate": 0.0,
+    "count": 2385
+  },
+  "be_ios": {
+    "buyer_rate": 0.13944603629417382,
+    "avg_rev_d7": 8.949910782076708,
+    "whale_rate": 0.0,
+    "count": 1047
+  },
+  "lc_android": {
+    "buyer_rate": 0.013157894736842105,
+    "avg_rev_d7": 0.03553065624300769,
+    "whale_rate": 0.0,
+    "count": 76
+  },
+  "cn_ios": {
+    "buyer_rate": 0.04804804804804805,
+    "avg_rev_d7": 5.163958461310286,
+    "whale_rate": 0.0,
+    "count": 999
+  },
+  "pf_android": {
+    "buyer_rate": 0.04878048780487805,
+    "avg_rev_d7": 1.5028361962299939,
+    "whale_rate": 0.0,
+    "count": 123
+  },
+  "bs_android": {
+    "buyer_rate": 0.04054054054054054,
+    "avg_rev_d7": 0.5641891891891891,
+    "whale_rate": 0.0,
+    "count": 148
+  },
+  "tn_ios": {
+    "buyer_rate": 0.008676789587852495,
+    "avg_rev_d7": 0.15815984666627433,
+    "whale_rate": 0.0,
+    "count": 461
+  },
+  "mk_android": {
+    "buyer_rate": 0.02558139534883721,
+    "avg_rev_d7": 1.626486978728281,
+    "whale_rate": 0.0,
+    "count": 430
+  },
+  "lc_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 12
+  },
+  "ml_ios": {
+    "buyer_rate": 0.016129032258064516,
+    "avg_rev_d7": 0.6781182903225806,
+    "whale_rate": 0.0,
+    "count": 186
+  },
+  "pe_ios": {
+    "buyer_rate": 0.06591337099811675,
+    "avg_rev_d7": 2.2461205443651315,
+    "whale_rate": 0.0,
+    "count": 531
+  },
+  "hn_ios": {
+    "buyer_rate": 0.007194244604316547,
+    "avg_rev_d7": 0.021474820143884892,
+    "whale_rate": 0.0,
+    "count": 278
+  },
+  "jm_ios": {
+    "buyer_rate": 0.017064846416382253,
+    "avg_rev_d7": 0.3616723549488054,
+    "whale_rate": 0.0,
+    "count": 293
+  },
+  "kn_android": {
+    "buyer_rate": 0.047619047619047616,
+    "avg_rev_d7": 0.09428571428571428,
+    "whale_rate": 0.0,
+    "count": 21
+  },
+  "rw_android": {
+    "buyer_rate": 0.013114754098360656,
+    "avg_rev_d7": 0.19613606557377047,
+    "whale_rate": 0.0,
+    "count": 305
+  },
+  "ky_android": {
+    "buyer_rate": 0.07692307692307693,
+    "avg_rev_d7": 1.1530769230769229,
+    "whale_rate": 0.0,
+    "count": 26
+  },
+  "am_android": {
+    "buyer_rate": 0.010893246187363835,
+    "avg_rev_d7": 0.19906465653763053,
+    "whale_rate": 0.0,
+    "count": 918
+  },
+  "fj_ios": {
+    "buyer_rate": 0.05128205128205128,
+    "avg_rev_d7": 3.0188051282051287,
+    "whale_rate": 0.0,
+    "count": 39
+  },
+  "tc_android": {
+    "buyer_rate": 0.08333333333333333,
+    "avg_rev_d7": 0.41500000000000004,
+    "whale_rate": 0.0,
+    "count": 12
+  },
+  "gm_ios": {
+    "buyer_rate": 0.012987012987012988,
+    "avg_rev_d7": 0.4873226246253589,
+    "whale_rate": 0.0,
+    "count": 77
+  },
+  "cz_ios": {
+    "buyer_rate": 0.11884550084889643,
+    "avg_rev_d7": 4.665599134866415,
+    "whale_rate": 0.0,
+    "count": 589
+  },
+  "az_ios": {
+    "buyer_rate": 0.019342359767891684,
+    "avg_rev_d7": 0.2392051395882371,
+    "whale_rate": 0.0,
+    "count": 517
+  },
+  "by_ios": {
+    "buyer_rate": 0.023622047244094488,
+    "avg_rev_d7": 0.21628249601650715,
+    "whale_rate": 0.0,
+    "count": 254
+  },
+  "gn_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 113
+  },
+  "se_android": {
+    "buyer_rate": 0.09492847854356307,
+    "avg_rev_d7": 2.9192324767695044,
+    "whale_rate": 0.0,
+    "count": 2307
+  },
+  "fi_android": {
+    "buyer_rate": 0.07421383647798742,
+    "avg_rev_d7": 2.550334998505346,
+    "whale_rate": 0.0,
+    "count": 1590
+  },
+  "om_ios": {
+    "buyer_rate": 0.022099447513812154,
+    "avg_rev_d7": 0.4506648792315506,
+    "whale_rate": 0.0,
+    "count": 1086
+  },
+  "bg_ios": {
+    "buyer_rate": 0.08376963350785341,
+    "avg_rev_d7": 2.712467597059304,
+    "whale_rate": 0.0,
+    "count": 382
+  },
+  "fm_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 12
+  },
+  "as_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 20
+  },
+  "jo_ios": {
+    "buyer_rate": 0.07603305785123966,
+    "avg_rev_d7": 1.199625816260181,
+    "whale_rate": 0.0,
+    "count": 605
+  },
+  "cd_ios": {
+    "buyer_rate": 0.009174311926605505,
+    "avg_rev_d7": 0.27544036697247715,
+    "whale_rate": 0.0,
+    "count": 218
+  },
+  "me_ios": {
+    "buyer_rate": 0.043478260869565216,
+    "avg_rev_d7": 2.424968953135307,
+    "whale_rate": 0.0,
+    "count": 46
+  },
+  "gu_android": {
+    "buyer_rate": 0.05555555555555555,
+    "avg_rev_d7": 0.5820833333333334,
+    "whale_rate": 0.0,
+    "count": 72
+  },
+  "nc_android": {
+    "buyer_rate": 0.008333333333333333,
+    "avg_rev_d7": 0.04158333333333333,
+    "whale_rate": 0.0,
+    "count": 120
+  },
+  "gp_android": {
+    "buyer_rate": 0.023622047244094488,
+    "avg_rev_d7": 1.7364710521315827,
+    "whale_rate": 0.0,
+    "count": 127
+  },
+  "cv_android": {
+    "buyer_rate": 0.02702702702702703,
+    "avg_rev_d7": 0.3299989694650953,
+    "whale_rate": 0.0,
+    "count": 148
+  },
+  "lu_android": {
+    "buyer_rate": 0.06818181818181818,
+    "avg_rev_d7": 5.01270364121712,
+    "whale_rate": 0.0,
+    "count": 176
+  },
+  "bo_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 110
+  },
+  "sd_android": {
+    "buyer_rate": 0.005502063273727648,
+    "avg_rev_d7": 0.15212230039962618,
+    "whale_rate": 0.0,
+    "count": 2181
+  },
+  "gt_ios": {
+    "buyer_rate": 0.03292181069958848,
+    "avg_rev_d7": 1.3207407407407408,
+    "whale_rate": 0.0,
+    "count": 243
+  },
+  "ao_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 168
+  },
+  "lr_android": {
+    "buyer_rate": 0.037463976945244955,
+    "avg_rev_d7": 0.04515850144092219,
+    "whale_rate": 0.0,
+    "count": 347
+  },
+  "sc_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 110
+  },
+  "tl_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 186
+  },
+  "bn_ios": {
+    "buyer_rate": 0.05263157894736842,
+    "avg_rev_d7": 0.07871521052631578,
+    "whale_rate": 0.0,
+    "count": 38
+  },
+  "ht_ios": {
+    "buyer_rate": 0.009345794392523364,
+    "avg_rev_d7": 0.027943925233644862,
+    "whale_rate": 0.0,
+    "count": 107
+  },
+  "cw_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 54
+  },
+  "mn_ios": {
+    "buyer_rate": 0.022187004754358162,
+    "avg_rev_d7": 0.783639019312379,
+    "whale_rate": 0.0,
+    "count": 631
+  },
+  "mv_ios": {
+    "buyer_rate": 0.015151515151515152,
+    "avg_rev_d7": 0.1167146435543247,
+    "whale_rate": 0.0,
+    "count": 66
+  },
+  "ge_ios": {
+    "buyer_rate": 0.02768166089965398,
+    "avg_rev_d7": 2.638153303763161,
+    "whale_rate": 0.0,
+    "count": 578
+  },
+  "pw_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 12
+  },
+  "gl_android": {
+    "buyer_rate": 0.03125,
+    "avg_rev_d7": 0.0775,
+    "whale_rate": 0.0,
+    "count": 32
+  },
+  "ss_android": {
+    "buyer_rate": 0.010256410256410256,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 195
+  },
+  "mo_android": {
+    "buyer_rate": 0.01818181818181818,
+    "avg_rev_d7": 0.05418181818181818,
+    "whale_rate": 0.0,
+    "count": 55
+  },
+  "is_android": {
+    "buyer_rate": 0.0851063829787234,
+    "avg_rev_d7": 1.3143883516302926,
+    "whale_rate": 0.0,
+    "count": 94
+  },
+  "lb_ios": {
+    "buyer_rate": 0.020202020202020204,
+    "avg_rev_d7": 0.24243434343434345,
+    "whale_rate": 0.0,
+    "count": 297
+  },
+  "cf_android": {
+    "buyer_rate": 0.030303030303030304,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 66
+  },
+  "mm_ios": {
+    "buyer_rate": 0.10471204188481675,
+    "avg_rev_d7": 0.07301047120418848,
+    "whale_rate": 0.0,
+    "count": 382
+  },
+  "ps_android": {
+    "buyer_rate": 0.0026714158504007124,
+    "avg_rev_d7": 0.021475164353572787,
+    "whale_rate": 0.0,
+    "count": 1123
+  },
+  "sk_ios": {
+    "buyer_rate": 0.1164021164021164,
+    "avg_rev_d7": 4.252747586153506,
+    "whale_rate": 0.0,
+    "count": 189
+  },
+  "td_android": {
+    "buyer_rate": 0.020066889632107024,
+    "avg_rev_d7": 0.41,
+    "whale_rate": 0.0,
+    "count": 897
+  },
+  "ba_android": {
+    "buyer_rate": 0.0223463687150838,
+    "avg_rev_d7": 0.4455170027811408,
+    "whale_rate": 0.0,
+    "count": 895
+  },
+  "dk_ios": {
+    "buyer_rate": 0.16916488222698073,
+    "avg_rev_d7": 8.417027221925798,
+    "whale_rate": 0.0,
+    "count": 467
+  },
+  "hr_android": {
+    "buyer_rate": 0.09233668341708542,
+    "avg_rev_d7": 3.622956204157829,
+    "whale_rate": 0.0,
+    "count": 1592
+  },
+  "bf_ios": {
+    "buyer_rate": 0.00819672131147541,
+    "avg_rev_d7": 0.08631147540983607,
+    "whale_rate": 0.0,
+    "count": 122
+  },
+  "tt_ios": {
+    "buyer_rate": 0.05172413793103448,
+    "avg_rev_d7": 0.6333105393955648,
+    "whale_rate": 0.0,
+    "count": 58
+  },
+  "gy_ios": {
+    "buyer_rate": 0.023809523809523808,
+    "avg_rev_d7": 0.5461904761904763,
+    "whale_rate": 0.0,
+    "count": 42
+  },
+  "cv_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 55
+  },
+  "lr_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 58
+  },
+  "aw_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "aw_android": {
+    "buyer_rate": 0.04878048780487805,
+    "avg_rev_d7": 0.25083683736540874,
+    "whale_rate": 0.0,
+    "count": 41
+  },
+  "vi_android": {
+    "buyer_rate": 0.041666666666666664,
+    "avg_rev_d7": 0.7904166666666667,
+    "whale_rate": 0.0,
+    "count": 24
+  },
+  "bj_ios": {
+    "buyer_rate": 0.008064516129032258,
+    "avg_rev_d7": 0.016879032258064516,
+    "whale_rate": 0.0,
+    "count": 124
+  },
+  "np_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 409
+  },
+  "mz_android": {
+    "buyer_rate": 0.00944206008583691,
+    "avg_rev_d7": 0.06375507264600988,
+    "whale_rate": 0.0,
+    "count": 1165
+  },
+  "mq_ios": {
+    "buyer_rate": 0.18518518518518517,
+    "avg_rev_d7": 2.1851077962605743,
+    "whale_rate": 0.0,
+    "count": 27
+  },
+  "gd_android": {
+    "buyer_rate": 0.0784313725490196,
+    "avg_rev_d7": 2.7794117647058822,
+    "whale_rate": 0.0,
+    "count": 51
+  },
+  "cy_ios": {
+    "buyer_rate": 0.06299212598425197,
+    "avg_rev_d7": 0.8521656347501837,
+    "whale_rate": 0.0,
+    "count": 127
+  },
+  "vi_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 17
+  },
+  "ki_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 45
+  },
+  "mw_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 7
+  },
+  "nf_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 61
+  },
+  "gp_ios": {
+    "buyer_rate": 0.13157894736842105,
+    "avg_rev_d7": 7.911757164244965,
+    "whale_rate": 0.0,
+    "count": 38
+  },
+  "cu_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 18
+  },
+  "gr_ios": {
+    "buyer_rate": 0.07452339688041594,
+    "avg_rev_d7": 3.1058202466850027,
+    "whale_rate": 0.0,
+    "count": 577
+  },
+  "dm_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 25
+  },
+  "fi_ios": {
+    "buyer_rate": 0.10980392156862745,
+    "avg_rev_d7": 3.732423832875609,
+    "whale_rate": 0.0,
+    "count": 255
+  },
+  "bi_android": {
+    "buyer_rate": 0.08987603305785125,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 968
+  },
+  "tj_ios": {
+    "buyer_rate": 0.014084507042253521,
+    "avg_rev_d7": 0.1407042253521127,
+    "whale_rate": 0.0,
+    "count": 71
+  },
+  "ni_ios": {
+    "buyer_rate": 0.02564102564102564,
+    "avg_rev_d7": 0.4226923076923077,
+    "whale_rate": 0.0,
+    "count": 78
+  },
+  "ck_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "si_ios": {
+    "buyer_rate": 0.10606060606060606,
+    "avg_rev_d7": 2.1221245568255047,
+    "whale_rate": 0.0,
+    "count": 66
+  },
+  "sr_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 39
+  },
+  "kg_ios": {
+    "buyer_rate": 0.012698412698412698,
+    "avg_rev_d7": 0.13355555558583093,
+    "whale_rate": 0.0,
+    "count": 315
+  },
+  "hr_ios": {
+    "buyer_rate": 0.13664596273291926,
+    "avg_rev_d7": 3.9510315766065247,
+    "whale_rate": 0.0,
+    "count": 161
+  },
+  "gw_android": {
+    "buyer_rate": 0.024844720496894408,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 161
+  },
+  "sx_ios": {
+    "buyer_rate": 0.07142857142857142,
+    "avg_rev_d7": 0.8542857142857143,
+    "whale_rate": 0.0,
+    "count": 14
+  },
+  "sy_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 34
+  },
+  "ws_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 51
+  },
+  "mw_android": {
+    "buyer_rate": 0.0038461538461538464,
+    "avg_rev_d7": 1.7307692307692308,
+    "whale_rate": 0.0,
+    "count": 260
+  },
+  "ws_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "mz_ios": {
+    "buyer_rate": 0.019417475728155338,
+    "avg_rev_d7": 0.93411713592233,
+    "whale_rate": 0.0,
+    "count": 103
+  },
+  "bs_ios": {
+    "buyer_rate": 0.02564102564102564,
+    "avg_rev_d7": 0.23051282051282052,
+    "whale_rate": 0.0,
+    "count": 39
+  },
+  "bn_android": {
+    "buyer_rate": 0.006134969325153374,
+    "avg_rev_d7": 0.01834355828220859,
+    "whale_rate": 0.0,
+    "count": 163
+  },
+  "mr_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 130
+  },
+  "br_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "bh_ios": {
+    "buyer_rate": 0.08280254777070063,
+    "avg_rev_d7": 0.8712265650372144,
+    "whale_rate": 0.0,
+    "count": 157
+  },
+  "gf_ios": {
+    "buyer_rate": 0.08695652173913043,
+    "avg_rev_d7": 0.25975463373425933,
+    "whale_rate": 0.0,
+    "count": 23
+  },
+  "bq_ios": {
+    "buyer_rate": 0.3333333333333333,
+    "avg_rev_d7": 0.6633333333333333,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "to_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "et_ios": {
+    "buyer_rate": 0.011904761904761904,
+    "avg_rev_d7": 0.5710433052380952,
+    "whale_rate": 0.0,
+    "count": 84
+  },
+  "re_android": {
+    "buyer_rate": 0.04,
+    "avg_rev_d7": 0.7479161529684322,
+    "whale_rate": 0.0,
+    "count": 425
+  },
+  "mv_android": {
+    "buyer_rate": 0.044444444444444446,
+    "avg_rev_d7": 3.3049166666666667,
+    "whale_rate": 0.0,
+    "count": 180
+  },
+  "cm_ios": {
+    "buyer_rate": 0.010416666666666666,
+    "avg_rev_d7": 0.05552083333333333,
+    "whale_rate": 0.0,
+    "count": 192
+  },
+  "hu_ios": {
+    "buyer_rate": 0.08541666666666667,
+    "avg_rev_d7": 3.090205968743142,
+    "whale_rate": 0.0,
+    "count": 480
+  },
+  "bm_android": {
+    "buyer_rate": 0.12,
+    "avg_rev_d7": 5.17724,
+    "whale_rate": 0.0,
+    "count": 25
+  },
+  "bz_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 24
+  },
+  "ck_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 7
+  },
+  "sc_android": {
+    "buyer_rate": 0.004484304932735426,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 223
+  },
+  "re_ios": {
+    "buyer_rate": 0.13402061855670103,
+    "avg_rev_d7": 2.371192812318803,
+    "whale_rate": 0.0,
+    "count": 97
+  },
+  "ls_android": {
+    "buyer_rate": 0.02564102564102564,
+    "avg_rev_d7": 0.4358974358974359,
+    "whale_rate": 0.0,
+    "count": 78
+  },
+  "bm_ios": {
+    "buyer_rate": 0.25,
+    "avg_rev_d7": 2.4975,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "ad_android": {
+    "buyer_rate": 0.08,
+    "avg_rev_d7": 5.422077908039589,
+    "whale_rate": 0.0,
+    "count": 25
+  },
+  "sx_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 8
+  },
+  "tl_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 35
+  },
+  "xk_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 15
+  },
+  "bb_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 15
+  },
+  "zm_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 96
+  },
+  "gd_ios": {
+    "buyer_rate": 0.14285714285714285,
+    "avg_rev_d7": 3.8485714285714283,
+    "whale_rate": 0.0,
+    "count": 14
+  },
+  "sz_android": {
+    "buyer_rate": 0.02666666666666667,
+    "avg_rev_d7": 0.12207971284382732,
+    "whale_rate": 0.0,
+    "count": 75
+  },
+  "mg_android": {
+    "buyer_rate": 0.005701254275940707,
+    "avg_rev_d7": 0.06643711649566915,
+    "whale_rate": 0.0,
+    "count": 877
+  },
+  "vu_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 23
+  },
+  "zw_ios": {
+    "buyer_rate": 0.015151515151515152,
+    "avg_rev_d7": 0.18136363636363637,
+    "whale_rate": 0.0,
+    "count": 66
+  },
+  "ee_ios": {
+    "buyer_rate": 0.12121212121212122,
+    "avg_rev_d7": 6.213687268399266,
+    "whale_rate": 0.0,
+    "count": 66
+  },
+  "mh_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 21
+  },
+  "to_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 32
+  },
+  "gq_android": {
+    "buyer_rate": 0.08108108108108109,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 111
+  },
+  "as_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 42
+  },
+  "vc_android": {
+    "buyer_rate": 0.03125,
+    "avg_rev_d7": 0.1559375,
+    "whale_rate": 0.0,
+    "count": 32
+  },
+  "vu_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "mg_ios": {
+    "buyer_rate": 0.012987012987012988,
+    "avg_rev_d7": 0.02831168831168831,
+    "whale_rate": 0.0,
+    "count": 77
+  },
+  "mu_ios": {
+    "buyer_rate": 0.07317073170731707,
+    "avg_rev_d7": 0.5201907563376754,
+    "whale_rate": 0.0,
+    "count": 41
+  },
+  "my_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "bt_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 16
+  },
+  "ne_ios": {
+    "buyer_rate": 0.022222222222222223,
+    "avg_rev_d7": 0.08524444444444446,
+    "whale_rate": 0.0,
+    "count": 45
+  },
+  "sl_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 50
+  },
+  "cf_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "tc_ios": {
+    "buyer_rate": 0.3333333333333333,
+    "avg_rev_d7": 3.4466666666666668,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "gl_ios": {
+    "buyer_rate": 0.07692307692307693,
+    "avg_rev_d7": 0.33861512460734244,
+    "whale_rate": 0.0,
+    "count": 13
+  },
+  "lu_ios": {
+    "buyer_rate": 0.10666666666666667,
+    "avg_rev_d7": 7.544338018783769,
+    "whale_rate": 0.0,
+    "count": 75
+  },
+  "nr_android": {
+    "buyer_rate": 0.25,
+    "avg_rev_d7": 0.2475,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "kn_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "cw_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 10
+  },
+  "vg_android": {
+    "buyer_rate": 0.25,
+    "avg_rev_d7": 2.4975,
+    "whale_rate": 0.0,
+    "count": 8
+  },
+  "nc_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 10
+  },
+  "is_ios": {
+    "buyer_rate": 0.15384615384615385,
+    "avg_rev_d7": 5.09243586885746,
+    "whale_rate": 0.0,
+    "count": 26
+  },
+  "vc_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "tz_ios": {
+    "buyer_rate": 0.004032258064516129,
+    "avg_rev_d7": 0.09673387096774193,
+    "whale_rate": 0.0,
+    "count": 248
+  },
+  "mo_ios": {
+    "buyer_rate": 0.024390243902439025,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 41
+  },
+  "mc_android": {
+    "buyer_rate": 0.125,
+    "avg_rev_d7": 63.697647844683715,
+    "whale_rate": 0.0,
+    "count": 8
+  },
+  "km_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 31
+  },
+  "pf_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 27
+  },
+  "rw_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 30
+  },
+  "bw_ios": {
+    "buyer_rate": 0.024390243902439025,
+    "avg_rev_d7": 0.975609756097561,
+    "whale_rate": 0.0,
+    "count": 41
+  },
+  "cg_ios": {
+    "buyer_rate": 0.010526315789473684,
+    "avg_rev_d7": 0.010421052631578947,
+    "whale_rate": 0.0,
+    "count": 95
+  },
+  "ky_ios": {
+    "buyer_rate": 0.125,
+    "avg_rev_d7": 5.86125,
+    "whale_rate": 0.0,
+    "count": 8
+  },
+  "mk_ios": {
+    "buyer_rate": 0.0546875,
+    "avg_rev_d7": 1.2718775056903007,
+    "whale_rate": 0.0,
+    "count": 128
+  },
+  "fm_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "gi_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 8
+  },
+  "so_ios": {
+    "buyer_rate": 0.022727272727272728,
+    "avg_rev_d7": 0.08210111363636363,
+    "whale_rate": 0.0,
+    "count": 88
+  },
+  "tv_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "eu_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 11
+  },
+  "bq_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "mc_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "vg_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "je_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 18
+  },
+  "tm_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "er_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "wf_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "mf_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "na_ios": {
+    "buyer_rate": 0.037037037037037035,
+    "avg_rev_d7": 0.0737037037037037,
+    "whale_rate": 0.0,
+    "count": 27
+  },
+  "sb_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "tv_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "yt_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 110
+  },
+  "dm_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 12
+  },
+  "ai_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "lv_ios": {
+    "buyer_rate": 0.05172413793103448,
+    "avg_rev_d7": 2.0216982142465136,
+    "whale_rate": 0.0,
+    "count": 116
+  },
+  "mt_ios": {
+    "buyer_rate": 0.16666666666666666,
+    "avg_rev_d7": 5.563447599222838,
+    "whale_rate": 0.0,
+    "count": 48
+  },
+  "bl_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "gw_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "nr_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "mf_ios": {
+    "buyer_rate": 0.25,
+    "avg_rev_d7": 0.8752775,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "yt_ios": {
+    "buyer_rate": 0.2857142857142857,
+    "avg_rev_d7": 0.5829887142857143,
+    "whale_rate": 0.0,
+    "count": 7
+  },
+  "im_android": {
+    "buyer_rate": 0.04,
+    "avg_rev_d7": 0.5196000000000001,
+    "whale_rate": 0.0,
+    "count": 25
+  },
+  "fr_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "ss_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 10
+  },
+  "je_ios": {
+    "buyer_rate": 0.14285714285714285,
+    "avg_rev_d7": 0.9809999921520001,
+    "whale_rate": 0.0,
+    "count": 7
+  },
+  "gg_android": {
+    "buyer_rate": 0.2222222222222222,
+    "avg_rev_d7": 9.692713103294174,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "td_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 23
+  },
+  "sd_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 14
+  },
+  "ax_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "st_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 20
+  },
+  "mp_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "dj_ios": {
+    "buyer_rate": 0.2,
+    "avg_rev_d7": 4.694,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "gg_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "gq_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "fo_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 7
+  },
+  "pg_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "bi_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "uz_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "li_android": {
+    "buyer_rate": 0.16666666666666666,
+    "avg_rev_d7": 2.265,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "ye_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 42
+  },
+  "ke_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "fo_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "aq_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "mp_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "af_android": {
+    "buyer_rate": 0.000999000999000999,
+    "avg_rev_d7": 0.019832308638533955,
+    "whale_rate": 0.0,
+    "count": 1001
+  },
+  "sg_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "sm_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "af_ios": {
+    "buyer_rate": 0.009523809523809525,
+    "avg_rev_d7": 0.06203499590476191,
+    "whale_rate": 0.0,
+    "count": 105
+  },
+  "sz_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "id_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "jp_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "ad_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "km_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "sm_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "pl_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "bd_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "ma_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "va_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "io_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "gi_ios": {
+    "buyer_rate": 0.3333333333333333,
+    "avg_rev_d7": 32.97666666666666,
+    "whale_rate": 0.0,
+    "count": 3
+  },
+  "im_ios": {
+    "buyer_rate": 0.2,
+    "avg_rev_d7": 5.9108122000000005,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "xk_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "ng_None": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "eu_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "ls_ios": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "pm_android": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  }
+}
