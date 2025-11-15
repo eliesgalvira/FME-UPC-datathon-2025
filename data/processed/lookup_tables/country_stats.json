@@ -1,0 +1,1412 @@
+{
+  "us": {
+    "buyer_rate": 0.0688158825593767,
+    "avg_rev_d7": 1.9371957440977963,
+    "whale_rate": 0.0,
+    "count": 538553
+  },
+  "ar": {
+    "buyer_rate": 0.018534930240802168,
+    "avg_rev_d7": 0.23730332212017768,
+    "whale_rate": 0.0,
+    "count": 39493
+  },
+  "ye": {
+    "buyer_rate": 0.0036407766990291263,
+    "avg_rev_d7": 0.11321383625493417,
+    "whale_rate": 0.0,
+    "count": 4120
+  },
+  "de": {
+    "buyer_rate": 0.08878235355758148,
+    "avg_rev_d7": 3.3240063612142308,
+    "whale_rate": 0.0,
+    "count": 38172
+  },
+  "my": {
+    "buyer_rate": 0.019676508145339163,
+    "avg_rev_d7": 0.16716429858446644,
+    "whale_rate": 0.0,
+    "count": 51686
+  },
+  "in": {
+    "buyer_rate": 0.008092561590674245,
+    "avg_rev_d7": 0.3429180958129855,
+    "whale_rate": 0.0,
+    "count": 471297
+  },
+  "bd": {
+    "buyer_rate": 0.007950976300819259,
+    "avg_rev_d7": 0.2269969150535792,
+    "whale_rate": 0.0,
+    "count": 91058
+  },
+  "cr": {
+    "buyer_rate": 0.02872143298332304,
+    "avg_rev_d7": 0.4514226543117793,
+    "whale_rate": 0.0,
+    "count": 3238
+  },
+  "za": {
+    "buyer_rate": 0.022182723071453962,
+    "avg_rev_d7": 0.22893012405865937,
+    "whale_rate": 0.0,
+    "count": 28130
+  },
+  "ru": {
+    "buyer_rate": 0.028880451041307098,
+    "avg_rev_d7": 1.736962814052885,
+    "whale_rate": 0.0,
+    "count": 86910
+  },
+  "mx": {
+    "buyer_rate": 0.030773434790376995,
+    "avg_rev_d7": 0.3715431194542709,
+    "whale_rate": 0.0,
+    "count": 95147
+  },
+  "ec": {
+    "buyer_rate": 0.026530612244897958,
+    "avg_rev_d7": 0.5889595556669346,
+    "whale_rate": 0.0,
+    "count": 9800
+  },
+  "kr": {
+    "buyer_rate": 0.05365136206676045,
+    "avg_rev_d7": 12.58449365900494,
+    "whale_rate": 6.39467962655071e-05,
+    "count": 15638
+  },
+  "id": {
+    "buyer_rate": 0.028640089258893706,
+    "avg_rev_d7": 1.4661642285794176,
+    "whale_rate": 8.582585933141656e-06,
+    "count": 116515
+  },
+  "uz": {
+    "buyer_rate": 0.018593532107045622,
+    "avg_rev_d7": 0.5311646290364742,
+    "whale_rate": 0.0,
+    "count": 45177
+  },
+  "br": {
+    "buyer_rate": 0.03598225645610536,
+    "avg_rev_d7": 0.42183790776386343,
+    "whale_rate": 0.0,
+    "count": 145405
+  },
+  "do": {
+    "buyer_rate": 0.01341609931918302,
+    "avg_rev_d7": 0.43338299389277496,
+    "whale_rate": 0.0,
+    "count": 4994
+  },
+  "gm": {
+    "buyer_rate": 0.010367577756833177,
+    "avg_rev_d7": 0.009585200975645641,
+    "whale_rate": 0.0,
+    "count": 5305
+  },
+  "eg": {
+    "buyer_rate": 0.01804208073111015,
+    "avg_rev_d7": 0.10194292595247371,
+    "whale_rate": 0.0,
+    "count": 152754
+  },
+  "pk": {
+    "buyer_rate": 0.014608746604165557,
+    "avg_rev_d7": 0.1800441873843481,
+    "whale_rate": 0.0,
+    "count": 75092
+  },
+  "ci": {
+    "buyer_rate": 0.036184587197984654,
+    "avg_rev_d7": 0.015415916593043215,
+    "whale_rate": 0.0,
+    "count": 43665
+  },
+  "ma": {
+    "buyer_rate": 0.007424787863203908,
+    "avg_rev_d7": 0.10010940233650954,
+    "whale_rate": 0.0,
+    "count": 31112
+  },
+  "cn": {
+    "buyer_rate": 0.015576888244883173,
+    "avg_rev_d7": 5.647148673192243,
+    "whale_rate": 0.0,
+    "count": 5521
+  },
+  "fr": {
+    "buyer_rate": 0.04761716066994241,
+    "avg_rev_d7": 3.2460862506365626,
+    "whale_rate": 0.0,
+    "count": 75708
+  },
+  "py": {
+    "buyer_rate": 0.016850291639662993,
+    "avg_rev_d7": 0.12016613000315726,
+    "whale_rate": 0.0,
+    "count": 3086
+  },
+  "cl": {
+    "buyer_rate": 0.03965826901606718,
+    "avg_rev_d7": 11.249709851316954,
+    "whale_rate": 4.854133294500267e-05,
+    "count": 20601
+  },
+  "pl": {
+    "buyer_rate": 0.0773969460646176,
+    "avg_rev_d7": 2.271732698186338,
+    "whale_rate": 0.0,
+    "count": 15259
+  },
+  "ca": {
+    "buyer_rate": 0.0270532688573278,
+    "avg_rev_d7": 0.5808417370945731,
+    "whale_rate": 0.0,
+    "count": 52526
+  },
+  "vn": {
+    "buyer_rate": 0.008494954273099969,
+    "avg_rev_d7": 0.5896038347544407,
+    "whale_rate": 0.0,
+    "count": 50736
+  },
+  "sg": {
+    "buyer_rate": 0.005218934293617243,
+    "avg_rev_d7": 0.19582216035415095,
+    "whale_rate": 0.0,
+    "count": 38322
+  },
+  "sa": {
+    "buyer_rate": 0.024021873575939066,
+    "avg_rev_d7": 2.3347211604451528,
+    "whale_rate": 0.0,
+    "count": 15361
+  },
+  "th": {
+    "buyer_rate": 0.01781848459616986,
+    "avg_rev_d7": 1.3642960635947388,
+    "whale_rate": 0.0,
+    "count": 66055
+  },
+  "dz": {
+    "buyer_rate": 0.013016528925619835,
+    "avg_rev_d7": 0.09036966369916555,
+    "whale_rate": 0.0,
+    "count": 24200
+  },
+  "gt": {
+    "buyer_rate": 0.012023500478207405,
+    "avg_rev_d7": 1.4602109009600566,
+    "whale_rate": 0.0,
+    "count": 7319
+  },
+  "ph": {
+    "buyer_rate": 0.014515383558392565,
+    "avg_rev_d7": 0.13622605659055034,
+    "whale_rate": 0.0,
+    "count": 80053
+  },
+  "jp": {
+    "buyer_rate": 0.1120515574650913,
+    "avg_rev_d7": 4.739627317771689,
+    "whale_rate": 0.0,
+    "count": 23275
+  },
+  "ug": {
+    "buyer_rate": 0.0065040650406504065,
+    "avg_rev_d7": 1.2413594399277328,
+    "whale_rate": 0.0,
+    "count": 5535
+  },
+  "co": {
+    "buyer_rate": 0.039700180925303696,
+    "avg_rev_d7": 44.499587056760994,
+    "whale_rate": 0.00010338588782631171,
+    "count": 38690
+  },
+  "au": {
+    "buyer_rate": 0.08347529812606473,
+    "avg_rev_d7": 3.0471960896287404,
+    "whale_rate": 0.0,
+    "count": 9979
+  },
+  "gb": {
+    "buyer_rate": 0.10816308216924411,
+    "avg_rev_d7": 3.213707795350244,
+    "whale_rate": 0.0,
+    "count": 33431
+  },
+  "it": {
+    "buyer_rate": 0.041728944879968276,
+    "avg_rev_d7": 8.519139535381804,
+    "whale_rate": 3.0503614678339382e-05,
+    "count": 32783
+  },
+  "qa": {
+    "buyer_rate": 0.067,
+    "avg_rev_d7": 4.796974191892507,
+    "whale_rate": 0.0,
+    "count": 4000
+  },
+  "ml": {
+    "buyer_rate": 0.07226173541963016,
+    "avg_rev_d7": 0.0750931300975464,
+    "whale_rate": 0.0,
+    "count": 3515
+  },
+  "zw": {
+    "buyer_rate": 0.00572155117609663,
+    "avg_rev_d7": 0.2496576605212969,
+    "whale_rate": 0.0,
+    "count": 1573
+  },
+  "ae": {
+    "buyer_rate": 0.025881075947220243,
+    "avg_rev_d7": 0.6426779905028448,
+    "whale_rate": 0.0,
+    "count": 29481
+  },
+  "np": {
+    "buyer_rate": 0.0044853635505193576,
+    "avg_rev_d7": 0.025358829084041547,
+    "whale_rate": 0.0,
+    "count": 16944
+  },
+  "mn": {
+    "buyer_rate": 0.0062020082693443595,
+    "avg_rev_d7": 0.5023332497586317,
+    "whale_rate": 0.0,
+    "count": 3386
+  },
+  "pe": {
+    "buyer_rate": 0.03836856452193591,
+    "avg_rev_d7": 0.4047842158932056,
+    "whale_rate": 0.0,
+    "count": 19443
+  },
+  "sv": {
+    "buyer_rate": 0.020581113801452784,
+    "avg_rev_d7": 0.14212789960653752,
+    "whale_rate": 0.0,
+    "count": 3304
+  },
+  "cm": {
+    "buyer_rate": 0.04100739631120682,
+    "avg_rev_d7": 0.17588053553038105,
+    "whale_rate": 0.0,
+    "count": 10681
+  },
+  "cg": {
+    "buyer_rate": 0.009986382206082615,
+    "avg_rev_d7": 0.04584203359055833,
+    "whale_rate": 0.0,
+    "count": 2203
+  },
+  "bj": {
+    "buyer_rate": 0.030026000167743018,
+    "avg_rev_d7": 0.028361474444300695,
+    "whale_rate": 0.0,
+    "count": 11923
+  },
+  "ng": {
+    "buyer_rate": 0.011649222399621548,
+    "avg_rev_d7": 0.5762138016488358,
+    "whale_rate": 0.0,
+    "count": 50733
+  },
+  "bo": {
+    "buyer_rate": 0.014445479962721343,
+    "avg_rev_d7": 0.11172181845972039,
+    "whale_rate": 0.0,
+    "count": 4292
+  },
+  "es": {
+    "buyer_rate": 0.040022870211549454,
+    "avg_rev_d7": 24.59077318584832,
+    "whale_rate": 6.726532808663775e-05,
+    "count": 29733
+  },
+  "bh": {
+    "buyer_rate": 0.020139426800929512,
+    "avg_rev_d7": 0.2993305801690105,
+    "whale_rate": 0.0,
+    "count": 3873
+  },
+  "hn": {
+    "buyer_rate": 0.010647181628392484,
+    "avg_rev_d7": 0.0695437369519833,
+    "whale_rate": 0.0,
+    "count": 4790
+  },
+  "gh": {
+    "buyer_rate": 0.012379783098015143,
+    "avg_rev_d7": 0.30800032726152216,
+    "whale_rate": 0.0,
+    "count": 9774
+  },
+  "ni": {
+    "buyer_rate": 0.010583941605839416,
+    "avg_rev_d7": 0.11134233576642334,
+    "whale_rate": 0.0,
+    "count": 2740
+  },
+  "tw": {
+    "buyer_rate": 0.04154815115806583,
+    "avg_rev_d7": 4.080972808995449,
+    "whale_rate": 0.0,
+    "count": 9844
+  },
+  "tr": {
+    "buyer_rate": 0.03315666892846009,
+    "avg_rev_d7": 0.6819222815393433,
+    "whale_rate": 0.0,
+    "count": 54529
+  },
+  "kw": {
+    "buyer_rate": 0.018697318007662837,
+    "avg_rev_d7": 0.591446217902543,
+    "whale_rate": 0.0,
+    "count": 6525
+  },
+  "jm": {
+    "buyer_rate": 0.02145110410094637,
+    "avg_rev_d7": 3.3729702431712254,
+    "whale_rate": 0.0,
+    "count": 1585
+  },
+  "gn": {
+    "buyer_rate": 0.042112676056338026,
+    "avg_rev_d7": 0.004699506341229329,
+    "whale_rate": 0.0,
+    "count": 7100
+  },
+  "sy": {
+    "buyer_rate": 0.009768637532133676,
+    "avg_rev_d7": 0.017796484149100258,
+    "whale_rate": 0.0,
+    "count": 1945
+  },
+  "kh": {
+    "buyer_rate": 0.025159692347803415,
+    "avg_rev_d7": 2.406926430318245,
+    "whale_rate": 0.0,
+    "count": 7671
+  },
+  "az": {
+    "buyer_rate": 0.009468856339695221,
+    "avg_rev_d7": 0.1487783964744742,
+    "whale_rate": 0.0,
+    "count": 6759
+  },
+  "bf": {
+    "buyer_rate": 0.04643928452394178,
+    "avg_rev_d7": 0.06220738732187794,
+    "whale_rate": 0.0,
+    "count": 9001
+  },
+  "ve": {
+    "buyer_rate": 0.008595786655393504,
+    "avg_rev_d7": 0.12884855823882507,
+    "whale_rate": 0.0,
+    "count": 14193
+  },
+  "jo": {
+    "buyer_rate": 0.022723806618880585,
+    "avg_rev_d7": 0.4140893350876599,
+    "whale_rate": 0.0,
+    "count": 13114
+  },
+  "tz": {
+    "buyer_rate": 0.010019083969465648,
+    "avg_rev_d7": 0.25422937663110234,
+    "whale_rate": 0.0,
+    "count": 6288
+  },
+  "pr": {
+    "buyer_rate": 0.03317535545023697,
+    "avg_rev_d7": 0.6203778237432789,
+    "whale_rate": 0.0,
+    "count": 1688
+  },
+  "ua": {
+    "buyer_rate": 0.0363422225961134,
+    "avg_rev_d7": 1.1098441116674955,
+    "whale_rate": 0.0,
+    "count": 11887
+  },
+  "nl": {
+    "buyer_rate": 0.07616656204226825,
+    "avg_rev_d7": 2.765222703288752,
+    "whale_rate": 0.0,
+    "count": 9558
+  },
+  "bg": {
+    "buyer_rate": 0.02721482339316734,
+    "avg_rev_d7": 0.9187034922858036,
+    "whale_rate": 0.0,
+    "count": 3454
+  },
+  "pt": {
+    "buyer_rate": 0.08026575686837853,
+    "avg_rev_d7": 3.641077185472552,
+    "whale_rate": 0.0,
+    "count": 5569
+  },
+  "ke": {
+    "buyer_rate": 0.01881457313757477,
+    "avg_rev_d7": 0.43057734994656904,
+    "whale_rate": 0.0,
+    "count": 9195
+  },
+  "so": {
+    "buyer_rate": 0.04716560035708972,
+    "avg_rev_d7": 0.05420182317913421,
+    "whale_rate": 0.0,
+    "count": 6721
+  },
+  "sn": {
+    "buyer_rate": 0.035613823588507135,
+    "avg_rev_d7": 0.07501567838963888,
+    "whale_rate": 0.0,
+    "count": 19908
+  },
+  "ir": {
+    "buyer_rate": 0.01071029634010119,
+    "avg_rev_d7": 0.04233195347920363,
+    "whale_rate": 0.0,
+    "count": 15219
+  },
+  "tn": {
+    "buyer_rate": 0.006515389800044934,
+    "avg_rev_d7": 0.10715232340203301,
+    "whale_rate": 0.0,
+    "count": 4451
+  },
+  "om": {
+    "buyer_rate": 0.047766749379652605,
+    "avg_rev_d7": 8.240987077136996,
+    "whale_rate": 0.0,
+    "count": 3224
+  },
+  "mr": {
+    "buyer_rate": 0.08595548733691481,
+    "avg_rev_d7": 0.013768227168073677,
+    "whale_rate": 0.0,
+    "count": 1303
+  },
+  "zm": {
+    "buyer_rate": 0.005748912367930391,
+    "avg_rev_d7": 0.08299110472343071,
+    "whale_rate": 0.0,
+    "count": 12872
+  },
+  "nz": {
+    "buyer_rate": 0.07754688291941206,
+    "avg_rev_d7": 1.4691906749156918,
+    "whale_rate": 0.0,
+    "count": 1973
+  },
+  "pa": {
+    "buyer_rate": 0.022157996146435453,
+    "avg_rev_d7": 0.6016124665487188,
+    "whale_rate": 0.0,
+    "count": 2076
+  },
+  "mm": {
+    "buyer_rate": 0.04193072315305148,
+    "avg_rev_d7": 0.5073291259690264,
+    "whale_rate": 0.0,
+    "count": 11519
+  },
+  "tj": {
+    "buyer_rate": 0.01340282948622487,
+    "avg_rev_d7": 0.42093075204765457,
+    "whale_rate": 0.0,
+    "count": 1343
+  },
+  "no": {
+    "buyer_rate": 0.03019193444037093,
+    "avg_rev_d7": 1.4137257848145193,
+    "whale_rate": 0.0,
+    "count": 4637
+  },
+  "gf": {
+    "buyer_rate": 0.0546875,
+    "avg_rev_d7": 0.9700019684807688,
+    "whale_rate": 0.0,
+    "count": 128
+  },
+  "iq": {
+    "buyer_rate": 0.017124723070474822,
+    "avg_rev_d7": 0.48241115407980556,
+    "whale_rate": 0.0,
+    "count": 33402
+  },
+  "ch": {
+    "buyer_rate": 0.1131606952820149,
+    "avg_rev_d7": 14.956342992365085,
+    "whale_rate": 0.000354735721887194,
+    "count": 2819
+  },
+  "ge": {
+    "buyer_rate": 0.02302968270214944,
+    "avg_rev_d7": 0.9282212183204833,
+    "whale_rate": 0.0,
+    "count": 1954
+  },
+  "rs": {
+    "buyer_rate": 0.040706605222734255,
+    "avg_rev_d7": 1.3640857434226163,
+    "whale_rate": 0.0,
+    "count": 2604
+  },
+  "tm": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 591
+  },
+  "tg": {
+    "buyer_rate": 0.05692695214105793,
+    "avg_rev_d7": 0.03798133065494129,
+    "whale_rate": 0.0,
+    "count": 1985
+  },
+  "tt": {
+    "buyer_rate": 0.015256588072122053,
+    "avg_rev_d7": 0.34832456488896363,
+    "whale_rate": 0.0,
+    "count": 721
+  },
+  "pg": {
+    "buyer_rate": 0.0025906735751295338,
+    "avg_rev_d7": 0.02493091537132988,
+    "whale_rate": 0.0,
+    "count": 1158
+  },
+  "ly": {
+    "buyer_rate": 0.0022166805209199226,
+    "avg_rev_d7": 0.07865729305199959,
+    "whale_rate": 0.0,
+    "count": 3609
+  },
+  "ao": {
+    "buyer_rate": 0.000794912559618442,
+    "avg_rev_d7": 0.011526232114467409,
+    "whale_rate": 0.0,
+    "count": 2516
+  },
+  "cd": {
+    "buyer_rate": 0.02966818477553676,
+    "avg_rev_d7": 0.009938069301784345,
+    "whale_rate": 0.0,
+    "count": 7685
+  },
+  "ga": {
+    "buyer_rate": 0.05021276595744681,
+    "avg_rev_d7": 0.046234967245611276,
+    "whale_rate": 0.0,
+    "count": 1175
+  },
+  "uy": {
+    "buyer_rate": 0.023266219239373602,
+    "avg_rev_d7": 0.27285145351008316,
+    "whale_rate": 0.0,
+    "count": 2235
+  },
+  "ht": {
+    "buyer_rate": 0.001875293014533521,
+    "avg_rev_d7": 0.011734646038443507,
+    "whale_rate": 0.0,
+    "count": 2133
+  },
+  "bz": {
+    "buyer_rate": 0.00425531914893617,
+    "avg_rev_d7": 0.004936170212765957,
+    "whale_rate": 0.0,
+    "count": 235
+  },
+  "ag": {
+    "buyer_rate": 0.024,
+    "avg_rev_d7": 0.03176,
+    "whale_rate": 0.0,
+    "count": 125
+  },
+  "lb": {
+    "buyer_rate": 0.009612403100775194,
+    "avg_rev_d7": 0.30685332978298413,
+    "whale_rate": 0.0,
+    "count": 3225
+  },
+  "hk": {
+    "buyer_rate": 0.048314606741573035,
+    "avg_rev_d7": 2.219887855325137,
+    "whale_rate": 0.0,
+    "count": 4450
+  },
+  "sl": {
+    "buyer_rate": 0.02988361119849009,
+    "avg_rev_d7": 0.007329348851840202,
+    "whale_rate": 0.0,
+    "count": 3179
+  },
+  "il": {
+    "buyer_rate": 0.030297029702970296,
+    "avg_rev_d7": 2.2949737934300694,
+    "whale_rate": 0.0,
+    "count": 5050
+  },
+  "md": {
+    "buyer_rate": 0.027005559968228753,
+    "avg_rev_d7": 1.1057385477738344,
+    "whale_rate": 0.0,
+    "count": 1259
+  },
+  "se": {
+    "buyer_rate": 0.10895607529948659,
+    "avg_rev_d7": 3.5847031336830173,
+    "whale_rate": 0.0,
+    "count": 3506
+  },
+  "sr": {
+    "buyer_rate": 0.0049261083743842365,
+    "avg_rev_d7": 0.29551724137931035,
+    "whale_rate": 0.0,
+    "count": 203
+  },
+  "ne": {
+    "buyer_rate": 0.061893203883495146,
+    "avg_rev_d7": 0.004148058252427185,
+    "whale_rate": 0.0,
+    "count": 1648
+  },
+  "cu": {
+    "buyer_rate": 0.0010775862068965517,
+    "avg_rev_d7": 2.1551724137931036e-05,
+    "whale_rate": 0.0,
+    "count": 928
+  },
+  "cz": {
+    "buyer_rate": 0.0847246449040618,
+    "avg_rev_d7": 2.615530276940508,
+    "whale_rate": 0.0,
+    "count": 4013
+  },
+  "lk": {
+    "buyer_rate": 0.018626309662398137,
+    "avg_rev_d7": 1.1809667068982952,
+    "whale_rate": 0.0,
+    "count": 3436
+  },
+  "be": {
+    "buyer_rate": 0.08189040537787737,
+    "avg_rev_d7": 3.7840559182504006,
+    "whale_rate": 0.0,
+    "count": 4909
+  },
+  "ro": {
+    "buyer_rate": 0.051878949118722976,
+    "avg_rev_d7": 1.8743279282232799,
+    "whale_rate": 0.0,
+    "count": 9021
+  },
+  "at": {
+    "buyer_rate": 0.110835144365104,
+    "avg_rev_d7": 4.371620141769374,
+    "whale_rate": 0.0,
+    "count": 3221
+  },
+  "gy": {
+    "buyer_rate": 0.008547008547008548,
+    "avg_rev_d7": 0.5011111111111111,
+    "whale_rate": 0.0,
+    "count": 351
+  },
+  "nf": {
+    "buyer_rate": 0.011851851851851851,
+    "avg_rev_d7": 0.0828330155559479,
+    "whale_rate": 0.0,
+    "count": 675
+  },
+  "la": {
+    "buyer_rate": 0.019889970376639865,
+    "avg_rev_d7": 0.256456869886621,
+    "whale_rate": 0.0,
+    "count": 2363
+  },
+  "gu": {
+    "buyer_rate": 0.05,
+    "avg_rev_d7": 0.56589,
+    "whale_rate": 0.0,
+    "count": 100
+  },
+  "al": {
+    "buyer_rate": 0.014271151885830785,
+    "avg_rev_d7": 0.29549625321082945,
+    "whale_rate": 0.0,
+    "count": 981
+  },
+  "lt": {
+    "buyer_rate": 0.09060118543607112,
+    "avg_rev_d7": 2.2535813291790014,
+    "whale_rate": 0.0,
+    "count": 1181
+  },
+  "mu": {
+    "buyer_rate": 0.022452504317789293,
+    "avg_rev_d7": 1.0408047404391354,
+    "whale_rate": 0.0,
+    "count": 579
+  },
+  "dj": {
+    "buyer_rate": 0.1407942238267148,
+    "avg_rev_d7": 0.1208303249097473,
+    "whale_rate": 0.0,
+    "count": 277
+  },
+  "kz": {
+    "buyer_rate": 0.018229994700582935,
+    "avg_rev_d7": 0.56555863315007,
+    "whale_rate": 0.0,
+    "count": 9435
+  },
+  "mq": {
+    "buyer_rate": 0.06748466257668712,
+    "avg_rev_d7": 1.1217296628458553,
+    "whale_rate": 0.0,
+    "count": 163
+  },
+  "ie": {
+    "buyer_rate": 0.07248677248677249,
+    "avg_rev_d7": 2.3419614605202455,
+    "whale_rate": 0.0,
+    "count": 1890
+  },
+  "kg": {
+    "buyer_rate": 0.013386880856760375,
+    "avg_rev_d7": 0.13632762516411223,
+    "whale_rate": 0.0,
+    "count": 2988
+  },
+  "sk": {
+    "buyer_rate": 0.05868945868945869,
+    "avg_rev_d7": 1.9522488757161711,
+    "whale_rate": 0.0,
+    "count": 1755
+  },
+  "by": {
+    "buyer_rate": 0.01860088960776385,
+    "avg_rev_d7": 0.19302314130315434,
+    "whale_rate": 0.0,
+    "count": 2473
+  },
+  "dk": {
+    "buyer_rate": 0.09008579599618685,
+    "avg_rev_d7": 3.552945716783196,
+    "whale_rate": 0.0,
+    "count": 2098
+  },
+  "et": {
+    "buyer_rate": 0.004618937644341801,
+    "avg_rev_d7": 0.054413605291982844,
+    "whale_rate": 0.0,
+    "count": 3031
+  },
+  "mt": {
+    "buyer_rate": 0.07003891050583658,
+    "avg_rev_d7": 1.475926038926261,
+    "whale_rate": 0.0,
+    "count": 257
+  },
+  "cy": {
+    "buyer_rate": 0.05092592592592592,
+    "avg_rev_d7": 3.1126102984235544,
+    "whale_rate": 0.0,
+    "count": 648
+  },
+  "gr": {
+    "buyer_rate": 0.04395916052183778,
+    "avg_rev_d7": 1.3436004554677348,
+    "whale_rate": 0.0,
+    "count": 3526
+  },
+  "ps": {
+    "buyer_rate": 0.002242152466367713,
+    "avg_rev_d7": 0.018024371875233366,
+    "whale_rate": 0.0,
+    "count": 1338
+  },
+  "bt": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 221
+  },
+  "na": {
+    "buyer_rate": 0.025682182985553772,
+    "avg_rev_d7": 4.891982122311562,
+    "whale_rate": 0.0,
+    "count": 623
+  },
+  "bb": {
+    "buyer_rate": 0.02962962962962963,
+    "avg_rev_d7": 0.4366666666666666,
+    "whale_rate": 0.0,
+    "count": 135
+  },
+  "am": {
+    "buyer_rate": 0.011676396997497914,
+    "avg_rev_d7": 0.347581002943222,
+    "whale_rate": 0.0,
+    "count": 1199
+  },
+  "hu": {
+    "buyer_rate": 0.05926786751888437,
+    "avg_rev_d7": 3.8384325442112925,
+    "whale_rate": 0.0,
+    "count": 3442
+  },
+  "si": {
+    "buyer_rate": 0.05625,
+    "avg_rev_d7": 2.2083700155106953,
+    "whale_rate": 0.0,
+    "count": 640
+  },
+  "ba": {
+    "buyer_rate": 0.02488479262672811,
+    "avg_rev_d7": 0.614411452857209,
+    "whale_rate": 0.0,
+    "count": 1085
+  },
+  "bw": {
+    "buyer_rate": 0.02269503546099291,
+    "avg_rev_d7": 0.4163971631205674,
+    "whale_rate": 0.0,
+    "count": 705
+  },
+  "lv": {
+    "buyer_rate": 0.0723055934515689,
+    "avg_rev_d7": 1.994069032121884,
+    "whale_rate": 0.0,
+    "count": 733
+  },
+  "ee": {
+    "buyer_rate": 0.1099476439790576,
+    "avg_rev_d7": 4.171957939035329,
+    "whale_rate": 0.0,
+    "count": 382
+  },
+  "sb": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 80
+  },
+  "me": {
+    "buyer_rate": 0.05128205128205128,
+    "avg_rev_d7": 2.573133343138485,
+    "whale_rate": 0.0,
+    "count": 234
+  },
+  "fj": {
+    "buyer_rate": 0.013333333333333334,
+    "avg_rev_d7": 0.3345607244482903,
+    "whale_rate": 0.0,
+    "count": 525
+  },
+  "lc": {
+    "buyer_rate": 0.011363636363636364,
+    "avg_rev_d7": 0.030685566755324824,
+    "whale_rate": 0.0,
+    "count": 88
+  },
+  "pf": {
+    "buyer_rate": 0.04,
+    "avg_rev_d7": 1.232325680908595,
+    "whale_rate": 0.0,
+    "count": 150
+  },
+  "bs": {
+    "buyer_rate": 0.0374331550802139,
+    "avg_rev_d7": 0.4945989304812834,
+    "whale_rate": 0.0,
+    "count": 187
+  },
+  "mk": {
+    "buyer_rate": 0.03225806451612903,
+    "avg_rev_d7": 1.5451428702177765,
+    "whale_rate": 0.0,
+    "count": 558
+  },
+  "kn": {
+    "buyer_rate": 0.03333333333333333,
+    "avg_rev_d7": 0.066,
+    "whale_rate": 0.0,
+    "count": 30
+  },
+  "rw": {
+    "buyer_rate": 0.011940298507462687,
+    "avg_rev_d7": 0.17857164179104476,
+    "whale_rate": 0.0,
+    "count": 335
+  },
+  "ky": {
+    "buyer_rate": 0.08823529411764706,
+    "avg_rev_d7": 2.260882352941177,
+    "whale_rate": 0.0,
+    "count": 34
+  },
+  "tc": {
+    "buyer_rate": 0.16666666666666666,
+    "avg_rev_d7": 1.4255555555555555,
+    "whale_rate": 0.0,
+    "count": 18
+  },
+  "fi": {
+    "buyer_rate": 0.07913279132791327,
+    "avg_rev_d7": 2.7137131300849755,
+    "whale_rate": 0.0,
+    "count": 1845
+  },
+  "fm": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 17
+  },
+  "as": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 62
+  },
+  "nc": {
+    "buyer_rate": 0.007692307692307693,
+    "avg_rev_d7": 0.038384615384615385,
+    "whale_rate": 0.0,
+    "count": 130
+  },
+  "gp": {
+    "buyer_rate": 0.048484848484848485,
+    "avg_rev_d7": 3.1586581567395133,
+    "whale_rate": 0.0,
+    "count": 165
+  },
+  "cv": {
+    "buyer_rate": 0.019704433497536946,
+    "avg_rev_d7": 0.24059038167898575,
+    "whale_rate": 0.0,
+    "count": 203
+  },
+  "lu": {
+    "buyer_rate": 0.0796812749003984,
+    "avg_rev_d7": 5.7691680966653225,
+    "whale_rate": 0.0,
+    "count": 251
+  },
+  "sd": {
+    "buyer_rate": 0.005466970387243736,
+    "avg_rev_d7": 0.15115204426951467,
+    "whale_rate": 0.0,
+    "count": 2195
+  },
+  "lr": {
+    "buyer_rate": 0.03209876543209877,
+    "avg_rev_d7": 0.038691358024691355,
+    "whale_rate": 0.0,
+    "count": 405
+  },
+  "sc": {
+    "buyer_rate": 0.003003003003003003,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 333
+  },
+  "tl": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 221
+  },
+  "bn": {
+    "buyer_rate": 0.014925373134328358,
+    "avg_rev_d7": 0.02975710447761194,
+    "whale_rate": 0.0,
+    "count": 201
+  },
+  "cw": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 64
+  },
+  "mv": {
+    "buyer_rate": 0.036585365853658534,
+    "avg_rev_d7": 2.449545392173112,
+    "whale_rate": 0.0,
+    "count": 246
+  },
+  "pw": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 12
+  },
+  "gl": {
+    "buyer_rate": 0.044444444444444446,
+    "avg_rev_d7": 0.15293325821989892,
+    "whale_rate": 0.0,
+    "count": 45
+  },
+  "ss": {
+    "buyer_rate": 0.00975609756097561,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 205
+  },
+  "mo": {
+    "buyer_rate": 0.020833333333333332,
+    "avg_rev_d7": 0.031041666666666665,
+    "whale_rate": 0.0,
+    "count": 96
+  },
+  "is": {
+    "buyer_rate": 0.1,
+    "avg_rev_d7": 2.132965313696179,
+    "whale_rate": 0.0,
+    "count": 120
+  },
+  "cf": {
+    "buyer_rate": 0.02857142857142857,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 70
+  },
+  "td": {
+    "buyer_rate": 0.01956521739130435,
+    "avg_rev_d7": 0.39975,
+    "whale_rate": 0.0,
+    "count": 920
+  },
+  "hr": {
+    "buyer_rate": 0.09640616086708499,
+    "avg_rev_d7": 3.6530874847991526,
+    "whale_rate": 0.0,
+    "count": 1753
+  },
+  "aw": {
+    "buyer_rate": 0.04,
+    "avg_rev_d7": 0.2056862066396352,
+    "whale_rate": 0.0,
+    "count": 50
+  },
+  "vi": {
+    "buyer_rate": 0.024390243902439025,
+    "avg_rev_d7": 0.46268292682926826,
+    "whale_rate": 0.0,
+    "count": 41
+  },
+  "mz": {
+    "buyer_rate": 0.01025236593059937,
+    "avg_rev_d7": 0.13445483015189394,
+    "whale_rate": 0.0,
+    "count": 1268
+  },
+  "gd": {
+    "buyer_rate": 0.09230769230769231,
+    "avg_rev_d7": 3.0096923076923074,
+    "whale_rate": 0.0,
+    "count": 65
+  },
+  "ki": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 45
+  },
+  "mw": {
+    "buyer_rate": 0.003745318352059925,
+    "avg_rev_d7": 1.6853932584269662,
+    "whale_rate": 0.0,
+    "count": 267
+  },
+  "dm": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 37
+  },
+  "bi": {
+    "buyer_rate": 0.08932238193018481,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 974
+  },
+  "ck": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 9
+  },
+  "gw": {
+    "buyer_rate": 0.023952095808383235,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 167
+  },
+  "sx": {
+    "buyer_rate": 0.045454545454545456,
+    "avg_rev_d7": 0.5436363636363637,
+    "whale_rate": 0.0,
+    "count": 22
+  },
+  "ws": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 60
+  },
+  "bq": {
+    "buyer_rate": 0.16666666666666666,
+    "avg_rev_d7": 0.33166666666666667,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "to": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 41
+  },
+  "re": {
+    "buyer_rate": 0.05747126436781609,
+    "avg_rev_d7": 1.0495595168707044,
+    "whale_rate": 0.0,
+    "count": 522
+  },
+  "bm": {
+    "buyer_rate": 0.13793103448275862,
+    "avg_rev_d7": 4.807620689655172,
+    "whale_rate": 0.0,
+    "count": 29
+  },
+  "ls": {
+    "buyer_rate": 0.02531645569620253,
+    "avg_rev_d7": 0.43037974683544306,
+    "whale_rate": 0.0,
+    "count": 79
+  },
+  "ad": {
+    "buyer_rate": 0.06896551724137931,
+    "avg_rev_d7": 4.6742050931375765,
+    "whale_rate": 0.0,
+    "count": 29
+  },
+  "xk": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 17
+  },
+  "sz": {
+    "buyer_rate": 0.02531645569620253,
+    "avg_rev_d7": 0.11589846156059555,
+    "whale_rate": 0.0,
+    "count": 79
+  },
+  "mg": {
+    "buyer_rate": 0.006289308176100629,
+    "avg_rev_d7": 0.06335990688333526,
+    "whale_rate": 0.0,
+    "count": 954
+  },
+  "vu": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 25
+  },
+  "mh": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 21
+  },
+  "gq": {
+    "buyer_rate": 0.07692307692307693,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 117
+  },
+  "vc": {
+    "buyer_rate": 0.02631578947368421,
+    "avg_rev_d7": 0.13131578947368422,
+    "whale_rate": 0.0,
+    "count": 38
+  },
+  "nr": {
+    "buyer_rate": 0.2,
+    "avg_rev_d7": 0.198,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "vg": {
+    "buyer_rate": 0.16666666666666666,
+    "avg_rev_d7": 1.665,
+    "whale_rate": 0.0,
+    "count": 12
+  },
+  "mc": {
+    "buyer_rate": 0.07142857142857142,
+    "avg_rev_d7": 36.398655911247836,
+    "whale_rate": 0.0,
+    "count": 14
+  },
+  "km": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 36
+  },
+  "gi": {
+    "buyer_rate": 0.09090909090909091,
+    "avg_rev_d7": 8.993636363636362,
+    "whale_rate": 0.0,
+    "count": 11
+  },
+  "tv": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "eu": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 12
+  },
+  "je": {
+    "buyer_rate": 0.04,
+    "avg_rev_d7": 0.27467999780256,
+    "whale_rate": 0.0,
+    "count": 25
+  },
+  "er": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "wf": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "mf": {
+    "buyer_rate": 0.16666666666666666,
+    "avg_rev_d7": 0.5835183333333334,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "yt": {
+    "buyer_rate": 0.017094017094017096,
+    "avg_rev_d7": 0.03487966666666667,
+    "whale_rate": 0.0,
+    "count": 117
+  },
+  "ai": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "bl": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "im": {
+    "buyer_rate": 0.06666666666666667,
+    "avg_rev_d7": 1.4181353666666667,
+    "whale_rate": 0.0,
+    "count": 30
+  },
+  "gg": {
+    "buyer_rate": 0.14285714285714285,
+    "avg_rev_d7": 6.231029852117684,
+    "whale_rate": 0.0,
+    "count": 14
+  },
+  "ax": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "st": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 20
+  },
+  "mp": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 4
+  },
+  "fo": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 8
+  },
+  "li": {
+    "buyer_rate": 0.16666666666666666,
+    "avg_rev_d7": 2.265,
+    "whale_rate": 0.0,
+    "count": 6
+  },
+  "aq": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 5
+  },
+  "af": {
+    "buyer_rate": 0.0018083182640144665,
+    "avg_rev_d7": 0.02383889287266952,
+    "whale_rate": 0.0,
+    "count": 1106
+  },
+  "sm": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  },
+  "va": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "io": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 1
+  },
+  "pm": {
+    "buyer_rate": 0.0,
+    "avg_rev_d7": 0.0,
+    "whale_rate": 0.0,
+    "count": 2
+  }
+}

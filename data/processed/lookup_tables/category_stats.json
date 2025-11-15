@@ -1,0 +1,128 @@
+{
+  "game": {
+    "buyer_rate": 0.01312050305338896,
+    "avg_rev_d7": 0.25430299859004074,
+    "whale_rate": 0.0,
+    "count": 909645
+  },
+  "sport betting": {
+    "buyer_rate": 0.02027883039087608,
+    "avg_rev_d7": 0.18365903612520665,
+    "whale_rate": 0.0,
+    "count": 708818
+  },
+  "games": {
+    "buyer_rate": 0.03474532258700711,
+    "avg_rev_d7": 0.8189581765700892,
+    "whale_rate": 0.0,
+    "count": 608456
+  },
+  "application": {
+    "buyer_rate": 0.06818349396955811,
+    "avg_rev_d7": 10.89059036049263,
+    "whale_rate": 2.3700426607678938e-05,
+    "count": 379740
+  },
+  "food & drink": {
+    "buyer_rate": 0.20113960113960114,
+    "avg_rev_d7": 1.429162728936895,
+    "whale_rate": 0.0,
+    "count": 24570
+  },
+  "finance": {
+    "buyer_rate": 0.009334760468359769,
+    "avg_rev_d7": 1.6622556983099013,
+    "whale_rate": 6.486977392883786e-06,
+    "count": 154155
+  },
+  "social networking": {
+    "buyer_rate": 0.01288454941726697,
+    "avg_rev_d7": 0.20210318778541586,
+    "whale_rate": 0.0,
+    "count": 119523
+  },
+  "lifestyle": {
+    "buyer_rate": 0.2742104972070129,
+    "avg_rev_d7": 3.8488683089104234,
+    "whale_rate": 0.0,
+    "count": 18081
+  },
+  "real money casino": {
+    "buyer_rate": 0.15124128919860627,
+    "avg_rev_d7": 11.609050823143637,
+    "whale_rate": 0.0,
+    "count": 18368
+  },
+  "photo & video": {
+    "buyer_rate": 0.07572614107883817,
+    "avg_rev_d7": 2.9638860342385165,
+    "whale_rate": 0.0,
+    "count": 5784
+  },
+  "shopping": {
+    "buyer_rate": 0.10412352685533144,
+    "avg_rev_d7": 4.031475761853853,
+    "whale_rate": 0.0,
+    "count": 39117
+  },
+  "health & fitness": {
+    "buyer_rate": 0.021338155515370705,
+    "avg_rev_d7": 0.7036622590315877,
+    "whale_rate": 0.0,
+    "count": 11060
+  },
+  "travel": {
+    "buyer_rate": 0.12770252669966137,
+    "avg_rev_d7": 11.861905704801938,
+    "whale_rate": 6.512112529304507e-05,
+    "count": 15356
+  },
+  "productivity": {
+    "buyer_rate": 0.2243823410287566,
+    "avg_rev_d7": 5.552264074524098,
+    "whale_rate": 0.0,
+    "count": 2469
+  },
+  "entertainment": {
+    "buyer_rate": 0.0663659793814433,
+    "avg_rev_d7": 0.4700908246630084,
+    "whale_rate": 0.0,
+    "count": 1552
+  },
+  "utilities": {
+    "buyer_rate": 0.002685464921114468,
+    "avg_rev_d7": 0.03335664814570992,
+    "whale_rate": 0.0,
+    "count": 2979
+  },
+  "education": {
+    "buyer_rate": 0.21720025109855617,
+    "avg_rev_d7": 18.71378575981736,
+    "whale_rate": 0.0,
+    "count": 1593
+  },
+  "sports": {
+    "buyer_rate": 0.16292134831460675,
+    "avg_rev_d7": 11.581966292134831,
+    "whale_rate": 0.0,
+    "count": 178
+  },
+  "lottery": {
+    "buyer_rate": 0.20833333333333334,
+    "avg_rev_d7": 3.6507598039215687,
+    "whale_rate": 0.0,
+    "count": 408
+  },
+  "books": {
+    "buyer_rate": 0.32142857142857145,
+    "avg_rev_d7": 10.089846004148862,
+    "whale_rate": 0.0,
+    "count": 196
+  },
+  "navigation": {
+    "buyer_rate": 0.46511627906976744,
+    "avg_rev_d7": 93.01860465116279,
+    "whale_rate": 0.0,
+    "count": 43
+  }
+}
