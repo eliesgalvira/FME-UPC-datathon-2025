@@ -479,7 +479,7 @@ wheels = [
 [[package]]
 name = "fme-upc-datathon-2025"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "catboost" },
     { name = "dask", extra = ["dataframe", "distributed"] },
@@ -490,6 +490,7 @@ dependencies = [
     { name = "pandas" },
     { name = "pyarrow" },
     { name = "scikit-learn" },
+    { name = "scipy" },
     { name = "seaborn" },
 ]
 
@@ -504,6 +505,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "pyarrow", specifier = ">=22.0.0" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
+    { name = "scipy", specifier = ">=1.16.3" },
     { name = "seaborn", specifier = ">=0.13.0" },
 ]
 

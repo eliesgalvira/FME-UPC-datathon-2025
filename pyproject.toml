@@ -1,7 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "fme-upc-datathon-2025"
 version = "0.1.0"
-description = "Add your description here"
+description = "FME-UPC Datathon 2025: Revenue Prediction Pipeline"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -11,8 +15,12 @@ dependencies = [
     "pyarrow>=22.0.0",
     "matplotlib>=3.9.0",
     "seaborn>=0.13.0",
-    "lightgbm>=4.6.0",
-    "catboost>=1.2.8",
     "scikit-learn>=1.7.2",
     "numpy>=2.3.4",
+    "scipy>=1.16.3",
+    "lightgbm>=4.6.0",
+    "catboost>=1.2.8",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]

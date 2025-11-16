@@ -20,6 +20,7 @@ This script:
 from __future__ import annotations
 
 import argparse
+import gc
 from pathlib import Path
 
 import catboost as cb
@@ -54,7 +55,13 @@ def parse_args():
         "--mode",
         choices=["subset", "full"],
         default="subset",
-        help="Training mode: 'subset' (Oct 1 only, fast) or 'full' (Oct 1-5, slow)"
+        help="Training mode: 'subset' (1 day, fast) or 'full' (5 days, slow)"
+    )
+    parser.add_argument(
+        "--days",
+        type=int,
+        default=None,
+        help="Number of training days (1-7). Overrides mode. Default: 1 for subset, 5 for full"
     )
     # Backward compatibility
     parser.add_argument("--subset", action="store_const", const="subset", dest="mode")
@@ -79,19 +86,38 @@ def main():
     LOGGER.info("STEP 1: Loading Data")
     LOGGER.info("=" * 80)
     
-    # Time-based split configuration
-    if args.mode == "subset":
-        # Fast iteration: Oct 1 only for training
-        LOGGER.info("Loading SUBSET (Oct 1 only) for fast iteration...")
-        train_start = "2025-10-01-00-00"
-        train_end = "2025-10-01-23-00"
+    # Determine number of training days
+    if args.days is not None:
+        num_days = args.days
+        assert 1 <= num_days <= 7, "Number of days must be between 1 and 7"
     else:
-        # Full training: Oct 1-5
-        LOGGER.info("Loading FULL dataset (Oct 1-5)...")
-        train_start = "2025-10-01-00-00"
-        train_end = "2025-10-05-23-00"
+        # Default based on mode
+        num_days = 1 if args.mode == "subset" else 5
     
-    # Validation: Oct 6
+    LOGGER.info(f"Training on {num_days} day(s) of data")
+    
+    # Time-based split configuration
+    train_start = "2025-10-01-00-00"
+    
+    # Calculate end date based on number of days
+    if num_days == 1:
+        train_end = "2025-10-01-23-00"
+    elif num_days == 2:
+        train_end = "2025-10-02-23-00"
+    elif num_days == 3:
+        train_end = "2025-10-03-23-00"
+    elif num_days == 4:
+        train_end = "2025-10-04-23-00"
+    elif num_days == 5:
+        train_end = "2025-10-05-23-00"
+    elif num_days == 6:
+        train_end = "2025-10-06-23-00"
+    else:  # 7 days
+        train_end = "2025-10-07-23-00"
+    
+    LOGGER.info(f"Train period: {train_start} to {train_end}")
+    
+    # Validation: Oct 6 (always the same)
     val_start = "2025-10-06-00-00"
     val_end = "2025-10-06-23-00"
     
@@ -164,25 +190,124 @@ def main():
         pickle.dump(encoders, f)
     LOGGER.info(f"✅ Saved encoders to {encoder_path}")
     
-    # Compute features (bring into memory)
-    LOGGER.info("Computing features (this may take a few minutes)...")
-    X_train = X_train_dask.compute()
-    X_val = X_val_dask.compute()
+    # Check for cached features
+    cache_dir = Path("data/processed/features_cache")
+    cache_dir.mkdir(parents=True, exist_ok=True)
     
-    # Get targets
-    LOGGER.info("Extracting targets...")
-    y_cls_train = ddf_train["buyer_d7"].compute().values
-    y_cls_val = ddf_val["buyer_d7"].compute().values
+    # Create cache key based on data period and feature extraction code version
+    import hashlib
+    cache_key = f"train_{train_start}_{train_end}_val_{val_start}_{val_end}_v2"  # Increment v2 when feature code changes
+    cache_train_path = cache_dir / f"{cache_key}_train.parquet"
+    cache_val_path = cache_dir / f"{cache_key}_val.parquet"
+    cache_targets_path = cache_dir / f"{cache_key}_targets.pkl"
     
-    y_reg_train = ddf_train["iap_revenue_d7"].compute().values
-    y_reg_val = ddf_val["iap_revenue_d7"].compute().values
+    if cache_train_path.exists() and cache_val_path.exists() and cache_targets_path.exists():
+        LOGGER.info("✅ Found cached features! Loading from disk...")
+        LOGGER.info(f"  Train cache: {cache_train_path}")
+        LOGGER.info(f"  Val cache: {cache_val_path}")
+        
+        X_train = pd.read_parquet(cache_train_path)
+        X_val = pd.read_parquet(cache_val_path)
+        
+        with open(cache_targets_path, "rb") as f:
+            targets = pickle.load(f)
+        y_cls_train = targets["y_cls_train"]
+        y_cls_val = targets["y_cls_val"]
+        y_reg_train = targets["y_reg_train"]
+        y_reg_val = targets["y_reg_val"]
+        
+        LOGGER.info(f"✅ Loaded from cache in <1s (saved ~5 minutes!)")
+        LOGGER.info(f"  Train: {X_train.shape}")
+        LOGGER.info(f"  Val: {X_val.shape}")
+    else:
+        LOGGER.info("No cache found. Computing features (this will take ~5 minutes)...")
+        LOGGER.info(f"Training: {X_train_dask.npartitions} partitions to process")
+        LOGGER.info(f"Validation: {X_val_dask.npartitions} partitions to process")
+        
+        # Custom progress callback for better logging
+        import time
+        from dask.callbacks import Callback
+        
+        class LoggingCallback(Callback):
+            def __init__(self, name: str, total: int):
+                self.name = name
+                self.total = total
+                self.completed = 0
+                self.start_time = None
+                
+            def _start(self, dsk):
+                self.start_time = time.time()
+                LOGGER.info(f"[{self.name}] Starting computation of {self.total} tasks...")
+                
+            def _pretask(self, key, dsk, state):
+                self.completed += 1
+                if self.completed % 50 == 0 or self.completed == self.total:
+                    elapsed = time.time() - self.start_time
+                    rate = self.completed / elapsed if elapsed > 0 else 0
+                    remaining = (self.total - self.completed) / rate if rate > 0 else 0
+                    LOGGER.info(
+                        f"[{self.name}] Progress: {self.completed}/{self.total} tasks "
+                        f"({100*self.completed/self.total:.1f}%) | "
+                        f"Rate: {rate:.1f} tasks/sec | "
+                        f"ETA: {remaining:.0f}s"
+                    )
+            
+            def _finish(self, dsk, state, errored):
+                elapsed = time.time() - self.start_time
+                LOGGER.info(f"[{self.name}] Completed in {elapsed:.1f}s")
+        
+        LOGGER.info("Progress: Computing training features...")
+        with LoggingCallback("TRAIN", X_train_dask.npartitions * 10):  # Rough estimate of tasks
+            X_train = X_train_dask.compute()
+        LOGGER.info(f"✅ Training features computed: {X_train.shape}")
+        
+        LOGGER.info("Progress: Computing validation features...")
+        with LoggingCallback("VAL", X_val_dask.npartitions * 10):
+            X_val = X_val_dask.compute()
+        LOGGER.info(f"✅ Validation features computed: {X_val.shape}")
+        
+        # Get targets
+        LOGGER.info("Progress: Extracting targets...")
+        y_cls_train = ddf_train["buyer_d7"].compute().values
+        y_cls_val = ddf_val["buyer_d7"].compute().values
+        
+        y_reg_train = ddf_train["iap_revenue_d7"].compute().values
+        y_reg_val = ddf_val["iap_revenue_d7"].compute().values
+        LOGGER.info("✅ Targets extracted")
+        
+        # Cache the computed features
+        LOGGER.info("Caching features for future runs...")
+        X_train.to_parquet(cache_train_path, compression="snappy")
+        X_val.to_parquet(cache_val_path, compression="snappy")
+        
+        targets = {
+            "y_cls_train": y_cls_train,
+            "y_cls_val": y_cls_val,
+            "y_reg_train": y_reg_train,
+            "y_reg_val": y_reg_val
+        }
+        with open(cache_targets_path, "wb") as f:
+            pickle.dump(targets, f)
+        
+        LOGGER.info(f"✅ Features cached to {cache_dir}")
+    
+    # Filter numeric columns (safety check)
+    LOGGER.info("Filtering numeric columns...")
+    numeric_cols = X_train.select_dtypes(include=[np.number]).columns.tolist()
+    if len(numeric_cols) < len(X_train.columns):
+        dropped = set(X_train.columns) - set(numeric_cols)
+        LOGGER.warning(f"Dropping {len(dropped)} non-numeric columns: {list(dropped)[:5]}...")
+    
+    X_train = X_train[numeric_cols]
+    X_val = X_val[numeric_cols]
+    
+    LOGGER.info(f"✅ Train: {X_train.shape}, {X_train.memory_usage(deep=True).sum() / 1e6:.1f} MB")
+    LOGGER.info(f"✅ Val: {X_val.shape}, {X_val.memory_usage(deep=True).sum() / 1e6:.1f} MB")
     
     # Convert to log scale for regressor
     log_rev_train = np.log1p(y_reg_train)
     log_rev_val = np.log1p(y_reg_val)
     
-    LOGGER.info(f"Train shape: {X_train.shape}")
-    LOGGER.info(f"Val shape: {X_val.shape}")
     LOGGER.info(f"Buyer rate (train): {y_cls_train.mean():.4f}")
     LOGGER.info(f"Buyer rate (val): {y_cls_val.mean():.4f}")
     
@@ -204,17 +329,36 @@ def main():
     LOGGER.info(f"Class weights: {class_weights}")
     LOGGER.info(f"Positive class weight: {class_weights[1]:.2f}")
     
-    # Train CatBoost
+    # Train CatBoost with tuned hyperparameters
+    # These are optimized for imbalanced classification with ~3% positive class
     model_cls = cb.CatBoostClassifier(
         loss_function="Logloss",
         eval_metric="AUC",
-        depth=8,
-        learning_rate=0.05,
-        iterations=2000,
-        early_stopping_rounds=100,
-        verbose=200,
+        
+        # Tree structure - deeper trees for complex patterns
+        depth=6,  # 6-8 is good for tabular data, avoid overfitting
+        l2_leaf_reg=3.0,  # L2 regularization to prevent overfitting
+        
+        # Learning rate and iterations
+        learning_rate=0.03,  # Lower LR with more iterations = better generalization
+        iterations=3000,  # More iterations with early stopping
+        early_stopping_rounds=150,  # Stop if no improvement for 150 rounds
+        
+        # Sampling to speed up and reduce overfitting
+        subsample=0.8,  # Use 80% of data per iteration
+        rsm=0.8,  # Random subspace method: use 80% of features
+        
+        # Boosting settings
+        bootstrap_type="Bernoulli",  # Faster than Bayesian
+        
+        # Class imbalance handling (already using class_weights)
+        auto_class_weights="Balanced",  # Additional balancing
+        
+        # Performance
+        verbose=100,  # Log every 100 iterations
         random_state=42,
-        task_type="CPU"
+        task_type="CPU",
+        thread_count=-1  # Use all CPU cores
     )
     
     LOGGER.info("Training CatBoost classifier...")
@@ -265,18 +409,30 @@ def main():
     train_data = lgb.Dataset(X_train_sampled, label=log_rev_train_sampled)
     val_data = lgb.Dataset(X_val, label=log_rev_val, reference=train_data)
     
+    # Tuned LightGBM parameters for revenue regression
     params = {
         "objective": "regression",
         "metric": "rmse",
-        "num_leaves": 127,
-        "max_depth": 10,
-        "learning_rate": 0.03,
-        "feature_fraction": 0.8,
-        "bagging_fraction": 0.8,
-        "bagging_freq": 5,
+        
+        # Tree structure
+        "num_leaves": 63,  # 2^6-1, good balance for tabular data
+        "max_depth": 8,  # Prevent overfitting
+        "min_child_samples": 20,  # Minimum samples per leaf
+        
+        # Learning rate and regularization
+        "learning_rate": 0.02,  # Lower LR for better generalization
+        "lambda_l1": 0.1,  # L1 regularization
+        "lambda_l2": 1.0,  # L2 regularization
+        
+        # Sampling for speed and robustness
+        "feature_fraction": 0.8,  # Use 80% of features per tree
+        "bagging_fraction": 0.8,  # Use 80% of data per iteration
+        "bagging_freq": 5,  # Bagging every 5 iterations
+        
+        # Performance
         "verbose": -1,
         "random_state": 42,
-        "n_jobs": -1
+        "n_jobs": -1  # Use all CPU cores
     }
     
     LOGGER.info("Training LightGBM regressor...")

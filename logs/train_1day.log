@@ -1,0 +1,164 @@
+   Building fme-upc-datathon-2025 @ file:///home/bigweld/Repos/FME-UPC-datathon-2025
+      Built fme-upc-datathon-2025 @ file:///home/bigweld/Repos/FME-UPC-datathon-2025
+Uninstalled 1 package in 0.64ms
+Installed 1 package in 0.51ms
+2025-11-15 23:53:45 - __main__ - INFO - ================================================================================
+2025-11-15 23:53:45 - __main__ - INFO - TEACHER TRAINING PIPELINE
+2025-11-15 23:53:45 - __main__ - INFO - ================================================================================
+2025-11-15 23:53:45 - __main__ - INFO - Mode: subset
+2025-11-15 23:53:45 - __main__ - INFO - 
+================================================================================
+2025-11-15 23:53:45 - __main__ - INFO - STEP 1: Loading Data
+2025-11-15 23:53:45 - __main__ - INFO - ================================================================================
+2025-11-15 23:53:45 - __main__ - INFO - Training on 1 day(s) of data
+2025-11-15 23:53:45 - __main__ - INFO - Train period: 2025-10-01-00-00 to 2025-10-01-23-00
+2025-11-15 23:53:45 - src.data.loader - INFO - Reading parquet from /home/bigweld/Repos/FME-UPC-datathon-2025/data/raw/train/train with filters=[('datetime', '>=', '2025-10-01-00-00'), ('datetime', '<=', '2025-10-01-23-00')]
+2025-11-15 23:53:45 - src.data.loader - INFO - Loaded 24 partitions (lazy)
+2025-11-15 23:53:45 - src.data.loader - INFO - Reading parquet from /home/bigweld/Repos/FME-UPC-datathon-2025/data/raw/train/train with filters=[('datetime', '>=', '2025-10-06-00-00'), ('datetime', '<=', '2025-10-06-23-00')]
+2025-11-15 23:53:45 - src.data.loader - INFO - Loaded 24 partitions (lazy)
+2025-11-15 23:53:45 - src.data.loader - INFO - Train partitions: 24 | Validation partitions: 24
+2025-11-15 23:53:45 - __main__ - INFO - Train partitions: 24
+2025-11-15 23:53:45 - __main__ - INFO - Val partitions: 24
+2025-11-15 23:53:45 - __main__ - INFO - 
+================================================================================
+2025-11-15 23:53:45 - __main__ - INFO - STEP 2: Generating Lookup Tables
+2025-11-15 23:53:45 - __main__ - INFO - ================================================================================
+2025-11-15 23:53:45 - src.features.lookup_tables - INFO - Generating lookup tables from training data...
+2025-11-15 23:53:45 - src.features.lookup_tables - INFO - Computing bundle-level statistics...
+2025-11-15 23:53:46 - src.features.lookup_tables - INFO -   bundle: 493 groups
+2025-11-15 23:53:46 - src.features.lookup_tables - INFO -   Saved to /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/lookup_tables/bundle_stats.json
+2025-11-15 23:53:46 - src.features.lookup_tables - INFO - Computing category-level statistics...
+2025-11-15 23:53:46 - src.features.lookup_tables - INFO -   category: 21 groups
+2025-11-15 23:53:46 - src.features.lookup_tables - INFO -   Saved to /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/lookup_tables/category_stats.json
+2025-11-15 23:53:46 - src.features.lookup_tables - INFO - Computing country-level statistics...
+2025-11-15 23:53:47 - src.features.lookup_tables - INFO -   country: 235 groups
+2025-11-15 23:53:47 - src.features.lookup_tables - INFO -   Saved to /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/lookup_tables/country_stats.json
+2025-11-15 23:53:47 - src.features.lookup_tables - INFO - Computing segment-level statistics (country × dev_os)...
+2025-11-15 23:53:47 - src.features.lookup_tables - INFO -   segment: 470 groups
+2025-11-15 23:53:47 - src.features.lookup_tables - INFO -   Saved to /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/lookup_tables/segment_stats.json
+2025-11-15 23:53:47 - src.features.lookup_tables - INFO - ✅ Generated 4 lookup tables in /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/lookup_tables
+2025-11-15 23:53:47 - __main__ - INFO - 
+================================================================================
+2025-11-15 23:53:47 - __main__ - INFO - STEP 3: Building Offline Features
+2025-11-15 23:53:47 - __main__ - INFO - ================================================================================
+2025-11-15 23:53:47 - __main__ - INFO - Building features for training data...
+2025-11-15 23:53:47 - src.features.offline - INFO - Building offline features (rich features for teachers)...
+2025-11-15 23:53:47 - src.features.offline - INFO - Step 1/6: Building online features...
+2025-11-15 23:53:47 - src.features.online - INFO - Building online features (fast features for students)...
+2025-11-15 23:53:47 - src.features.online - INFO - Extracting list/dict aggregates...
+2025-11-15 23:53:47 - src.features.online - INFO - Encoding hour cyclically (sin/cos)...
+2025-11-15 23:53:48 - src.features.online - INFO - Adding lookup table features...
+2025-11-15 23:53:48 - src.features.online - INFO - Fitting ordinal encoders for categorical features...
+2025-11-15 23:53:48 - src.features.online - INFO - Sampling data to fit encoders (computing first partition)...
+2025-11-15 23:53:51 - src.features.online - INFO - Fitted 11 encoders from sample data
+2025-11-15 23:53:51 - src.features.online - INFO - Applying encoders to categorical features...
+2025-11-15 23:53:51 - src.features.online - INFO - Filling missing values...
+2025-11-15 23:53:51 - src.features.online - INFO - ✅ Online features built: 43 features
+2025-11-15 23:53:51 - src.features.offline - INFO - Step 2/6: Merging with original data for complex columns...
+2025-11-15 23:53:51 - src.features.offline - INFO - Added 28 complex columns for feature extraction
+2025-11-15 23:53:51 - src.features.offline - INFO - Step 3/6: Extracting histogram features...
+2025-11-15 23:53:51 - src.features.offline - INFO - Step 4/6: Extracting revenue/buy map features...
+2025-11-15 23:53:51 - src.features.offline - INFO - Step 5/6: Extracting whale features...
+2025-11-15 23:53:51 - src.features.offline - INFO - Step 6/6: Extracting recency features...
+2025-11-15 23:53:51 - src.features.offline - INFO - Extracting action features...
+2025-11-15 23:53:51 - src.features.offline - INFO - Dropping complex columns...
+2025-11-15 23:53:51 - src.features.offline - INFO - Filling missing values...
+2025-11-15 23:53:51 - src.features.offline - INFO - ✅ Offline features built: 131 features
+2025-11-15 23:53:51 - __main__ - INFO - Building features for validation data...
+2025-11-15 23:53:51 - src.features.offline - INFO - Building offline features (rich features for teachers)...
+2025-11-15 23:53:51 - src.features.offline - INFO - Step 1/6: Building online features...
+2025-11-15 23:53:51 - src.features.online - INFO - Building online features (fast features for students)...
+2025-11-15 23:53:51 - src.features.online - INFO - Extracting list/dict aggregates...
+2025-11-15 23:53:51 - src.features.online - INFO - Encoding hour cyclically (sin/cos)...
+2025-11-15 23:53:51 - src.features.online - INFO - Adding lookup table features...
+2025-11-15 23:53:51 - src.features.online - INFO - Applying encoders to categorical features...
+2025-11-15 23:53:51 - src.features.online - INFO - Filling missing values...
+2025-11-15 23:53:51 - src.features.online - INFO - ✅ Online features built: 43 features
+2025-11-15 23:53:51 - src.features.offline - INFO - Step 2/6: Merging with original data for complex columns...
+2025-11-15 23:53:51 - src.features.offline - INFO - Added 28 complex columns for feature extraction
+2025-11-15 23:53:51 - src.features.offline - INFO - Step 3/6: Extracting histogram features...
+2025-11-15 23:53:51 - src.features.offline - INFO - Step 4/6: Extracting revenue/buy map features...
+2025-11-15 23:53:51 - src.features.offline - INFO - Step 5/6: Extracting whale features...
+2025-11-15 23:53:51 - src.features.offline - INFO - Step 6/6: Extracting recency features...
+2025-11-15 23:53:51 - src.features.offline - INFO - Extracting action features...
+2025-11-15 23:53:51 - src.features.offline - INFO - Dropping complex columns...
+2025-11-15 23:53:51 - src.features.offline - INFO - Filling missing values...
+2025-11-15 23:53:51 - src.features.offline - INFO - ✅ Offline features built: 131 features
+2025-11-15 23:53:51 - __main__ - INFO - ✅ Saved encoders to /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/encoders/online_encoders.pkl
+2025-11-15 23:53:51 - __main__ - INFO - Computing features (this may take a few minutes)...
+2025-11-16 00:05:13 - __main__ - INFO - Extracting targets...
+2025-11-16 00:05:14 - __main__ - INFO - Train shape: (3347176, 131)
+2025-11-16 00:05:14 - __main__ - INFO - Val shape: (3306478, 131)
+2025-11-16 00:05:14 - __main__ - INFO - Buyer rate (train): 0.0328
+2025-11-16 00:05:14 - __main__ - INFO - Buyer rate (val): 0.0332
+2025-11-16 00:05:14 - __main__ - INFO - 
+================================================================================
+2025-11-16 00:05:14 - __main__ - INFO - STEP 4: Training CatBoost Buyer Classifier
+2025-11-16 00:05:14 - __main__ - INFO - ================================================================================
+2025-11-16 00:05:14 - __main__ - INFO - Class weights: [ 0.51696792 15.2336862 ]
+2025-11-16 00:05:14 - __main__ - INFO - Positive class weight: 15.23
+2025-11-16 00:05:14 - __main__ - INFO - Training CatBoost classifier...
+Traceback (most recent call last):
+  File "_catboost.pyx", line 1230, in _catboost._FloatOrNan
+TypeError: float() argument must be a string or a real number, not 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "_catboost.pyx", line 2534, in _catboost.get_float_feature
+  File "_catboost.pyx", line 1232, in _catboost._FloatOrNan
+TypeError: Cannot convert obj [('0e0c94b1bab6c95fe79511525d24aefccb754f08', 1), ('8da885dfc28811f5e9f8418511ca6fc989d85913', 1), ('221d7c94e54530510ec40b174a44cc60318dff55', 1), ('e1260e164a10de7d01ff1cd7ecb702d1f0fd3853', 1), ('150045628befad0948138e18daff2905ab44988e', 1)] to float
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/scripts/train_teachers.py", line 387, in <module>
+    main()
+    ~~~~^^
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/scripts/train_teachers.py", line 246, in main
+    model_cls.fit(
+    ~~~~~~~~~~~~~^
+        X_train, y_cls_train,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        verbose=False
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/catboost/core.py", line 5245, in fit
+    self._fit(X, y, cat_features, text_features, embedding_features, None, graph, sample_weight, None, None, None, None, baseline, use_best_model,
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              eval_set, verbose, logging_level, plot, plot_file, column_description, verbose_eval, metric_period,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              silent, early_stopping_rounds, save_snapshot, snapshot_file, snapshot_interval, init_model, callbacks, log_cout, log_cerr)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/catboost/core.py", line 2395, in _fit
+    train_params = self._prepare_train_params(
+        X=X, y=y, cat_features=cat_features, text_features=text_features, embedding_features=embedding_features,
+    ...<6 lines>...
+        callbacks=callbacks
+    )
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/catboost/core.py", line 2275, in _prepare_train_params
+    train_pool = _build_train_pool(X, y, cat_features, text_features, embedding_features, pairs, graph,
+                                   sample_weight, group_id, group_weight, subgroup_id, pairs_weight,
+                                   baseline, column_description)
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/catboost/core.py", line 1513, in _build_train_pool
+    train_pool = Pool(X, y, cat_features=cat_features, text_features=text_features, embedding_features=embedding_features, pairs=pairs, graph=graph, weight=sample_weight, group_id=group_id,
+                      group_weight=group_weight, subgroup_id=subgroup_id, pairs_weight=pairs_weight, baseline=baseline)
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/catboost/core.py", line 855, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               group_id, group_weight, subgroup_id, pairs_weight, baseline, timestamp, feature_names, feature_tags, thread_count)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/catboost/core.py", line 1491, in _init
+    self._init_pool(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    group_id, group_weight, subgroup_id, pairs_weight, baseline, timestamp, feature_names, feature_tags, thread_count)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "_catboost.pyx", line 4329, in _catboost._PoolBase._init_pool
+  File "_catboost.pyx", line 4381, in _catboost._PoolBase._init_pool
+  File "_catboost.pyx", line 4190, in _catboost._PoolBase._init_features_order_layout_pool
+  File "_catboost.pyx", line 3114, in _catboost._set_features_order_data_pd_data_frame
+  File "_catboost.pyx", line 2578, in _catboost.create_num_factor_data
+  File "_catboost.pyx", line 2536, in _catboost.get_float_feature
+_catboost.CatBoostError: Bad value for num_feature[non_default_doc_idx=2,feature_idx=12]="[('0e0c94b1bab6c95fe79511525d24aefccb754f08', 1), ('8da885dfc28811f5e9f8418511ca6fc989d85913', 1), ('221d7c94e54530510ec40b174a44cc60318dff55', 1), ('e1260e164a10de7d01ff1cd7ecb702d1f0fd3853', 1), ('150045628befad0948138e18daff2905ab44988e', 1)]": Cannot convert obj [('0e0c94b1bab6c95fe79511525d24aefccb754f08', 1), ('8da885dfc28811f5e9f8418511ca6fc989d85913', 1), ('221d7c94e54530510ec40b174a44cc60318dff55', 1), ('e1260e164a10de7d01ff1cd7ecb702d1f0fd3853', 1), ('150045628befad0948138e18daff2905ab44988e', 1)] to float

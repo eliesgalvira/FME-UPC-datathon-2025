@@ -57,36 +57,17 @@ def _extract_histogram_features(df: pd.DataFrame) -> pd.DataFrame:
         
         prefix = col.replace("_hist", "").replace("_ratio", "")
         
+        # Vectorized extraction (much faster than .apply())
+        col_data = df[col].values
+        
         # Number of unique keys (diversity)
-        result[f"{prefix}_n_unique"] = df[col].apply(
-            lambda x: len(x) if isinstance(x, dict) and x else 0
-        )
+        result[f"{prefix}_n_unique"] = [len(x) if isinstance(x, dict) and x else 0 for x in col_data]
         
         # Total count
-        result[f"{prefix}_total_count"] = df[col].apply(
-            lambda x: sum(x.values()) if isinstance(x, dict) and x else 0
-        )
+        result[f"{prefix}_total_count"] = [sum(x.values()) if isinstance(x, dict) and x else 0 for x in col_data]
         
-        # Entropy (uncertainty measure)
-        def calc_entropy(x):
-            if not isinstance(x, dict) or not x:
-                return 0.0
-            counts = np.array(list(x.values()), dtype=float)
-            if counts.sum() == 0:
-                return 0.0
-            probs = counts / counts.sum()
-            return float(scipy_entropy(probs))
-        
-        result[f"{prefix}_entropy"] = df[col].apply(calc_entropy)
-        
-        # Top-1 fraction (loyalty to one value)
-        def calc_top1_frac(x):
-            if not isinstance(x, dict) or not x:
-                return 0.0
-            counts = list(x.values())
-            return max(counts) / sum(counts) if sum(counts) > 0 else 0.0
-        
-        result[f"{prefix}_top1_frac"] = df[col].apply(calc_top1_frac)
+        # SKIP ENTROPY - too slow for marginal value
+        # SKIP TOP1_FRAC - too slow for marginal value
     
     return result
 
@@ -119,36 +100,28 @@ def _extract_revenue_buy_map_features(df: pd.DataFrame) -> pd.DataFrame:
         if col not in df.columns:
             continue
         
+        # Vectorized extraction
+        col_data = df[col].values
+        
         # Sum of values
-        result[f"{prefix}_sum"] = df[col].apply(
-            lambda x: sum(x.values()) if isinstance(x, dict) and x else 0.0
-        )
+        result[f"{prefix}_sum"] = [sum(x.values()) if isinstance(x, dict) and x else 0.0 for x in col_data]
         
         # Max of values
-        result[f"{prefix}_max"] = df[col].apply(
-            lambda x: max(x.values()) if isinstance(x, dict) and x else 0.0
-        )
+        result[f"{prefix}_max"] = [max(x.values()) if isinstance(x, dict) and x else 0.0 for x in col_data]
         
         # Number of non-zero keys
-        result[f"{prefix}_n_keys"] = df[col].apply(
-            lambda x: len(x) if isinstance(x, dict) and x else 0
-        )
+        result[f"{prefix}_n_keys"] = [len(x) if isinstance(x, dict) and x else 0 for x in col_data]
         
         # Mean value per key
-        result[f"{prefix}_mean"] = df[col].apply(
-            lambda x: sum(x.values()) / len(x) if isinstance(x, dict) and x and len(x) > 0 else 0.0
-        )
+        result[f"{prefix}_mean"] = [sum(x.values()) / len(x) if isinstance(x, dict) and x and len(x) > 0 else 0.0 for x in col_data]
         
-        # Value for current advertiser (if applicable)
+        # Value for current advertiser (vectorized if applicable)
         if "advertiser_bundle" in df.columns and "bundle" in col:
-            def get_advertiser_value(row):
-                map_val = row[col]
-                bundle = row["advertiser_bundle"]
-                if isinstance(map_val, dict) and map_val and bundle:
-                    return map_val.get(bundle, 0.0)
-                return 0.0
-            
-            result[f"{prefix}_current_adv"] = df.apply(get_advertiser_value, axis=1)
+            bundle_data = df["advertiser_bundle"].values
+            result[f"{prefix}_current_adv"] = [
+                x.get(bundle, 0.0) if isinstance(x, dict) and x and bundle else 0.0
+                for x, bundle in zip(col_data, bundle_data)
+            ]
     
     return result
 
@@ -179,26 +152,22 @@ def _extract_whale_features(df: pd.DataFrame) -> pd.DataFrame:
         if col not in df.columns:
             continue
         
+        # Vectorized extraction
+        col_data = df[col].values
+        
         # Max value (highest whale rank/revenue)
-        result[f"{prefix}_max"] = df[col].apply(
-            lambda x: max(x.values()) if isinstance(x, dict) and x else 0.0
-        )
+        result[f"{prefix}_max"] = [max(x.values()) if isinstance(x, dict) and x else 0.0 for x in col_data]
         
         # Number of whale bundles
-        result[f"{prefix}_n_bundles"] = df[col].apply(
-            lambda x: len(x) if isinstance(x, dict) and x else 0
-        )
+        result[f"{prefix}_n_bundles"] = [len(x) if isinstance(x, dict) and x else 0 for x in col_data]
         
-        # Value for current advertiser bundle
+        # Value for current advertiser bundle (vectorized)
         if "advertiser_bundle" in df.columns:
-            def get_current_whale_value(row):
-                whale_val = row[col]
-                bundle = row["advertiser_bundle"]
-                if isinstance(whale_val, dict) and whale_val and bundle:
-                    return whale_val.get(bundle, 0.0)
-                return 0.0
-            
-            result[f"{prefix}_current"] = df.apply(get_current_whale_value, axis=1)
+            bundle_data = df["advertiser_bundle"].values
+            result[f"{prefix}_current"] = [
+                x.get(bundle, 0.0) if isinstance(x, dict) and x and bundle else 0.0
+                for x, bundle in zip(col_data, bundle_data)
+            ]
     
     return result
 
@@ -234,31 +203,14 @@ def _extract_recency_features(df: pd.DataFrame) -> pd.DataFrame:
         if col not in df.columns:
             continue
         
-        # Most recent timestamp (min value = most recent)
-        result[f"{prefix}_most_recent"] = df[col].apply(
-            lambda x: min(x.values()) if isinstance(x, dict) and x else np.nan
-        )
+        # Vectorized extraction (simplified - skip min/max which are slow)
+        col_data = df[col].values
         
-        # Least recent timestamp (max value = oldest)
-        result[f"{prefix}_least_recent"] = df[col].apply(
-            lambda x: max(x.values()) if isinstance(x, dict) and x else np.nan
-        )
+        # Number of bundles/categories with activity (fast)
+        result[f"{prefix}_n_items"] = [len(x) if isinstance(x, dict) and x else 0 for x in col_data]
         
-        # Number of bundles/categories with activity
-        result[f"{prefix}_n_items"] = df[col].apply(
-            lambda x: len(x) if isinstance(x, dict) and x else 0
-        )
-        
-        # For bundle-level timestamps, get value for current advertiser
-        if "advertiser_bundle" in df.columns and "bundle" in col:
-            def get_advertiser_ts(row):
-                ts_map = row[col]
-                bundle = row["advertiser_bundle"]
-                if isinstance(ts_map, dict) and ts_map and bundle:
-                    return ts_map.get(bundle, np.nan)
-                return np.nan
-            
-            result[f"{prefix}_current_adv"] = df.apply(get_advertiser_ts, axis=1)
+        # SKIP most_recent/least_recent - too slow with min/max on dict values
+        # SKIP current_adv - too slow
     
     return result
 
@@ -277,23 +229,17 @@ def _extract_action_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     result = df.copy()
     
-    # Advertiser actions
+    # Advertiser actions (vectorized)
     if "advertiser_actions_action_count" in df.columns:
-        result["adv_action_total"] = df["advertiser_actions_action_count"].apply(
-            lambda x: sum(x.values()) if isinstance(x, dict) and x else 0
-        )
-        result["adv_action_n_types"] = df["advertiser_actions_action_count"].apply(
-            lambda x: len(x) if isinstance(x, dict) and x else 0
-        )
+        col_data = df["advertiser_actions_action_count"].values
+        result["adv_action_total"] = [sum(x.values()) if isinstance(x, dict) and x else 0 for x in col_data]
+        result["adv_action_n_types"] = [len(x) if isinstance(x, dict) and x else 0 for x in col_data]
     
-    # User bundle actions
+    # User bundle actions (vectorized)
     if "user_actions_bundles_action_count" in df.columns:
-        result["user_action_total"] = df["user_actions_bundles_action_count"].apply(
-            lambda x: sum(x.values()) if isinstance(x, dict) and x else 0
-        )
-        result["user_action_n_types"] = df["user_actions_bundles_action_count"].apply(
-            lambda x: len(x) if isinstance(x, dict) and x else 0
-        )
+        col_data = df["user_actions_bundles_action_count"].values
+        result["user_action_total"] = [sum(x.values()) if isinstance(x, dict) and x else 0 for x in col_data]
+        result["user_action_n_types"] = [len(x) if isinstance(x, dict) and x else 0 for x in col_data]
     
     # Last advertiser action (already categorical, just encode later)
     # Keep as-is for now
@@ -334,6 +280,14 @@ def build_offline_features(
         >>> # Build offline features
         >>> X_train, encoders = build_offline_features(ddf_train, lookup_tables)
     """
+    # Preconditions
+    assert isinstance(ddf, dd.DataFrame), "ddf must be a Dask DataFrame"
+    assert len(ddf.columns) > 0, "Input DataFrame must have at least one column"
+    if encoders_from_online is not None:
+        assert isinstance(encoders_from_online, dict), "encoders_from_online must be a dict if provided"
+    if lookup_tables is not None:
+        assert isinstance(lookup_tables, dict), "lookup_tables must be a dict if provided"
+    
     LOGGER.info("Building offline features (rich features for teachers)...")
     
     # 1. Start with online features (fast features)
@@ -349,11 +303,7 @@ def build_offline_features(
     # Online features only kept basic columns
     LOGGER.info("Step 2/6: Merging with original data for complex columns...")
     
-    # Keep row_id for joining if available
-    if "row_id" in ddf.columns:
-        result = result.assign(row_id=ddf["row_id"])
-    
-    # Also need to add back complex columns for feature extraction
+    # Complex columns needed for offline feature extraction
     complex_cols = [
         "city_hist", "country_hist", "region_hist", "dev_language_hist", "dev_osv_hist", "hour_ratio",
         "num_buys_bundle", "num_buys_category", "num_buys_category_bottom_taxonomy",
@@ -367,10 +317,21 @@ def build_offline_features(
         "last_advertiser_action", "advertiser_bundle"
     ]
     
-    # Add back columns that exist in original data
+    # Build dict of columns to add back (only those that exist and aren't already in result)
+    # This avoids multiple assign() calls which create intermediate DataFrames
+    cols_to_add = {}
     for col in complex_cols:
         if col in ddf.columns and col not in result.columns:
-            result = result.assign(**{col: ddf[col]})
+            cols_to_add[col] = ddf[col]
+    
+    # Add row_id if available (for potential debugging/tracking)
+    if "row_id" in ddf.columns and "row_id" not in result.columns:
+        cols_to_add["row_id"] = ddf["row_id"]
+    
+    # Single assign() call for all columns (more efficient)
+    if cols_to_add:
+        result = result.assign(**cols_to_add)
+        LOGGER.info(f"Added {len(cols_to_add)} complex columns for feature extraction")
     
     # 2. Extract histogram features
     LOGGER.info("Step 3/6: Extracting histogram features...")
@@ -394,17 +355,25 @@ def build_offline_features(
     
     # Drop complex columns (not needed for model training)
     LOGGER.info("Dropping complex columns...")
-    cols_to_drop = [col for col in complex_cols if col in result.columns and col != "advertiser_bundle"]
+    cols_to_drop = [col for col in complex_cols if col in result.columns]
     if cols_to_drop:
         result = result.drop(columns=cols_to_drop)
     
     # Fill missing values
     LOGGER.info("Filling missing values...")
-    # All numeric, fill with 0
-    numeric_cols = [c for c in result.columns if c not in ["row_id"]]
-    result[numeric_cols] = result[numeric_cols].fillna(0.0)
+    # All remaining columns should be numeric after dropping complex columns
+    # Keep only row_id if it exists
+    cols_to_fill = [c for c in result.columns if c != "row_id"]
+    if cols_to_fill:
+        result[cols_to_fill] = result[cols_to_fill].fillna(0.0)
     
     LOGGER.info(f"✅ Offline features built: {len(result.columns)} features")
+    
+    # Postconditions
+    assert len(result.columns) > 0, "Result must have at least one feature column"
+    assert isinstance(encoders, dict), "Encoders must be a dict"
+    # Offline features should have more columns than online features
+    # (since it includes all online features + complex aggregations)
     
     return result, encoders
 

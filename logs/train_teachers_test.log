@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/scripts/train_teachers.py", line 31, in <module>
+    from src.data.loader import DataLoader
+ModuleNotFoundError: No module named 'src'

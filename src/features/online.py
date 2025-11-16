@@ -72,29 +72,22 @@ def _extract_list_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     result = df.copy()
     
-    # From user_bundles: number of installed apps
+    # Vectorized extraction (faster than .apply())
     if "user_bundles" in df.columns:
-        result["num_user_bundles"] = df["user_bundles"].apply(
-            lambda x: len(x) if isinstance(x, (list, np.ndarray)) and x is not None else 0
-        )
+        col_data = df["user_bundles"].values
+        result["num_user_bundles"] = [len(x) if isinstance(x, (list, np.ndarray)) and x is not None else 0 for x in col_data]
     
-    # From user_bundles_l28d: recent installed apps
     if "user_bundles_l28d" in df.columns:
-        result["num_user_bundles_l28d"] = df["user_bundles_l28d"].apply(
-            lambda x: len(x) if isinstance(x, (list, np.ndarray)) and x is not None else 0
-        )
+        col_data = df["user_bundles_l28d"].values
+        result["num_user_bundles_l28d"] = [len(x) if isinstance(x, (list, np.ndarray)) and x is not None else 0 for x in col_data]
     
-    # From bundles_ins: number of bundles with installs
     if "bundles_ins" in df.columns:
-        result["num_bundles_ins"] = df["bundles_ins"].apply(
-            lambda x: len(x) if isinstance(x, (list, np.ndarray)) and x is not None else 0
-        )
+        col_data = df["bundles_ins"].values
+        result["num_bundles_ins"] = [len(x) if isinstance(x, (list, np.ndarray)) and x is not None else 0 for x in col_data]
     
-    # From new_bundles: number of new bundles
     if "new_bundles" in df.columns:
-        result["num_new_bundles"] = df["new_bundles"].apply(
-            lambda x: len(x) if isinstance(x, (list, np.ndarray)) and x is not None else 0
-        )
+        col_data = df["new_bundles"].values
+        result["num_new_bundles"] = [len(x) if isinstance(x, (list, np.ndarray)) and x is not None else 0 for x in col_data]
     
     return result
 
@@ -112,29 +105,20 @@ def _extract_dict_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     result = df.copy()
     
-    # From num_buys_bundle: total past buys
+    # Vectorized extraction (faster than .apply())
     if "num_buys_bundle" in df.columns:
-        result["total_buys"] = df["num_buys_bundle"].apply(
-            lambda x: sum(x.values()) if isinstance(x, dict) and x else 0
-        )
-        result["num_bought_bundles"] = df["num_buys_bundle"].apply(
-            lambda x: len(x) if isinstance(x, dict) and x else 0
-        )
+        col_data = df["num_buys_bundle"].values
+        result["total_buys"] = [sum(x.values()) if isinstance(x, dict) and x else 0 for x in col_data]
+        result["num_bought_bundles"] = [len(x) if isinstance(x, dict) and x else 0 for x in col_data]
     
-    # From iap_revenue_usd_bundle: total past IAP revenue
     if "iap_revenue_usd_bundle" in df.columns:
-        result["total_past_revenue"] = df["iap_revenue_usd_bundle"].apply(
-            lambda x: sum(x.values()) if isinstance(x, dict) and x else 0.0
-        )
-        result["num_revenue_bundles"] = df["iap_revenue_usd_bundle"].apply(
-            lambda x: len(x) if isinstance(x, dict) and x else 0
-        )
+        col_data = df["iap_revenue_usd_bundle"].values
+        result["total_past_revenue"] = [sum(x.values()) if isinstance(x, dict) and x else 0.0 for x in col_data]
+        result["num_revenue_bundles"] = [len(x) if isinstance(x, dict) and x else 0 for x in col_data]
     
-    # From iap_revenue_usd_category: revenue by category
     if "iap_revenue_usd_category" in df.columns:
-        result["total_category_revenue"] = df["iap_revenue_usd_category"].apply(
-            lambda x: sum(x.values()) if isinstance(x, dict) and x else 0.0
-        )
+        col_data = df["iap_revenue_usd_category"].values
+        result["total_category_revenue"] = [sum(x.values()) if isinstance(x, dict) and x else 0.0 for x in col_data]
     
     return result
 
@@ -282,6 +266,14 @@ def build_online_features(
         >>> # Validation: reuse encoders
         >>> X_val, _ = build_online_features(ddf_val, lookup_tables, encoders=encoders, fit_encoders=False)
     """
+    # Preconditions
+    assert isinstance(ddf, dd.DataFrame), "ddf must be a Dask DataFrame"
+    assert len(ddf.columns) > 0, "Input DataFrame must have at least one column"
+    if encoders is not None:
+        assert isinstance(encoders, dict), "encoders must be a dict if provided"
+    if lookup_tables is not None:
+        assert isinstance(lookup_tables, dict), "lookup_tables must be a dict if provided"
+    
     LOGGER.info("Building online features (fast features for students)...")
     
     # Start with copy to avoid modifying input
@@ -345,11 +337,11 @@ def build_online_features(
         LOGGER.info("Fitting ordinal encoders for categorical features...")
         encoders = {}
         
-        # Sample first few partitions to get unique values (more memory efficient)
+        # Sample first partition to get unique values (more memory efficient)
         # This avoids computing the entire dataset
-        LOGGER.info("Sampling data to fit encoders (using first 3 partitions)...")
-        n_sample_partitions = min(3, result.npartitions)
-        sample_df = result.head(n=100000, npartitions=n_sample_partitions, compute=True)
+        LOGGER.info("Sampling data to fit encoders (computing first partition)...")
+        # Use get_partition instead of head to avoid metadata issues
+        sample_df = result.get_partition(0).compute()
         
         # Fit encoders on sample
         for col in categorical_cols:
@@ -378,14 +370,27 @@ def build_online_features(
         LOGGER.info("Applying encoders to categorical features...")
         
         def apply_encoders_partition(df: pd.DataFrame, encoders: Dict) -> pd.DataFrame:
-            """Apply encoders to a partition."""
+            """Apply encoders to a partition.
+            
+            Pure function: takes DataFrame partition and encoders, returns encoded DataFrame.
+            Handles unknown values gracefully (already configured in encoder).
+            """
             result = df.copy()
             for col, encoder in encoders.items():
                 if col in df.columns:
-                    # Handle missing values
+                    # Handle missing values explicitly before encoding
                     mask = pd.isna(df[col])
-                    result[col] = encoder.transform(df[col].values.reshape(-1, 1)).flatten()
-                    result.loc[mask, col] = -1  # Use -1 for missing
+                    
+                    # Fill NaN temporarily for encoding (encoder doesn't handle NaN well)
+                    col_filled = df[col].fillna("__MISSING__")
+                    
+                    # Transform (encoder handles unknown values with -1)
+                    encoded = encoder.transform(col_filled.values.reshape(-1, 1)).flatten()
+                    result[col] = encoded
+                    
+                    # Set missing values to -1
+                    result.loc[mask, col] = -1
+            
             return result
         
         result = result.map_partitions(
@@ -405,6 +410,10 @@ def build_online_features(
     result[numeric_cols] = result[numeric_cols].fillna(0.0)
     
     LOGGER.info(f"✅ Online features built: {len(result.columns)} features")
+    
+    # Postconditions
+    assert len(result.columns) > 0, "Result must have at least one feature column"
+    assert isinstance(encoders or {}, dict), "Encoders must be a dict"
     
     return result, encoders or {}
 

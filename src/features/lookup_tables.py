@@ -59,6 +59,11 @@ def generate_lookup_tables(
         ...     "data/processed/lookup_tables"
         ... )
     """
+    # Preconditions
+    assert isinstance(ddf_train, dd.DataFrame), "ddf_train must be a Dask DataFrame"
+    assert len(ddf_train.columns) > 0, "Training data must have at least one column"
+    assert whale_threshold > 0, "whale_threshold must be positive"
+    
     LOGGER.info("Generating lookup tables from training data...")
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -117,6 +122,12 @@ def generate_lookup_tables(
         _save_lookup_table(tables["segment"], output_dir / "segment_stats.json")
     
     LOGGER.info(f"✅ Generated {len(tables)} lookup tables in {output_dir}")
+    
+    # Postconditions
+    assert isinstance(tables, dict), "Result must be a dict"
+    assert len(tables) > 0, "At least one lookup table should be generated"
+    for key, table in tables.items():
+        assert isinstance(table, dict), f"Lookup table '{key}' must be a dict"
     
     return tables
 

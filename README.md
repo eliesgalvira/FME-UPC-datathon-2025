@@ -193,7 +193,7 @@ ddf_train_subset = loader.load_train_val_split(
 
 ---
 
-### 🔄 Phase 2: Feature Engineering (IN PROGRESS)
+### ✅ Phase 2: Feature Engineering (COMPLETE)
 
 **Goal**: Define feature sets for teachers (offline) vs students (online)
 
@@ -857,11 +857,14 @@ uv add lightgbm catboost scikit-learn numpy
 unzip data/raw/smadex-challenge-predict-the-revenue.zip -d data/raw/
 ```
 
-### Fast Iteration (Oct 1 only, ~3M rows, <60s load)
+### Fast Iteration (1 day, ~3M rows, low memory)
 
 ```bash
-# Train teachers (with data subset)
+# Train teachers (1 day of data - default for subset mode)
 uv run python scripts/train_teachers.py --subset
+
+# Or specify number of days explicitly (1-7)
+uv run python scripts/train_teachers.py --days 1
 
 # Train students
 uv run python scripts/train_students.py
@@ -870,11 +873,24 @@ uv run python scripts/train_students.py
 uv run python scripts/make_submission.py
 ```
 
-### Full Training (All data, Oct 1-5, ~17M rows)
+### Gradual Scaling (2-4 days, moderate memory)
 
 ```bash
-# Train teachers (full data, takes longer)
+# Train with 2 days of data (~6M rows)
+uv run python scripts/train_teachers.py --days 2
+
+# Train with 3 days of data (~9M rows)
+uv run python scripts/train_teachers.py --days 3
+```
+
+### Full Training (5-7 days, high memory)
+
+```bash
+# Train teachers (5 days - default for full mode, ~15M rows)
 uv run python scripts/train_teachers.py --full
+
+# Or use all 7 days (~21M rows, requires 32GB+ RAM)
+uv run python scripts/train_teachers.py --days 7
 
 # Train students
 uv run python scripts/train_students.py
@@ -963,29 +979,29 @@ uv run pytest tests/test_features.py
 
 ## 📝 TODO: Implementation Checklist
 
-### Phase 2: Features
-- [ ] `src/features/online.py`: Fast feature builder
-- [ ] `src/features/offline.py`: Rich feature builder
-- [ ] `src/features/lookup_tables.py`: Statistics generation
+### Phase 2: Features ✅ COMPLETE
+- [x] `src/features/online.py`: Fast feature builder
+- [x] `src/features/offline.py`: Rich feature builder
+- [x] `src/features/lookup_tables.py`: Statistics generation
 
-### Phase 3-4: Teachers
-- [ ] `src/models/teacher_classifier.py`: CatBoost training
-- [ ] `src/models/teacher_regressor.py`: LightGBM training
-- [ ] `src/models/histos_sampling.py`: Whale-aware sampling
+### Phase 3-4: Teachers ✅ COMPLETE
+- [x] `src/models/teacher_classifier.py`: CatBoost training (in train_teachers.py)
+- [x] `src/models/teacher_regressor.py`: LightGBM training (in train_teachers.py)
+- [x] `src/models/histos_sampling.py`: Whale-aware sampling
 
-### Phase 5-6: Students
-- [ ] `src/models/student_trainer.py`: Distillation logic
+### Phase 5-6: Students ✅ COMPLETE
+- [x] `src/models/student_trainer.py`: Distillation logic (in train_students.py)
 
-### Phase 7: Inference
-- [ ] `src/inference/predictor.py`: Fast prediction pipeline
-- [ ] `scripts/train_teachers.py`: Teacher training script
-- [ ] `scripts/train_students.py`: Student training script
-- [ ] `scripts/make_submission.py`: Submission generation
+### Phase 7: Inference ✅ COMPLETE
+- [x] `src/inference/predictor.py`: Fast prediction pipeline
+- [x] `scripts/train_teachers.py`: Teacher training script
+- [x] `scripts/train_students.py`: Student training script
+- [x] `scripts/make_submission.py`: Submission generation
 
-### Utilities
-- [ ] `src/utils/metrics.py`: MSLE, AUC, etc.
-- [ ] Create `models/teachers/` and `models/students/` directories
-- [ ] Create `data/processed/` subdirectories
+### Utilities ✅ COMPLETE
+- [x] `src/utils/metrics.py`: MSLE, AUC, etc.
+- [x] Create `models/teachers/` and `models/students/` directories
+- [x] Create `data/processed/` subdirectories
 
 ---
 
