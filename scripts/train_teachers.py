@@ -241,7 +241,9 @@ def main():
                 
             def _pretask(self, key, dsk, state):
                 self.completed += 1
-                if self.completed % 50 == 0 or self.completed == self.total:
+                # Report every 100 tasks or at milestones (10%, 25%, 50%, 75%, 90%, 100%)
+                milestones = [int(self.total * p) for p in [0.1, 0.25, 0.5, 0.75, 0.9, 1.0]]
+                if self.completed % 100 == 0 or self.completed in milestones:
                     elapsed = time.time() - self.start_time
                     rate = self.completed / elapsed if elapsed > 0 else 0
                     remaining = (self.total - self.completed) / rate if rate > 0 else 0
@@ -257,14 +259,26 @@ def main():
                 LOGGER.info(f"[{self.name}] Completed in {elapsed:.1f}s")
         
         LOGGER.info("Progress: Computing training features...")
-        with LoggingCallback("TRAIN", X_train_dask.npartitions * 10):  # Rough estimate of tasks
+        # Realistic task estimate: ~175 tasks per partition (observed: 4200 tasks / 24 partitions)
+        with LoggingCallback("TRAIN", X_train_dask.npartitions * 175):
             X_train = X_train_dask.compute()
         LOGGER.info(f"✅ Training features computed: {X_train.shape}")
         
         LOGGER.info("Progress: Computing validation features...")
-        with LoggingCallback("VAL", X_val_dask.npartitions * 10):
+        # Same multiplier for validation
+        with LoggingCallback("VAL", X_val_dask.npartitions * 175):
             X_val = X_val_dask.compute()
         LOGGER.info(f"✅ Validation features computed: {X_val.shape}")
+        
+        # Filter to only numeric columns immediately after compute (before caching)
+        LOGGER.info("Filtering to numeric columns...")
+        numeric_cols = X_train.select_dtypes(include=[np.number]).columns.tolist()
+        if len(numeric_cols) < len(X_train.columns):
+            dropped = set(X_train.columns) - set(numeric_cols)
+            LOGGER.warning(f"Dropping {len(dropped)} non-numeric columns: {list(dropped)[:10]}")
+        X_train = X_train[numeric_cols]
+        X_val = X_val[numeric_cols]
+        LOGGER.info(f"✅ Filtered to {len(numeric_cols)} numeric columns")
         
         # Get targets
         LOGGER.info("Progress: Extracting targets...")
@@ -291,16 +305,7 @@ def main():
         
         LOGGER.info(f"✅ Features cached to {cache_dir}")
     
-    # Filter numeric columns (safety check)
-    LOGGER.info("Filtering numeric columns...")
-    numeric_cols = X_train.select_dtypes(include=[np.number]).columns.tolist()
-    if len(numeric_cols) < len(X_train.columns):
-        dropped = set(X_train.columns) - set(numeric_cols)
-        LOGGER.warning(f"Dropping {len(dropped)} non-numeric columns: {list(dropped)[:5]}...")
-    
-    X_train = X_train[numeric_cols]
-    X_val = X_val[numeric_cols]
-    
+    # Features are already filtered to numeric columns
     LOGGER.info(f"✅ Train: {X_train.shape}, {X_train.memory_usage(deep=True).sum() / 1e6:.1f} MB")
     LOGGER.info(f"✅ Val: {X_val.shape}, {X_val.memory_usage(deep=True).sum() / 1e6:.1f} MB")
     
@@ -318,61 +323,71 @@ def main():
     LOGGER.info("STEP 4: Training CatBoost Buyer Classifier")
     LOGGER.info("=" * 80)
     
-    # Handle class imbalance with class weights
-    class_weights = compute_class_weight(
-        "balanced",
-        classes=np.array([0, 1]),
-        y=y_cls_train
-    )
-    sample_weights = np.where(y_cls_train == 1, class_weights[1], class_weights[0])
-    
-    LOGGER.info(f"Class weights: {class_weights}")
-    LOGGER.info(f"Positive class weight: {class_weights[1]:.2f}")
-    
-    # Train CatBoost with tuned hyperparameters
-    # These are optimized for imbalanced classification with ~3% positive class
-    model_cls = cb.CatBoostClassifier(
-        loss_function="Logloss",
-        eval_metric="AUC",
-        
-        # Tree structure - deeper trees for complex patterns
-        depth=6,  # 6-8 is good for tabular data, avoid overfitting
-        l2_leaf_reg=3.0,  # L2 regularization to prevent overfitting
-        
-        # Learning rate and iterations
-        learning_rate=0.03,  # Lower LR with more iterations = better generalization
-        iterations=3000,  # More iterations with early stopping
-        early_stopping_rounds=150,  # Stop if no improvement for 150 rounds
-        
-        # Sampling to speed up and reduce overfitting
-        subsample=0.8,  # Use 80% of data per iteration
-        rsm=0.8,  # Random subspace method: use 80% of features
-        
-        # Boosting settings
-        bootstrap_type="Bernoulli",  # Faster than Bayesian
-        
-        # Class imbalance handling (already using class_weights)
-        auto_class_weights="Balanced",  # Additional balancing
-        
-        # Performance
-        verbose=100,  # Log every 100 iterations
-        random_state=42,
-        task_type="CPU",
-        thread_count=-1  # Use all CPU cores
-    )
-    
-    LOGGER.info("Training CatBoost classifier...")
-    model_cls.fit(
-        X_train, y_cls_train,
-        eval_set=(X_val, y_cls_val),
-        sample_weight=sample_weights,
-        verbose=False
-    )
-    
-    # Save model
     model_cls_path = MODELS_DIR / "teacher_classifier_catboost.cbm"
-    model_cls.save_model(str(model_cls_path))
-    LOGGER.info(f"✅ Saved CatBoost classifier to {model_cls_path}")
+    
+    # Check if model already exists
+    if model_cls_path.exists():
+        LOGGER.info(f"✅ Found cached CatBoost model at {model_cls_path}")
+        LOGGER.info("Loading model instead of retraining...")
+        model_cls = cb.CatBoostClassifier()
+        model_cls.load_model(str(model_cls_path))
+    else:
+        LOGGER.info("No cached model found. Training from scratch...")
+        
+        # Handle class imbalance with class weights
+        class_weights = compute_class_weight(
+            "balanced",
+            classes=np.array([0, 1]),
+            y=y_cls_train
+        )
+        sample_weights = np.where(y_cls_train == 1, class_weights[1], class_weights[0])
+        
+        LOGGER.info(f"Class weights: {class_weights}")
+        LOGGER.info(f"Positive class weight: {class_weights[1]:.2f}")
+        
+        # Train CatBoost with tuned hyperparameters
+        # These are optimized for imbalanced classification with ~3% positive class
+        model_cls = cb.CatBoostClassifier(
+            loss_function="Logloss",
+            eval_metric="AUC",
+            
+            # Tree structure - deeper trees for complex patterns
+            depth=6,  # 6-8 is good for tabular data, avoid overfitting
+            l2_leaf_reg=3.0,  # L2 regularization to prevent overfitting
+            
+            # Learning rate and iterations
+            learning_rate=0.03,  # Lower LR with more iterations = better generalization
+            iterations=3000,  # More iterations with early stopping
+            early_stopping_rounds=150,  # Stop if no improvement for 150 rounds
+            
+            # Sampling to speed up and reduce overfitting
+            subsample=0.8,  # Use 80% of data per iteration
+            rsm=0.8,  # Random subspace method: use 80% of features
+            
+            # Boosting settings
+            bootstrap_type="Bernoulli",  # Faster than Bayesian
+            
+            # Class imbalance handling (already using class_weights)
+            auto_class_weights="Balanced",  # Additional balancing
+            
+            # Performance
+            verbose=100,  # Log every 100 iterations
+            random_state=42,
+            task_type="CPU",
+            thread_count=-1  # Use all CPU cores
+        )
+        
+        LOGGER.info("Training CatBoost classifier...")
+        model_cls.fit(
+            X_train, y_cls_train,
+            eval_set=(X_val, y_cls_val),
+            sample_weight=sample_weights,
+            verbose=False
+        )
+        
+        # Save model
+        model_cls.save_model(str(model_cls_path))
+        LOGGER.info(f"✅ Saved CatBoost classifier to {model_cls_path}")
     
     # Predict probabilities (soft labels)
     LOGGER.info("Generating soft labels from classifier...")
@@ -390,68 +405,77 @@ def main():
     LOGGER.info("STEP 5: Training LightGBM Revenue Regressor with HistOS")
     LOGGER.info("=" * 80)
     
-    # Apply HistOS sampling to training data
-    LOGGER.info("Applying HistOS sampling...")
-    train_df_for_reg = pd.DataFrame(X_train).copy()
-    train_df_for_reg["iap_revenue_d7"] = y_reg_train
-    
-    train_sampled = histos_sample(
-        train_df_for_reg,
-        revenue_col="iap_revenue_d7",
-        bins=[0, 1, 3, 6, 10, np.inf],
-        weights=[0.3, 1.0, 2.0, 3.0, 10.0]
-    )
-    
-    X_train_sampled = train_sampled.drop(columns=["iap_revenue_d7"])
-    log_rev_train_sampled = np.log1p(train_sampled["iap_revenue_d7"].values)
-    
-    # Train LightGBM
-    train_data = lgb.Dataset(X_train_sampled, label=log_rev_train_sampled)
-    val_data = lgb.Dataset(X_val, label=log_rev_val, reference=train_data)
-    
-    # Tuned LightGBM parameters for revenue regression
-    params = {
-        "objective": "regression",
-        "metric": "rmse",
-        
-        # Tree structure
-        "num_leaves": 63,  # 2^6-1, good balance for tabular data
-        "max_depth": 8,  # Prevent overfitting
-        "min_child_samples": 20,  # Minimum samples per leaf
-        
-        # Learning rate and regularization
-        "learning_rate": 0.02,  # Lower LR for better generalization
-        "lambda_l1": 0.1,  # L1 regularization
-        "lambda_l2": 1.0,  # L2 regularization
-        
-        # Sampling for speed and robustness
-        "feature_fraction": 0.8,  # Use 80% of features per tree
-        "bagging_fraction": 0.8,  # Use 80% of data per iteration
-        "bagging_freq": 5,  # Bagging every 5 iterations
-        
-        # Performance
-        "verbose": -1,
-        "random_state": 42,
-        "n_jobs": -1  # Use all CPU cores
-    }
-    
-    LOGGER.info("Training LightGBM regressor...")
-    model_reg = lgb.train(
-        params,
-        train_data,
-        num_boost_round=2000,
-        valid_sets=[train_data, val_data],
-        valid_names=["train", "val"],
-        callbacks=[
-            lgb.early_stopping(stopping_rounds=100, verbose=False),
-            lgb.log_evaluation(period=200)
-        ]
-    )
-    
-    # Save model
     model_reg_path = MODELS_DIR / "teacher_regressor_lgb_d7.txt"
-    model_reg.save_model(str(model_reg_path))
-    LOGGER.info(f"✅ Saved LightGBM regressor to {model_reg_path}")
+    
+    # Check if model already exists
+    if model_reg_path.exists():
+        LOGGER.info(f"✅ Found cached LightGBM model at {model_reg_path}")
+        LOGGER.info("Loading model instead of retraining...")
+        model_reg = lgb.Booster(model_file=str(model_reg_path))
+    else:
+        LOGGER.info("No cached model found. Training from scratch...")
+        
+        # Apply HistOS sampling to training data
+        LOGGER.info("Applying HistOS sampling...")
+        train_df_for_reg = pd.DataFrame(X_train).copy()
+        train_df_for_reg["iap_revenue_d7"] = y_reg_train
+        
+        train_sampled = histos_sample(
+            train_df_for_reg,
+            revenue_col="iap_revenue_d7",
+            bins=[0, 1, 3, 6, 10, np.inf],
+            weights=[0.3, 1.0, 2.0, 3.0, 10.0]
+        )
+        
+        X_train_sampled = train_sampled.drop(columns=["iap_revenue_d7"])
+        log_rev_train_sampled = np.log1p(train_sampled["iap_revenue_d7"].values)
+        
+        # Train LightGBM
+        train_data = lgb.Dataset(X_train_sampled, label=log_rev_train_sampled)
+        val_data = lgb.Dataset(X_val, label=log_rev_val, reference=train_data)
+        
+        # Tuned LightGBM parameters for revenue regression
+        params = {
+            "objective": "regression",
+            "metric": "rmse",
+            
+            # Tree structure
+            "num_leaves": 63,  # 2^6-1, good balance for tabular data
+            "max_depth": 8,  # Prevent overfitting
+            "min_child_samples": 20,  # Minimum samples per leaf
+            
+            # Learning rate and regularization
+            "learning_rate": 0.02,  # Lower LR for better generalization
+            "lambda_l1": 0.1,  # L1 regularization
+            "lambda_l2": 1.0,  # L2 regularization
+            
+            # Sampling for speed and robustness
+            "feature_fraction": 0.8,  # Use 80% of features per tree
+            "bagging_fraction": 0.8,  # Use 80% of data per iteration
+            "bagging_freq": 5,  # Bagging every 5 iterations
+            
+            # Performance
+            "verbose": -1,
+            "random_state": 42,
+            "n_jobs": -1  # Use all CPU cores
+        }
+        
+        LOGGER.info("Training LightGBM regressor...")
+        model_reg = lgb.train(
+            params,
+            train_data,
+            num_boost_round=2000,
+            valid_sets=[train_data, val_data],
+            valid_names=["train", "val"],
+            callbacks=[
+                lgb.early_stopping(stopping_rounds=100, verbose=False),
+                lgb.log_evaluation(period=200)
+            ]
+        )
+        
+        # Save model
+        model_reg.save_model(str(model_reg_path))
+        LOGGER.info(f"✅ Saved LightGBM regressor to {model_reg_path}")
     
     # Predict log-revenue (soft labels)
     LOGGER.info("Generating soft labels from regressor...")

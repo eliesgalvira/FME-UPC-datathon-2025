@@ -1,0 +1,228 @@
+2025-11-16 02:38:16 - __main__ - INFO - ================================================================================
+2025-11-16 02:38:16 - __main__ - INFO - TEACHER TRAINING PIPELINE
+2025-11-16 02:38:16 - __main__ - INFO - ================================================================================
+2025-11-16 02:38:16 - __main__ - INFO - Mode: subset
+2025-11-16 02:38:16 - __main__ - INFO - 
+================================================================================
+2025-11-16 02:38:16 - __main__ - INFO - STEP 1: Loading Data
+2025-11-16 02:38:16 - __main__ - INFO - ================================================================================
+2025-11-16 02:38:16 - __main__ - INFO - Training on 1 day(s) of data
+2025-11-16 02:38:16 - __main__ - INFO - Train period: 2025-10-01-00-00 to 2025-10-01-23-00
+2025-11-16 02:38:16 - src.data.loader - INFO - Reading parquet from /home/bigweld/Repos/FME-UPC-datathon-2025/data/raw/train/train with filters=[('datetime', '>=', '2025-10-01-00-00'), ('datetime', '<=', '2025-10-01-23-00')]
+2025-11-16 02:38:16 - src.data.loader - INFO - Loaded 24 partitions (lazy)
+2025-11-16 02:38:16 - src.data.loader - INFO - Reading parquet from /home/bigweld/Repos/FME-UPC-datathon-2025/data/raw/train/train with filters=[('datetime', '>=', '2025-10-06-00-00'), ('datetime', '<=', '2025-10-06-23-00')]
+2025-11-16 02:38:16 - src.data.loader - INFO - Loaded 24 partitions (lazy)
+2025-11-16 02:38:16 - src.data.loader - INFO - Train partitions: 24 | Validation partitions: 24
+2025-11-16 02:38:16 - __main__ - INFO - Train partitions: 24
+2025-11-16 02:38:16 - __main__ - INFO - Val partitions: 24
+2025-11-16 02:38:16 - __main__ - INFO - 
+================================================================================
+2025-11-16 02:38:16 - __main__ - INFO - STEP 2: Generating Lookup Tables
+2025-11-16 02:38:16 - __main__ - INFO - ================================================================================
+2025-11-16 02:38:16 - src.features.lookup_tables - INFO - Generating lookup tables from training data...
+2025-11-16 02:38:16 - src.features.lookup_tables - INFO - Computing bundle-level statistics...
+2025-11-16 02:38:17 - src.features.lookup_tables - INFO -   bundle: 493 groups
+2025-11-16 02:38:17 - src.features.lookup_tables - INFO -   Saved to /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/lookup_tables/bundle_stats.json
+2025-11-16 02:38:17 - src.features.lookup_tables - INFO - Computing category-level statistics...
+2025-11-16 02:38:17 - src.features.lookup_tables - INFO -   category: 21 groups
+2025-11-16 02:38:17 - src.features.lookup_tables - INFO -   Saved to /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/lookup_tables/category_stats.json
+2025-11-16 02:38:17 - src.features.lookup_tables - INFO - Computing country-level statistics...
+2025-11-16 02:38:17 - src.features.lookup_tables - INFO -   country: 235 groups
+2025-11-16 02:38:17 - src.features.lookup_tables - INFO -   Saved to /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/lookup_tables/country_stats.json
+2025-11-16 02:38:17 - src.features.lookup_tables - INFO - Computing segment-level statistics (country × dev_os)...
+2025-11-16 02:38:18 - src.features.lookup_tables - INFO -   segment: 470 groups
+2025-11-16 02:38:18 - src.features.lookup_tables - INFO -   Saved to /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/lookup_tables/segment_stats.json
+2025-11-16 02:38:18 - src.features.lookup_tables - INFO - ✅ Generated 4 lookup tables in /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/lookup_tables
+2025-11-16 02:38:18 - __main__ - INFO - 
+================================================================================
+2025-11-16 02:38:18 - __main__ - INFO - STEP 3: Building Offline Features
+2025-11-16 02:38:18 - __main__ - INFO - ================================================================================
+2025-11-16 02:38:18 - __main__ - INFO - Building features for training data...
+2025-11-16 02:38:18 - src.features.offline - INFO - Building offline features (rich features for teachers)...
+2025-11-16 02:38:18 - src.features.offline - INFO - Step 1/6: Building online features...
+2025-11-16 02:38:18 - src.features.online - INFO - Building online features (fast features for students)...
+2025-11-16 02:38:18 - src.features.online - INFO - Extracting list/dict aggregates...
+2025-11-16 02:38:18 - src.features.online - INFO - Encoding hour cyclically (sin/cos)...
+2025-11-16 02:38:18 - src.features.online - INFO - Adding lookup table features...
+2025-11-16 02:38:18 - src.features.online - INFO - Fitting ordinal encoders for categorical features...
+2025-11-16 02:38:18 - src.features.online - INFO - Sampling data to fit encoders (computing first partition)...
+2025-11-16 02:38:22 - src.features.online - INFO - Fitted 11 encoders from sample data
+2025-11-16 02:38:22 - src.features.online - INFO - Applying encoders to categorical features...
+2025-11-16 02:38:22 - src.features.online - INFO - Filling missing values...
+2025-11-16 02:38:22 - src.features.online - INFO - ✅ Online features built: 43 features
+2025-11-16 02:38:22 - src.features.offline - INFO - Step 2/6: Merging with original data for complex columns...
+2025-11-16 02:38:22 - src.features.offline - INFO - Added 28 complex columns for feature extraction
+2025-11-16 02:38:22 - src.features.offline - INFO - Step 3/6: Extracting histogram features...
+2025-11-16 02:38:22 - src.features.offline - INFO - Step 4/6: Extracting revenue/buy map features...
+2025-11-16 02:38:22 - src.features.offline - INFO - Step 5/6: Extracting whale features...
+2025-11-16 02:38:22 - src.features.offline - INFO - Step 6/6: Extracting recency features...
+2025-11-16 02:38:22 - src.features.offline - INFO - Extracting action features...
+2025-11-16 02:38:22 - src.features.offline - INFO - Dropping complex columns...
+2025-11-16 02:38:22 - src.features.offline - INFO - Filling missing values...
+2025-11-16 02:38:22 - src.features.offline - INFO - ✅ Offline features built: 103 features
+2025-11-16 02:38:22 - __main__ - INFO - Building features for validation data...
+2025-11-16 02:38:22 - src.features.offline - INFO - Building offline features (rich features for teachers)...
+2025-11-16 02:38:22 - src.features.offline - INFO - Step 1/6: Building online features...
+2025-11-16 02:38:22 - src.features.online - INFO - Building online features (fast features for students)...
+2025-11-16 02:38:22 - src.features.online - INFO - Extracting list/dict aggregates...
+2025-11-16 02:38:22 - src.features.online - INFO - Encoding hour cyclically (sin/cos)...
+2025-11-16 02:38:22 - src.features.online - INFO - Adding lookup table features...
+2025-11-16 02:38:22 - src.features.online - INFO - Applying encoders to categorical features...
+2025-11-16 02:38:22 - src.features.online - INFO - Filling missing values...
+2025-11-16 02:38:22 - src.features.online - INFO - ✅ Online features built: 43 features
+2025-11-16 02:38:22 - src.features.offline - INFO - Step 2/6: Merging with original data for complex columns...
+2025-11-16 02:38:22 - src.features.offline - INFO - Added 28 complex columns for feature extraction
+2025-11-16 02:38:22 - src.features.offline - INFO - Step 3/6: Extracting histogram features...
+2025-11-16 02:38:22 - src.features.offline - INFO - Step 4/6: Extracting revenue/buy map features...
+2025-11-16 02:38:22 - src.features.offline - INFO - Step 5/6: Extracting whale features...
+2025-11-16 02:38:22 - src.features.offline - INFO - Step 6/6: Extracting recency features...
+2025-11-16 02:38:22 - src.features.offline - INFO - Extracting action features...
+2025-11-16 02:38:22 - src.features.offline - INFO - Dropping complex columns...
+2025-11-16 02:38:22 - src.features.offline - INFO - Filling missing values...
+2025-11-16 02:38:22 - src.features.offline - INFO - ✅ Offline features built: 103 features
+2025-11-16 02:38:22 - __main__ - INFO - ✅ Saved encoders to /home/bigweld/Repos/FME-UPC-datathon-2025/data/processed/encoders/online_encoders.pkl
+2025-11-16 02:38:22 - __main__ - INFO - No cache found. Computing features (this will take ~5 minutes)...
+2025-11-16 02:38:22 - __main__ - INFO - Training: 24 partitions to process
+2025-11-16 02:38:22 - __main__ - INFO - Validation: 24 partitions to process
+2025-11-16 02:38:22 - __main__ - INFO - Progress: Computing training features...
+2025-11-16 02:38:22 - __main__ - INFO - [TRAIN] Starting computation of 12000 tasks...
+2025-11-16 02:39:07 - __main__ - INFO - [TRAIN] Progress: 100/12000 tasks (0.8%) | Rate: 2.2 tasks/sec | ETA: 5323s
+2025-11-16 02:39:07 - __main__ - INFO - [TRAIN] Progress: 200/12000 tasks (1.7%) | Rate: 4.4 tasks/sec | ETA: 2660s
+2025-11-16 02:39:07 - __main__ - INFO - [TRAIN] Progress: 300/12000 tasks (2.5%) | Rate: 6.6 tasks/sec | ETA: 1760s
+2025-11-16 02:39:07 - __main__ - INFO - [TRAIN] Progress: 400/12000 tasks (3.3%) | Rate: 8.8 tasks/sec | ETA: 1311s
+2025-11-16 02:39:07 - __main__ - INFO - [TRAIN] Progress: 500/12000 tasks (4.2%) | Rate: 11.0 tasks/sec | ETA: 1041s
+2025-11-16 02:39:07 - __main__ - INFO - [TRAIN] Progress: 600/12000 tasks (5.0%) | Rate: 13.2 tasks/sec | ETA: 861s
+2025-11-16 02:39:08 - __main__ - INFO - [TRAIN] Progress: 700/12000 tasks (5.8%) | Rate: 15.4 tasks/sec | ETA: 732s
+2025-11-16 02:39:08 - __main__ - INFO - [TRAIN] Progress: 800/12000 tasks (6.7%) | Rate: 17.6 tasks/sec | ETA: 638s
+2025-11-16 02:39:28 - __main__ - INFO - [TRAIN] Progress: 900/12000 tasks (7.5%) | Rate: 13.7 tasks/sec | ETA: 810s
+2025-11-16 02:39:29 - __main__ - INFO - [TRAIN] Progress: 1000/12000 tasks (8.3%) | Rate: 15.0 tasks/sec | ETA: 735s
+2025-11-16 02:39:29 - __main__ - INFO - [TRAIN] Progress: 1100/12000 tasks (9.2%) | Rate: 16.4 tasks/sec | ETA: 667s
+2025-11-16 02:39:30 - __main__ - INFO - [TRAIN] Progress: 1200/12000 tasks (10.0%) | Rate: 17.8 tasks/sec | ETA: 606s
+2025-11-16 02:39:30 - __main__ - INFO - [TRAIN] Progress: 1300/12000 tasks (10.8%) | Rate: 19.3 tasks/sec | ETA: 556s
+2025-11-16 02:39:30 - __main__ - INFO - [TRAIN] Progress: 1400/12000 tasks (11.7%) | Rate: 20.7 tasks/sec | ETA: 511s
+2025-11-16 02:39:30 - __main__ - INFO - [TRAIN] Progress: 1500/12000 tasks (12.5%) | Rate: 22.2 tasks/sec | ETA: 473s
+2025-11-16 02:39:30 - __main__ - INFO - [TRAIN] Progress: 1600/12000 tasks (13.3%) | Rate: 23.7 tasks/sec | ETA: 439s
+2025-11-16 02:39:30 - __main__ - INFO - [TRAIN] Progress: 1700/12000 tasks (14.2%) | Rate: 25.2 tasks/sec | ETA: 410s
+2025-11-16 02:39:30 - __main__ - INFO - [TRAIN] Progress: 1800/12000 tasks (15.0%) | Rate: 26.6 tasks/sec | ETA: 383s
+2025-11-16 02:39:30 - __main__ - INFO - [TRAIN] Progress: 1900/12000 tasks (15.8%) | Rate: 28.1 tasks/sec | ETA: 360s
+2025-11-16 02:39:30 - __main__ - INFO - [TRAIN] Progress: 2000/12000 tasks (16.7%) | Rate: 29.6 tasks/sec | ETA: 338s
+2025-11-16 02:39:30 - __main__ - INFO - [TRAIN] Progress: 2100/12000 tasks (17.5%) | Rate: 31.0 tasks/sec | ETA: 319s
+2025-11-16 02:39:54 - __main__ - INFO - [TRAIN] Progress: 2200/12000 tasks (18.3%) | Rate: 23.9 tasks/sec | ETA: 410s
+2025-11-16 02:40:24 - __main__ - INFO - [TRAIN] Progress: 2300/12000 tasks (19.2%) | Rate: 18.9 tasks/sec | ETA: 512s
+2025-11-16 02:40:24 - __main__ - INFO - [TRAIN] Progress: 2400/12000 tasks (20.0%) | Rate: 19.6 tasks/sec | ETA: 489s
+2025-11-16 02:40:25 - __main__ - INFO - [TRAIN] Progress: 2500/12000 tasks (20.8%) | Rate: 20.4 tasks/sec | ETA: 465s
+2025-11-16 02:40:25 - __main__ - INFO - [TRAIN] Progress: 2600/12000 tasks (21.7%) | Rate: 21.2 tasks/sec | ETA: 443s
+2025-11-16 02:40:25 - __main__ - INFO - [TRAIN] Progress: 2700/12000 tasks (22.5%) | Rate: 22.0 tasks/sec | ETA: 422s
+2025-11-16 02:40:25 - __main__ - INFO - [TRAIN] Progress: 2800/12000 tasks (23.3%) | Rate: 22.8 tasks/sec | ETA: 404s
+2025-11-16 02:40:26 - __main__ - INFO - [TRAIN] Progress: 2900/12000 tasks (24.2%) | Rate: 23.5 tasks/sec | ETA: 388s
+2025-11-16 02:40:42 - __main__ - INFO - [TRAIN] Progress: 3000/12000 tasks (25.0%) | Rate: 21.5 tasks/sec | ETA: 419s
+2025-11-16 02:40:50 - __main__ - INFO - [TRAIN] Progress: 3100/12000 tasks (25.8%) | Rate: 20.9 tasks/sec | ETA: 425s
+2025-11-16 02:40:52 - __main__ - INFO - [TRAIN] Progress: 3200/12000 tasks (26.7%) | Rate: 21.4 tasks/sec | ETA: 411s
+2025-11-16 02:40:52 - __main__ - INFO - [TRAIN] Progress: 3300/12000 tasks (27.5%) | Rate: 22.1 tasks/sec | ETA: 394s
+2025-11-16 02:40:52 - __main__ - INFO - [TRAIN] Progress: 3400/12000 tasks (28.3%) | Rate: 22.7 tasks/sec | ETA: 379s
+2025-11-16 02:40:53 - __main__ - INFO - [TRAIN] Progress: 3500/12000 tasks (29.2%) | Rate: 23.2 tasks/sec | ETA: 367s
+2025-11-16 02:40:53 - __main__ - INFO - [TRAIN] Progress: 3600/12000 tasks (30.0%) | Rate: 23.8 tasks/sec | ETA: 353s
+2025-11-16 02:40:53 - __main__ - INFO - [TRAIN] Progress: 3700/12000 tasks (30.8%) | Rate: 24.5 tasks/sec | ETA: 339s
+2025-11-16 02:40:53 - __main__ - INFO - [TRAIN] Progress: 3800/12000 tasks (31.7%) | Rate: 25.1 tasks/sec | ETA: 327s
+2025-11-16 02:40:54 - __main__ - INFO - [TRAIN] Progress: 3900/12000 tasks (32.5%) | Rate: 25.8 tasks/sec | ETA: 314s
+2025-11-16 02:40:54 - __main__ - INFO - [TRAIN] Progress: 4000/12000 tasks (33.3%) | Rate: 26.4 tasks/sec | ETA: 303s
+2025-11-16 02:40:54 - __main__ - INFO - [TRAIN] Progress: 4100/12000 tasks (34.2%) | Rate: 27.1 tasks/sec | ETA: 292s
+2025-11-16 02:40:54 - __main__ - INFO - [TRAIN] Progress: 4200/12000 tasks (35.0%) | Rate: 27.7 tasks/sec | ETA: 281s
+2025-11-16 02:40:55 - __main__ - INFO - [TRAIN] Completed in 152.4s
+2025-11-16 02:40:55 - __main__ - INFO - ✅ Training features computed: (3347176, 103)
+2025-11-16 02:40:55 - __main__ - INFO - Progress: Computing validation features...
+2025-11-16 02:40:55 - __main__ - INFO - [VAL] Starting computation of 7200 tasks...
+2025-11-16 02:41:39 - __main__ - INFO - [VAL] Progress: 100/7200 tasks (1.4%) | Rate: 2.3 tasks/sec | ETA: 3125s
+2025-11-16 02:41:39 - __main__ - INFO - [VAL] Progress: 200/7200 tasks (2.8%) | Rate: 4.5 tasks/sec | ETA: 1567s
+2025-11-16 02:41:40 - __main__ - INFO - [VAL] Progress: 300/7200 tasks (4.2%) | Rate: 6.6 tasks/sec | ETA: 1038s
+2025-11-16 02:41:40 - __main__ - INFO - [VAL] Progress: 400/7200 tasks (5.6%) | Rate: 8.8 tasks/sec | ETA: 769s
+2025-11-16 02:41:40 - __main__ - INFO - [VAL] Progress: 500/7200 tasks (6.9%) | Rate: 11.0 tasks/sec | ETA: 608s
+2025-11-16 02:41:40 - __main__ - INFO - [VAL] Progress: 600/7200 tasks (8.3%) | Rate: 13.2 tasks/sec | ETA: 499s
+2025-11-16 02:41:40 - __main__ - INFO - [VAL] Progress: 700/7200 tasks (9.7%) | Rate: 15.4 tasks/sec | ETA: 422s
+2025-11-16 02:41:40 - __main__ - INFO - [VAL] Progress: 720/7200 tasks (10.0%) | Rate: 15.8 tasks/sec | ETA: 409s
+2025-11-16 02:41:41 - __main__ - INFO - [VAL] Progress: 800/7200 tasks (11.1%) | Rate: 17.4 tasks/sec | ETA: 368s
+2025-11-16 02:42:00 - __main__ - INFO - [VAL] Progress: 900/7200 tasks (12.5%) | Rate: 13.7 tasks/sec | ETA: 461s
+2025-11-16 02:42:01 - __main__ - INFO - [VAL] Progress: 1000/7200 tasks (13.9%) | Rate: 15.0 tasks/sec | ETA: 413s
+2025-11-16 02:42:02 - __main__ - INFO - [VAL] Progress: 1100/7200 tasks (15.3%) | Rate: 16.4 tasks/sec | ETA: 372s
+2025-11-16 02:42:02 - __main__ - INFO - [VAL] Progress: 1200/7200 tasks (16.7%) | Rate: 17.8 tasks/sec | ETA: 337s
+2025-11-16 02:42:02 - __main__ - INFO - [VAL] Progress: 1300/7200 tasks (18.1%) | Rate: 19.2 tasks/sec | ETA: 307s
+2025-11-16 02:42:02 - __main__ - INFO - [VAL] Progress: 1400/7200 tasks (19.4%) | Rate: 20.6 tasks/sec | ETA: 281s
+2025-11-16 02:42:02 - __main__ - INFO - [VAL] Progress: 1500/7200 tasks (20.8%) | Rate: 22.1 tasks/sec | ETA: 258s
+2025-11-16 02:42:03 - __main__ - INFO - [VAL] Progress: 1600/7200 tasks (22.2%) | Rate: 23.6 tasks/sec | ETA: 238s
+2025-11-16 02:42:03 - __main__ - INFO - [VAL] Progress: 1700/7200 tasks (23.6%) | Rate: 25.0 tasks/sec | ETA: 220s
+2025-11-16 02:42:03 - __main__ - INFO - [VAL] Progress: 1800/7200 tasks (25.0%) | Rate: 26.5 tasks/sec | ETA: 204s
+2025-11-16 02:42:03 - __main__ - INFO - [VAL] Progress: 1900/7200 tasks (26.4%) | Rate: 28.0 tasks/sec | ETA: 190s
+2025-11-16 02:42:03 - __main__ - INFO - [VAL] Progress: 2000/7200 tasks (27.8%) | Rate: 29.2 tasks/sec | ETA: 178s
+2025-11-16 02:42:03 - __main__ - INFO - [VAL] Progress: 2100/7200 tasks (29.2%) | Rate: 30.6 tasks/sec | ETA: 167s
+2025-11-16 02:42:32 - __main__ - INFO - [VAL] Progress: 2200/7200 tasks (30.6%) | Rate: 22.5 tasks/sec | ETA: 222s
+2025-11-16 02:43:05 - __main__ - INFO - [VAL] Progress: 2300/7200 tasks (31.9%) | Rate: 17.7 tasks/sec | ETA: 277s
+2025-11-16 02:43:05 - __main__ - INFO - [VAL] Progress: 2400/7200 tasks (33.3%) | Rate: 18.4 tasks/sec | ETA: 261s
+2025-11-16 02:43:05 - __main__ - INFO - [VAL] Progress: 2500/7200 tasks (34.7%) | Rate: 19.1 tasks/sec | ETA: 246s
+2025-11-16 02:43:05 - __main__ - INFO - [VAL] Progress: 2600/7200 tasks (36.1%) | Rate: 19.9 tasks/sec | ETA: 231s
+2025-11-16 02:43:06 - __main__ - INFO - [VAL] Progress: 2700/7200 tasks (37.5%) | Rate: 20.6 tasks/sec | ETA: 218s
+2025-11-16 02:43:06 - __main__ - INFO - [VAL] Progress: 2800/7200 tasks (38.9%) | Rate: 21.3 tasks/sec | ETA: 206s
+2025-11-16 02:43:06 - __main__ - INFO - [VAL] Progress: 2900/7200 tasks (40.3%) | Rate: 22.0 tasks/sec | ETA: 195s
+2025-11-16 02:43:22 - __main__ - INFO - [VAL] Progress: 3000/7200 tasks (41.7%) | Rate: 20.4 tasks/sec | ETA: 206s
+2025-11-16 02:43:31 - __main__ - INFO - [VAL] Progress: 3100/7200 tasks (43.1%) | Rate: 19.8 tasks/sec | ETA: 207s
+2025-11-16 02:43:32 - __main__ - INFO - [VAL] Progress: 3200/7200 tasks (44.4%) | Rate: 20.3 tasks/sec | ETA: 197s
+2025-11-16 02:43:32 - __main__ - INFO - [VAL] Progress: 3300/7200 tasks (45.8%) | Rate: 20.9 tasks/sec | ETA: 186s
+2025-11-16 02:43:32 - __main__ - INFO - [VAL] Progress: 3400/7200 tasks (47.2%) | Rate: 21.6 tasks/sec | ETA: 176s
+2025-11-16 02:43:32 - __main__ - INFO - [VAL] Progress: 3500/7200 tasks (48.6%) | Rate: 22.2 tasks/sec | ETA: 167s
+2025-11-16 02:43:32 - __main__ - INFO - [VAL] Progress: 3600/7200 tasks (50.0%) | Rate: 22.8 tasks/sec | ETA: 158s
+2025-11-16 02:43:33 - __main__ - INFO - [VAL] Progress: 3700/7200 tasks (51.4%) | Rate: 23.4 tasks/sec | ETA: 149s
+2025-11-16 02:43:33 - __main__ - INFO - [VAL] Progress: 3800/7200 tasks (52.8%) | Rate: 24.0 tasks/sec | ETA: 141s
+2025-11-16 02:43:33 - __main__ - INFO - [VAL] Progress: 3900/7200 tasks (54.2%) | Rate: 24.7 tasks/sec | ETA: 134s
+2025-11-16 02:43:33 - __main__ - INFO - [VAL] Progress: 4000/7200 tasks (55.6%) | Rate: 25.3 tasks/sec | ETA: 126s
+2025-11-16 02:43:33 - __main__ - INFO - [VAL] Progress: 4100/7200 tasks (56.9%) | Rate: 25.9 tasks/sec | ETA: 120s
+2025-11-16 02:43:33 - __main__ - INFO - [VAL] Progress: 4200/7200 tasks (58.3%) | Rate: 26.6 tasks/sec | ETA: 113s
+2025-11-16 02:43:34 - __main__ - INFO - [VAL] Completed in 159.2s
+2025-11-16 02:43:34 - __main__ - INFO - ✅ Validation features computed: (3306478, 103)
+2025-11-16 02:43:34 - __main__ - INFO - Progress: Extracting targets...
+2025-11-16 02:43:34 - __main__ - INFO - ✅ Targets extracted
+2025-11-16 02:43:34 - __main__ - INFO - Caching features for future runs...
+Traceback (most recent call last):
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/scripts/train_teachers.py", line 523, in <module>
+    main()
+    ~~~~^^
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/scripts/train_teachers.py", line 285, in main
+    X_train.to_parquet(cache_train_path, compression="snappy")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/pandas/core/frame.py", line 3124, in to_parquet
+    return to_parquet(
+        self,
+    ...<6 lines>...
+        **kwargs,
+    )
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/pandas/io/parquet.py", line 482, in to_parquet
+    impl.write(
+    ~~~~~~~~~~^
+        df,
+        ^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/pandas/io/parquet.py", line 191, in write
+    table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
+  File "pyarrow/table.pxi", line 4795, in pyarrow.lib.Table.from_pandas
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/pyarrow/pandas_compat.py", line 653, in dataframe_to_arrays
+    arrays[i] = maybe_fut.result()
+                ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/pyarrow/pandas_compat.py", line 628, in convert_column
+    raise e
+  File "/home/bigweld/Repos/FME-UPC-datathon-2025/.venv/lib/python3.13/site-packages/pyarrow/pandas_compat.py", line 622, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 91, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: ("Could not convert [('0e0c94b1bab6c95fe79511525d24aefccb754f08', 1), ('8da885dfc28811f5e9f8418511ca6fc989d85913', 1), ('221d7c94e54530510ec40b174a44cc60318dff55', 1), ('e1260e164a10de7d01ff1cd7ecb702d1f0fd3853', 1), ('150045628befad0948138e18daff2905ab44988e', 1)] with type list: tried to convert to double", 'Conversion failed for column avg_daily_sessions with type object')
