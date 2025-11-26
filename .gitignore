@@ -11,3 +11,7 @@ wheels/
 
 # Custom
 data/raw/
+
+# Large cached files (exceed GitHub limits)
+data/processed/features_cache/
+data/processed/teacher_outputs/
